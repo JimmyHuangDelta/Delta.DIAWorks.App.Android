@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.delta.android.Sample.Client.Test4Activity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/common_activity_background"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            style="@style/CommonTextView"
+            android:text="TextView測試" />
+
+        <EditText
+            style="@style/CommonEditTextRequired"
+            android:text="EditText測試(必填)" />
+        />
+
+        <EditText
+            style="@style/CommonEditText"
+            android:text="EditText測試" />
+
+        <Spinner
+            style="@style/CommonSpinnerRequired"
+            android:entries="@array/arrayFunctionType"></Spinner>
+
+        <Spinner
+            style="@style/CommonSpinner"
+            android:entries="@array/arrayFunctionType"></Spinner>
+
+
+        <Button
+            android:id="@+id/btnTest"
+            style="@style/CommonButton"
+            android:text="Button測試" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

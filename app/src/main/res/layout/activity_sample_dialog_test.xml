@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.delta.android.Sample.Client.DialogTestActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/btnDialog1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="一般對話框" />
+
+        <Button
+            android:id="@+id/btnDialog2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="條列式對話框" />
+
+        <Button
+            android:id="@+id/btnDialog3"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="單選式對話框" />
+
+        <Button
+            android:id="@+id/btnDialog4"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="多選式對話框" />
+
+        <Button
+            android:id="@+id/btnDialog5"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="自製對話框" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

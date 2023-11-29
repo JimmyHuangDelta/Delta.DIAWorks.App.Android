@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        style="@style/WmsTextStartMargin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+        <LinearLayout
+            style="@style/WmsTextStartMargin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <!-- 物料代碼 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvDnDetGridItemId2"
+                    style="@style/WmsTextViewGridTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4.5"
+                    android:text="@string/ITEM_ID" />
+
+                <TextView
+                    android:id="@+id/tvDnDetGridItemId"
+                    style="@style/WmsTextViewGridTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5.5"
+                    android:text="@string/ITEM_ID" />
+            </LinearLayout>
+
+            <!-- 出通單揀貨代碼 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvDnDetGridSheetId2"
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="0dp"
+                    android:layout_weight="4.5"
+                    android:layout_height="wrap_content"
+                    android:text="@string/DN_PICKING_ID" />
+
+                <TextView
+                    android:id="@+id/tvDnDetGridSheetId"
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5.5"
+                    android:text="@string/SHEET_ID" />
+            </LinearLayout>
+
+            <!-- 物料名稱 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvDnDetGridItemName2"
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4.5"
+                    android:text="@string/ITEM_NAME" />
+
+                <TextView
+                    android:id="@+id/tvDnDetGridItemName"
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5.5"
+                    android:text="@string/ITEM_NAME" />
+            </LinearLayout>
+
+            <!-- 訂單代碼 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvPickedGridOrderId2"
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4.5"
+                    android:text="@string/ORDER_ID" />
+
+                <TextView
+                    android:id="@+id/tvPickedGridOrderId"
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5.5"
+                    android:text="ORDER ID" />
+            </LinearLayout>
+
+            <!-- 數量 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tvDnDetGridQty2"
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4.5"
+                    android:text="@string/QTY" />
+
+                <TextView
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvDnDetGridQty"
+                    android:layout_weight="5.5"
+                    android:text="@string/QTY" />
+
+            </LinearLayout>
+
+            <!-- 單位 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvDnDetGridUom2"
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4.5"
+                    android:text="@string/UOM_TITLE" />
+
+                <TextView
+                    android:id="@+id/tvDnDetGridUom"
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5.5"
+                    android:text="UOM" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/ivNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_common_chevron_right_black_32dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

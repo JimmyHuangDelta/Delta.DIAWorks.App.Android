@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.delta.android.WMS.Client.GoodCancelPickExecutedActivity">
+
+    <LinearLayout
+        android:id="@+id/llPickedTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvSheetDetPickSheetId2"
+                        style="@style/WmsTextViewMessage"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/SHEET_ID"
+                        android:textAlignment="textStart" />
+
+                    <TextView
+                        android:id="@+id/tvSheetDetPickSheetId"
+                        style="@style/WmsTextViewMessage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="textStart" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvSheetDetPickSheetPickId2"
+                        style="@style/WmsTextViewMessage"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/PICKING_SHT_ID"
+                        android:textAlignment="textStart" />
+
+                    <TextView
+                        android:id="@+id/tvSheetDetPickSheetPickId"
+                        style="@style/WmsTextViewMessage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="textStart" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvSheetDetPickItemId2"
+                        style="@style/WmsTextViewMessage"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ITEM_ID"
+                        android:textAlignment="textStart" />
+
+                    <TextView
+                        android:id="@+id/tvSheetDetPickItemId"
+                        style="@style/WmsTextViewMessage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="textStart" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/common_control_margin"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ibtnRegisterIdQRScan"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:background="#00000000"
+                android:onClick="OnClickQRScan"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_scan_64x64" />
+
+            <EditText
+                android:id="@+id/etSheetDetPickRegisterId"
+                style="@style/WmsEditTextNormal"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:hint="@string/SKU_ID"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/common_control_margin"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ibtnPickBinQRScan"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:background="#00000000"
+                android:onClick="OnClickQRScan"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_scan_64x64" />
+
+            <EditText
+                android:id="@+id/etSheetDetPickBinId"
+                style="@style/WmsEditTextNormal"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:hint="@string/BIN_ID"
+                android:singleLine="true" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvChooseCount"
+            style="@style/WmsTextViewBarTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/PICKED_INFO" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvSheetDetPickRegisterData"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/llPickedBotton"
+        android:layout_below="@+id/llPickedTop" />
+
+    <LinearLayout
+        android:id="@+id/llPickedBotton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/common_theme_blue1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvSheetDetPickSeq2"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="start|center_vertical"
+            android:text="@string/SEQ"
+            android:textAlignment="textStart"
+            android:textColor="@color/common_theme_light1"
+            android:textSize="@dimen/common_text_size_small" />
+
+        <TextView
+            android:id="@+id/tvSheetDetPickSeq"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="start|center_vertical"
+            android:textAlignment="textStart"
+            android:textColor="@color/common_theme_light1"
+            android:textSize="@dimen/common_text_size_small" />
+
+        <TextView
+            android:id="@+id/tvSheetDetPickQty2"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="end|center_vertical"
+            android:text="@string/PICK_REQUIRE_QTY"
+            android:textAlignment="textEnd"
+            android:textColor="@color/common_theme_light1"
+            android:textSize="@dimen/common_text_size_small" />
+
+        <TextView
+            android:id="@+id/tvSheetDetPickQty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="end|center_vertical"
+            android:textAlignment="textEnd"
+            android:textColor="@color/common_theme_light1"
+            android:textSize="@dimen/common_text_size_small" />
+    </LinearLayout>
+</RelativeLayout>

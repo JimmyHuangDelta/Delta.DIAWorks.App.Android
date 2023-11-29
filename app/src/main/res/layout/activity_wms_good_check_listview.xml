@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        style="@style/WmsTextStartMargin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvCheckGridItemId2"
+                style="@style/WmsTextViewGridTitle"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/ITEM_ID" />
+
+            <TextView
+                android:id="@+id/tvCheckGridItemId"
+                style="@style/WmsTextViewGridTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/ITEM_ID" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvCheckGridBinId2"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/BIN_ID" />
+
+            <TextView
+                android:id="@+id/tvCheckGridBinId"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

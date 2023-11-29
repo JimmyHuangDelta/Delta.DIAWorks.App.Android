@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="PmsEditTextNormal" parent="CommonEditText"></style>
+    <style name="PmsEditTextNecessary" parent="CommonEditTextRequired"></style>
+    <style name="PmsSpinnerNormal" parent="CommonSpinner"></style>
+    <style name="PmsSpinnerNecessary" parent="CommonSpinnerRequired"></style>
+
+    <style name="PmsTextViewGridTitle">
+        <item name="android:textColor">@color/common_theme_dark2</item>
+        <item name="android:textSize">@dimen/common_text_size_large</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="PmsTextViewGridContext" parent="CommonTextView">
+
+    </style>
+
+    <style name="PmsTextViewMessage" parent="PmsTextViewGridTitle">
+        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">center|center_vertical</item>
+    </style>
+
+    <style name="PmsTextStartMargin">
+        <item name="android:layout_marginStart">@dimen/common_control_margin</item>
+    </style>
+
+    <!-- ListView上面的Bar(有Title) -->
+    <style name="PmsTextViewBarTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/bg_common_button</item>
+        <item name="android:textColor">@color/common_theme_light1</item>
+        <item name="android:textSize">@dimen/common_text_size_small</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <!-- ListView上面的Bar(沒有Title) -->
+    <style name="PmsTextViewBarNoTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/wms_text_view_bar_height</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:background">@color/common_theme_blue1</item>
+    </style>
+
+    <!-- ImageButton Style(Search) -->
+    <style name="PmsImageButtonSearch">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/common_control_layout_height</item>
+        <item name="android:background">@drawable/bg_common_linearlayout_groupbox</item>
+        <item name="android:textColor">@color/common_theme_light1</item>
+        <item name="android:textSize">@dimen/common_text_size_small</item>
+        <item name="android:src">@drawable/ic_wms_search_36x36</item>
+    </style>
+
+    <!-- ImageButton Style(Clear) -->
+    <style name="PmsButtonClear">
+        <item name="android:layout_width">12dp</item>
+        <item name="android:layout_height">12dp</item>
+        <item name="android:layout_gravity">end|center_vertical</item>
+        <item name="android:layout_marginEnd">15dp</item>
+        <item name="android:background">@drawable/ic_wms_clear_24x24</item>
+    </style>
+
+    <!-- 選工單用Button Style -->
+    <style name="PmsWoSelectButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/common_control_layout_height</item>
+        <item name="android:background">@drawable/bg_common_button</item>
+        <item name="android:textColor">@color/common_theme_light1</item>
+        <item name="android:textSize">@dimen/common_text_size_small</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+</resources>

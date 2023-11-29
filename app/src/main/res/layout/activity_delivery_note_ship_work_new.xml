@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.delta.android.WMS.Client.DeliveryNoteShipWorkNewActivity">
+
+    <!-- 單據代碼 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        style="@style/CommonLinearLayoutGroupBox">
+
+        <Spinner
+            android:id="@+id/cmbSheetId"
+            style="@style/CommonSpinnerRequired"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/ibtnSearch"
+            style="@style/WmsImageButtonSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <!-- 表頭資訊-->
+    <TextView
+        android:id="@+id/tvSheetMstInfo"
+        style="@style/WmsTextViewBarTitle"
+        android:text="@string/DN_MASTER_INFO"
+        android:textAlignment="center" />
+
+    <!-- 單據代碼 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:orientation="horizontal"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:id="@+id/tvDnIdTitle"
+            style="@style/CommonTextView"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/DN_ID" />
+
+        <TextView
+            android:id="@+id/tvDnId"
+            style="@style/CommonTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <!-- 出貨日期 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:orientation="horizontal"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:id="@+id/tvShipDateTitle"
+            style="@style/CommonTextView"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/SHIP_DATE" />
+
+        <TextView
+            android:id="@+id/tvShipDate"
+            style="@style/CommonTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <!-- 運送地點 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+        <TextView
+            android:id="@+id/tvDeliveryAddressTitle"
+            style="@style/CommonTextView"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/DELIVERY_ADDRESS" />
+
+        <TextView
+            android:id="@+id/tvDeliveryAddress"
+            style="@style/CommonTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <!-- 出貨資訊 -->
+    <TextView
+        android:id="@+id/tvSheetDetInfo"
+        style="@style/WmsTextViewBarTitle"
+        android:text="@string/PRE_SHIP_INFO"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        style="@style/CommonLinearLayoutGroupBox">
+
+        <!-- 頁籤 -->
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            app:tabIndicatorColor="@color/common_action_bar_background">
+
+            <!-- 出貨揀料單資訊 -->
+            <android.support.design.widget.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/DN_PICK_INFO" />
+
+            <!-- 出貨 -->
+            <android.support.design.widget.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/SHIP" />
+
+        </android.support.design.widget.TabLayout>
+
+        <!-- 點選頁籤後所顯示的內容 -->
+        <FrameLayout
+            android:id="@+id/fragmentDeliveryPick"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9"/>
+    </LinearLayout>
+
+
+</LinearLayout>

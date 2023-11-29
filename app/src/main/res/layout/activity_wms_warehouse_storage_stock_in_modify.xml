@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_activity_background"
+    android:orientation="vertical"
+    tools:context="com.delta.android.WMS.Client.WarehouseStorageStockInModifyActivity">
+
+    <TextView
+        android:id="@+id/tvDetInfoTitle"
+        style="@style/WmsTextViewBarTitle"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:text="@string/MODIFY_WAREHOUSE_DETAIL"
+       android:layout_alignParentTop="true"/>
+
+    <LinearLayout
+        android:id="@+id/llLotInfo"
+        style="@style/CommonLinearLayoutGroupBox"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/tvDetInfoTitle">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="@dimen/common_control_margin"
+        android:layout_marginBottom="@dimen/common_control_margin"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ibtnLotIdQRScan"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:background="#00000000"
+            android:src="@drawable/ic_scan_64x64"/>
+
+        <EditText
+            android:id="@+id/etLotGridLotId"
+            style="@style/WmsEditTextNecessary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/SKU_ID"
+            android:inputType="textPersonName"
+            android:singleLine="true"
+            android:text="" />
+
+    </LinearLayout>
+
+        <EditText
+            android:id="@+id/etLotGridQty"
+            style="@style/WmsEditTextNecessary"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="@dimen/common_control_margin"
+            android:hint="@string/QTY"
+            android:singleLine="true"
+            android:text=""
+            android:inputType="numberDecimal"/>
+
+        <EditText
+            android:id="@+id/etLotGridScrapQty"
+            style="@style/WmsEditTextNecessary"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="@dimen/common_control_margin"
+            android:hint="@string/SCRAP_QTY"
+            android:visibility="visible"
+            android:inputType="numberDecimal"
+            android:text="" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="0dp">
+
+            <EditText
+                android:id="@+id/etLotGridMfgDate"
+                style="@style/WmsEditTextNecessary"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/common_control_margin"
+                android:ems="10"
+                android:hint="@string/MFG_DATE" />
+
+            <Button
+                android:id="@+id/btnMfgDateClear"
+                style="@style/WmsButtonClear"
+                android:onClick="onClickMfgDateClear" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="0dp">
+
+            <EditText
+                android:id="@+id/etLotGridExpDate"
+                style="@style/WmsEditTextNecessary"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/common_control_margin"
+                android:ems="10"
+                android:hint="@string/EXP_DATE" />
+
+            <Button
+                android:id="@+id/btnExpDateClear"
+                style="@style/WmsButtonClear"
+                android:onClick="onClickExpDateClear" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSave"
+            style="@style/CommonButton"
+            android:layout_height="wrap_content"
+            android:text="@string/CONFIRM"
+            android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

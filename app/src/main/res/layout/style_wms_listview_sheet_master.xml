@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+
+    <LinearLayout
+        android:id="@+id/llSheetBorder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/WmsTextStartMargin"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:id="@+id/tvSheetMstGridId3"
+                style="@style/WmsTextViewGridTitle"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/SHEET_ID" />
+
+            <TextView
+                android:id="@+id/tvSheetMstGridId"
+                style="@style/WmsTextViewGridTitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/SHEET_ID" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/WmsTextStartMargin"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvSheetMstGridPickId3"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/PICKING_SHT_ID" />
+
+            <TextView
+                android:id="@+id/tvSheetMstGridPickId"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/SHEET_ID" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/WmsTextStartMargin"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvSheetMstGridDate3"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:gravity="start|center_vertical"
+                android:text="@string/SHEET_CREATE_DATE_TITLE"
+                android:textAlignment="textStart" />
+
+            <TextView
+                android:id="@+id/tvSheetMstGridDate"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="start|center_vertical"
+                android:text="Sheet Date : "
+                android:textAlignment="textStart" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/WmsTextStartMargin"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvSheetMstGridStatus3"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:gravity="start|center_vertical"
+                android:text="@string/SHEET_STATUS"
+                android:textAlignment="textStart" />
+
+            <TextView
+                android:id="@+id/tvSheetMstGridStatus"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="start|center_vertical"
+                android:text="Sheet Status"
+                android:textAlignment="textStart" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <CheckBox
+                    android:id="@+id/cbSheetMstGridSheet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:buttonTint="@color/common_theme_blue1"
+                    android:clickable="false"
+                    android:enabled="true"
+                    android:focusable="false" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

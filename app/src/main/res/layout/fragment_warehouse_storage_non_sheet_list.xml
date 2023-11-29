@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.delta.android.WMS.Client.Fragment.WarehouseStorageNonSheetListFragment">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/lvWarehouseStorageSheet"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/btnConfirm"/>
+
+        <Button
+            android:id="@+id/btnConfirm"
+            style="@style/CommonRoundedButton"
+            android:layout_alignParentBottom="true"
+            android:text="@string/CONFIRM" />
+    </RelativeLayout>
+
+</FrameLayout>

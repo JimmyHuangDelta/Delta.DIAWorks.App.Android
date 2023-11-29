@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_activity_background"
+    android:orientation="vertical"
+    tools:context="com.delta.android.WMS.Client.GoodInventoryDetailActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvWaitOnBinInfo"
+            style="@style/WmsTextViewBarTitle"
+            android:layout_alignParentTop="true"
+            android:text="@string/WAIT_ON_BIN_INFO" />
+
+        <ListView
+            android:id="@+id/listViewDet"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tvWaitOnBinInfo" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

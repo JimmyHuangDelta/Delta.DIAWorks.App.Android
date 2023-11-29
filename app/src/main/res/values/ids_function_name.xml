@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  用於設定 MenuActivity 各功能 Icon 上的紅點 TextView (Badge) Id  -->
+    <item type="id" name="BadgeWAPG011" />
+    <item type="id" name="BadgeWAPG012" />
+</resources>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_activity_background"
+    tools:context="com.delta.android.WMS.Client.GoodCheckExecuteActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvCheckId2"
+                    style="@style/CommonTextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/SHEET_ID" />
+
+                <TextView
+                    android:id="@+id/tvCheckId"
+                    style="@style/CommonTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvCheckCountStatus2"
+                    style="@style/CommonTextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/SHEET_STATUS" />
+
+                <TextView
+                    android:id="@+id/tvCheckCountStatus"
+                    style="@style/CommonTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/tvDetItemId2"
+                    style="@style/CommonTextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ITEM_ID" />
+
+                <TextView
+                    android:id="@+id/tvDetItemId"
+                    style="@style/CommonTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvDetBinId2"
+                    style="@style/CommonTextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/BIN_ID" />
+
+                <TextView
+                    android:id="@+id/tvDetBinId"
+                    style="@style/CommonTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btStartCheck"
+                    style="@style/CommonButton"
+                    android:layout_weight="1"
+                    android:alpha="0.5"
+                    android:enabled="false"
+                    android:text="@string/START_CHECK" />
+
+                <Button
+                    android:id="@+id/btEndCheck"
+                    style="@style/CommonButton"
+                    android:layout_weight="1"
+                    android:alpha="0.5"
+                    android:enabled="false"
+                    android:text="@string/END_CHECK" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TabHost
+                android:id="@+id/tabCountHost"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/llEnterCheckCount"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingTop="70dp">
+
+                        <!--<EditText-->
+                            <!--android:id="@+id/etCheckExecuteItemId"-->
+                            <!--style="@style/WmsEditTextNecessary"-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_margin="@dimen/common_control_margin"-->
+                            <!--android:layout_weight="1"-->
+                            <!--android:hint="@string/ITEM_ID" />-->
+
+                        <EditText
+                            android:id="@+id/etCheckExecuteBinId"
+                            style="@style/WmsEditTextNecessary"
+                            android:layout_width="match_parent"
+                            android:layout_margin="@dimen/common_control_margin"
+                            android:layout_weight="1"
+                            android:hint="@string/BIN_ID" />
+
+                        <EditText
+                            android:id="@+id/etCheckExecuteRegisterId"
+                            style="@style/WmsEditTextNecessary"
+                            android:layout_width="match_parent"
+                            android:layout_margin="@dimen/common_control_margin"
+                            android:layout_weight="1"
+                            android:hint="@string/SKU_ID" />
+
+                        <EditText
+                            android:id="@+id/etCheckRegisterQty"
+                            style="@style/WmsEditTextNormal"
+                            android:layout_width="match_parent"
+                            android:layout_margin="@dimen/common_control_margin"
+                            android:layout_weight="1"
+                            android:enabled="false"
+                            android:focusable="false"
+                            android:hint="@string/INVENTORY_QTY"
+                            android:inputType="none" />
+
+                        <EditText
+                            android:id="@+id/etCheckExecuteQty"
+                            style="@style/WmsEditTextNecessary"
+                            android:layout_width="match_parent"
+                            android:layout_margin="@dimen/common_control_margin"
+                            android:layout_weight="1"
+                            android:hint="@string/QTY"
+                            android:inputType="number" />
+
+                        <Button
+                            android:id="@+id/btCheckExecute"
+                            style="@style/CommonButton"
+                            android:layout_margin="@dimen/common_control_margin"
+                            android:layout_weight="1"
+                            android:alpha="0.5"
+                            android:enabled="false"
+                            android:gravity="center"
+                            android:onClick="onClickExecuteCount"
+                            android:text="@string/RECORD_COUNT"
+                            android:textAlignment="center" />
+
+                        <Button
+                            android:id="@+id/btCreateCount"
+                            style="@style/CommonButton"
+                            android:layout_width="match_parent"
+                            android:layout_margin="@dimen/common_control_margin"
+                            android:layout_weight="1"
+                            android:alpha="0.5"
+                            android:enabled="false"
+                            android:gravity="center"
+                            android:onClick="onClickExecuteCount"
+                            android:text="@string/CREATE_NEW_COUNT_DATA"
+                            android:textAlignment="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llShowHisCount"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingTop="70dp">
+
+                        <ListView
+                            android:id="@+id/lvShowHisCount"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                    </LinearLayout>
+
+                </FrameLayout>
+            </TabHost>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

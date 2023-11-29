@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.delta.android.PMS.Client.DownloadWoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/tvDownloadEqp"
+                        style="@style/CommonTextView"
+                        android:layout_width="130dp"
+                        android:layout_height="match_parent"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="5dp"
+                        android:text="@string/EQP"
+                        android:textSize="20dp" />
+
+                    <Spinner
+                        android:id="@+id/spDownloadEqp"
+                        style="@style/PmsSpinnerNormal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/tvDownloadPm"
+                        style="@style/CommonTextView"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:gravity="right|center_vertical"
+                        android:paddingRight="10dp"
+                        android:text="@string/PM"
+                        android:textSize="20dp" />
+
+                    <Spinner
+                        android:id="@+id/spDownloadPm"
+                        style="@style/PmsSpinnerNormal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    style="@style/CommonTextView"
+                    android:layout_width="130dp"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="5dp"
+                    android:text="@string/DATE"
+                    android:textSize="20dp" />
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:layout_marginRight="5dp">
+
+                    <EditText
+                        android:id="@+id/edDownloadStartDate"
+                        style="@style/PmsEditTextNormal"
+                        android:layout_height="match_parent"
+                        android:ems="10"
+                        android:hint="@string/FROM_DATE"
+                        android:onClick="FromDateOnClick"
+                        android:textAlignment="textStart" />
+
+                    <Button
+                        android:id="@+id/btFromDateClear"
+                        style="@style/WmsButtonClear"
+                        android:onClick="onClickFromDateClear" />
+
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/textView4"
+                    style="@style/CommonTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="~"
+                    android:textSize="25dp" />
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:layout_marginLeft="5dp"
+                    android:padding="0dp">
+
+                    <EditText
+                        android:id="@+id/edDownloadEndDate"
+                        style="@style/PmsEditTextNormal"
+                        android:layout_height="match_parent"
+                        android:width="0dp"
+                        android:ems="10"
+                        android:hint="@string/TO_DATE"
+                        android:onClick="ToDateOnClick"
+                        android:textAlignment="textStart" />
+
+                    <Button
+                        android:id="@+id/btnToDateClear"
+                        style="@style/WmsButtonClear"
+                        android:onClick="onClickToDateClear" />
+                </FrameLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:layout_gravity="right">
+
+            <ImageButton
+                android:id="@+id/btnQueryDownloadWo"
+                style="@style/CommonButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvQueryWo"
+        style="@style/CommonTextView"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnQueryWoDownloadAll"
+            style="@style/CommonButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableLeft="@mipmap/download_all"
+            android:text="@string/DOWNLOAD_ALL" />
+
+        <Button
+            android:id="@+id/btnQueryWoUnDownloadAll"
+            style="@style/CommonButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableLeft="@mipmap/undownload_all"
+            android:text="@string/UN_DOWNLOAD_ALL" />
+
+        <Button
+            android:id="@+id/aaa"
+            style="@style/CommonButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/DOWNLOAD_WO"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btnDownloadWo"
+            style="@style/CommonButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableLeft="@mipmap/wo_download"
+            android:text="@string/DOWNLOAD_WO" />
+    </LinearLayout>
+
+</LinearLayout>

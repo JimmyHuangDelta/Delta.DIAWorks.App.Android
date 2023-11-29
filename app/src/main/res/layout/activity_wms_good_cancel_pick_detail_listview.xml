@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.delta.android.WMS.Client.GridAdapter.SheetCancelDetGridAdapter">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            style="@style/WmsTextStartMargin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvSheetDetGridItemId2"
+                    style="@style/WmsTextViewGridTitle"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ITEM_ID" />
+
+                <TextView
+                    android:id="@+id/tvSheetDetGridItemId"
+                    style="@style/WmsTextViewGridTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvSheetDetGridSheetId2"
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/SHEET_ID" />
+
+                <TextView
+                    android:id="@+id/tvSheetDetGridSheetId"
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Sheet ID" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvSheetDetGridSheetPickId2"
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/PICKING_SHT_ID" />
+
+                <TextView
+                    android:id="@+id/tvSheetDetGridSheetPickId"
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Sheet ID" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvSheetDetGridItemName2"
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/ITEM_NAME" />
+
+                <TextView
+                    android:id="@+id/tvSheetDetGridItemName"
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Item Name" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvSheetDetGridLotId3"
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/LOT_CODE" />
+
+                <TextView
+                    android:id="@+id/tvSheetDetGridLotId"
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Lot ID" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvSheetDetGridBinId3"
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/BIN_ID" />
+
+                <TextView
+                    android:id="@+id/tvSheetDetGridBinId"
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Bin Id" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvSheetDetGridQty3"
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/PICK_REQUIRE_QTY" />
+
+                <TextView
+                    android:id="@+id/tvSheetDetGridQty"
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Qty" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvSheetDetGridUom2"
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/UOM_TITLE" />
+
+                <TextView
+                    android:id="@+id/tvSheetDetGridUom"
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Uom" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivNext"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="right|center_horizontal|center_vertical"
+                android:layout_weight="4"
+                android:src="@drawable/ic_common_chevron_right_black_32dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

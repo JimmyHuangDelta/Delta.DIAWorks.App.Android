@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--設定圓角，當設置的圓角半徑很大，就可變成弧形邊了-->
+    <corners android:radius="80dp" />
+    <!--邊框-->
+    <stroke android:width="1dip" android:color="#538394" />
+
+    <solid android:color="@color/SOP_DOWNLOAD"/>
+</shape>

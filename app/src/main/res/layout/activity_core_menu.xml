@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.delta.android.Core.Activity.MenuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/common_activity_background"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableLayout
+                    android:id="@+id/tlFunction"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TableRow>
+
+                        <Button
+                            android:layout_width="120px"
+                            android:layout_height="wrap_content"
+                            android:background="@color/common_activity_background"
+                            android:drawableTop="@mipmap/ic_log"
+                            android:text="xxx" />
+
+                        <Button
+                            android:layout_width="120px"
+                            android:layout_height="wrap_content"
+                            android:background="@color/common_activity_background"
+                            android:drawableTop="@mipmap/ic_log"
+                            android:text="xxx" />
+
+                        <Button
+                            android:layout_width="120px"
+                            android:layout_height="wrap_content"
+                            android:background="@color/common_activity_background"
+                            android:drawableTop="@mipmap/ic_log"
+                            android:text="xxx" />
+
+                        <Button
+                            android:layout_width="120px"
+                            android:layout_height="wrap_content"
+                            android:background="@color/common_activity_background"
+                            android:drawableTop="@mipmap/ic_log"
+                            android:text="xxxxxxxxxxxxxxxxxxxxxxxxx" />
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <Button
+                            android:layout_width="120px"
+                            android:layout_height="wrap_content"
+                            android:background="@color/common_activity_background"
+                            android:drawableTop="@mipmap/ic_log"
+                            android:text="xxx" />
+                    </TableRow>
+
+                </TableLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/common_tool_bar_background"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:id="@+id/llModule"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="120px"
+                    android:layout_height="wrap_content"
+                    android:background="@color/common_tool_bar_background"
+                    android:drawableTop="@mipmap/ic_data_managment"
+                    android:text="MES" />
+
+                <Button
+                    android:layout_width="120px"
+                    android:layout_height="wrap_content"
+                    android:background="@color/common_tool_bar_background"
+                    android:drawableTop="@mipmap/ic_data_managment"
+                    android:text="WMS" />
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

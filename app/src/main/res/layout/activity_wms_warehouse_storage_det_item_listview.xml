@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants"
+    android:focusable="false">
+
+    <LinearLayout
+        style="@style/WmsTextStartMargin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <!-- 物料代碼 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvWvDetGridItemId2"
+                    style="@style/WmsTextViewGridTitle"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ITEM_ID" />
+
+                <TextView
+                    android:id="@+id/tvWvDetGridItemId"
+                    style="@style/WmsTextViewGridTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Item ID" />
+            </LinearLayout>
+
+            <!-- 單據代碼 -->
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tvWvDetGridSheetId2"-->
+<!--                    style="@style/WmsTextViewGridContext"-->
+<!--                    android:layout_width="100dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="@string/SHEET_ID" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tvWvDetGridSheetId"-->
+<!--                    style="@style/WmsTextViewGridContext"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:text="Sheet ID" />-->
+<!--            </LinearLayout>-->
+
+            <!-- 物料名稱 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvWvDetGridItemName2"
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ITEM_NAME" />
+
+                <TextView
+                    android:id="@+id/tvWvDetGridItemName"
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Item Name" />
+            </LinearLayout>
+
+            <!-- 倉庫代碼 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvWvDetGridStorageId2"
+                    style="@style/CommonTextView"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/STORAGE_ID" />
+
+                <TextView
+                    android:id="@+id/tvWvDetGridStorageId"
+                    style="@style/CommonTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Storage ID " />
+            </LinearLayout>
+
+            <!-- LotCode -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvWvDetGridLotCode2"
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/LOT_CODE" />
+
+                <TextView
+                    android:id="@+id/tvWvDetGridLotCode"
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/LOT_CODE" />
+            </LinearLayout>
+
+            <!-- 工單代碼 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvWvDetGridWoId2"
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/WO_ID" />
+
+                <TextView
+                    android:id="@+id/tvWvDetGridWoId"
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/WO_ID" />
+            </LinearLayout>
+
+            <!-- 入庫/需求數量 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvWvDetGridQty2"
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/WS_REQUIRE_QTY" />
+
+                <TextView
+                    android:id="@+id/tvWvDetGridQty"
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/QTY" />
+
+            </LinearLayout>
+
+            <!-- 報廢數量 -->
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tvWvDetGridScrapQty2"-->
+<!--                    style="@style/WmsTextViewGridContext"-->
+<!--                    android:layout_width="100dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="@string/SCRAP_QTY" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tvWvDetGridScrapQty"-->
+<!--                    style="@style/WmsTextViewGridContext"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:text="@string/SCRAP_QTY" />-->
+
+<!--            </LinearLayout>-->
+
+            <!-- 儲位代碼 -->
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tvWvDetGridBinId2"-->
+<!--                    style="@style/WmsTextViewGridContext"-->
+<!--                    android:layout_width="100dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="@string/BIN_ID" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tvWvDetGridBinId"-->
+<!--                    style="@style/WmsTextViewGridContext"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:text="BIN_ID" />-->
+
+<!--            </LinearLayout>-->
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ic_common_chevron_right_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_common_chevron_right_black_32dp" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

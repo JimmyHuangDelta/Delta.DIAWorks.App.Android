@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.5"
+       app:layout_constraintStart_toStartOf="parent">
+
+
+       <ScrollView
+           android:layout_width="match_parent"
+           android:layout_height="360dp"
+           android:layout_weight="1">
+           -->
+
+        <LinearLayout
+            style="@style/CommonLinearLayoutGroupBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--單據代碼-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/CommonTextView"
+                    android:layout_width="100dp"
+                    android:text="@string/SHEET_ID" />
+
+<!--                <EditText-->
+<!--                    android:id="@+id/etSheetId"-->
+<!--                    style="@style/CommonEditTextRequired"-->
+<!--                    android:layout_width="230dp"-->
+<!--                    android:layout_weight="2" />-->
+
+                <Spinner
+                    android:id="@+id/cmbSheetId"
+                    style="@style/CommonSpinnerRequired"
+                    android:layout_weight="2"/>
+
+                <ImageButton
+                    android:id="@+id/ibtnSheetIdSearch"
+                    style="@style/WmsImageButtonSearch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <!--項次-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/CommonTextView"
+                    android:layout_width="100dp"
+                    android:text="@string/SEQ" />
+
+                <Spinner
+                    android:id="@+id/cmbSeq"
+                    style="@style/CommonSpinnerRequired"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    />
+
+            </LinearLayout>
+
+            <!--料號-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/CommonTextView"
+                    android:layout_width="100dp"
+                    android:text="@string/ITEM" />
+
+                <EditText
+                    android:id="@+id/etItemId"
+                    style="@style/CommonEditTextRequired"
+                    android:layout_width="230dp"
+                    android:layout_weight="2" />
+
+            </LinearLayout>
+
+            <!--批號-->
+            <!--
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/common_control_margin"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/CommonTextView"
+                    android:layout_width="100dp"
+                    android:text="@string/LOT" />
+
+                <EditText
+                    android:id="@+id/etLotId"
+                    style="@style/CommonEditTextRequired"
+                    android:layout_width="230dp"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:id="@+id/ibtnLotSearch"
+                    style="@style/WmsImageButtonSearch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+            -->
+
+            <!--數量-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/common_control_margin"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/CommonTextView"
+                    android:layout_width="100dp"
+                    android:text="@string/QTY" />
+
+                <EditText
+                    android:id="@+id/etPickQty"
+                    style="@style/CommonEditTextRequired"
+                    android:layout_width="230dp"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:id="@+id/ibtnQtySearch"
+                    style="@style/WmsImageButtonSearch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>>
+
+        </LinearLayout>
+        <!--
+        </ScrollView>
+        -->
+        <TextView
+            android:id="@+id/tvPickInfo"
+            style="@style/WmsTextViewBarTitle"
+            android:text="@string/SKU_ID_DETAIL" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ListView
+                android:id="@+id/lvRegisters"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </ListView>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/llLot"
+            style="@style/CommonLinearLayoutGroupBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bConfirm"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/common_control_margin"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="0dp">
+
+                    <EditText
+                        android:id="@+id/etSelectLotId"
+                        style="@style/WmsEditTextNecessary"
+                        android:layout_weight="10"
+                        android:hint="@string/SKU_ID"
+                        android:inputType="text"
+                        android:textAlignment="textStart" />
+
+                    <Button
+                        android:id="@+id/btLotClear"
+                        style="@style/WmsButtonClear"
+                        android:onClick="OnClickLotClear" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <!--
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/common_control_margin"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="0dp">
+
+                    <EditText
+                        android:id="@+id/etPickQty"
+                        style="@style/WmsEditTextNecessary"
+                        android:layout_weight="10"
+                        android:hint="@string/QTY"
+                        android:inputType="number"
+                        android:textAlignment="textStart" />
+
+                    <Button
+                        android:id="@+id/btQtyClear"
+                        style="@style/WmsButtonClear"
+                        android:onClick="OnClickQtyClear" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+            -->
+
+        </LinearLayout>
+
+        <!--按鈕列-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnConfirm"
+                style="@style/CommonButton"
+                android:layout_weight="1"
+                android:text="@string/CONFIRM" />
+
+        </LinearLayout>
+
+    </LinearLayout>

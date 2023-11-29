@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/WmsTextStartMargin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/sub_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp">
+
+        <!-- Carrier代碼 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+            <TextView
+                android:id="@+id/lvTxtCarrierId"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_height="match_parent"
+                android:gravity="start|center_vertical"
+                android:text="@string/CARRIER_ID"
+                android:textAlignment="textStart"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/lvTxtCarrierIdVal"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="0dp"
+                android:layout_weight="6"
+                android:layout_height="match_parent"
+                android:gravity="start|center_vertical"
+                android:text="@string/CARRIER_ID"
+                android:textAlignment="textStart" />
+        </LinearLayout>
+
+        <!-- Block代碼 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+            <TextView
+                android:id="@+id/lvTxtBlockId"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_height="match_parent"
+                android:gravity="start|center_vertical"
+                android:text="@string/BLOCK_ID"
+                android:textAlignment="textStart"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/lvTxtBlockIdVal"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="0dp"
+                android:layout_weight="6"
+                android:layout_height="match_parent"
+                android:gravity="start|center_vertical"
+                android:text="@string/BLOCK_ID"
+                android:textAlignment="textStart" />
+        </LinearLayout>
+
+        <!-- 物料代碼 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+            <TextView
+                android:id="@+id/lvTxtItemId"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_height="match_parent"
+                android:gravity="start|center_vertical"
+                android:text="@string/ITEM_ID"
+                android:textAlignment="textStart"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/lvTxtItemIdVal"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="0dp"
+                android:layout_weight="6"
+                android:layout_height="match_parent"
+                android:gravity="start|center_vertical"
+                android:text="@string/ITEM_ID"
+                android:textAlignment="textStart" />
+        </LinearLayout>
+
+        <!-- 註冊材料序號 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+            <TextView
+                android:id="@+id/lvTxtRegisterId"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_height="match_parent"
+                android:gravity="start|center_vertical"
+                android:text="@string/SKU_ID"
+                android:textAlignment="textStart"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/lvTxtRegisterIdVal"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="0dp"
+                android:layout_weight="6"
+                android:layout_height="match_parent"
+                android:gravity="start|center_vertical"
+                android:text="@string/REGISTER_ID"
+                android:textAlignment="textStart" />
+        </LinearLayout>
+
+        <!-- 數量 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+            <TextView
+                android:id="@+id/lvTxtQty"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_height="match_parent"
+                android:gravity="start|center_vertical"
+                android:text="@string/QTY"
+                android:textAlignment="textStart"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/lvTxtQtyVal"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="0dp"
+                android:layout_weight="6"
+                android:layout_height="match_parent"
+                android:gravity="start|center_vertical"
+                android:text="@string/QTY"
+                android:textAlignment="textStart" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

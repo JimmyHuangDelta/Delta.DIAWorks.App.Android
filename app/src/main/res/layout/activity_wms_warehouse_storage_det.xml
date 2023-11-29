@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.delta.android.WMS.Client.WarehouseStorageDetailActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ibtnItemIdQRScan"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:background="#00000000"
+            android:src="@drawable/ic_scan_64x64"/>
+
+        <EditText
+            android:id="@+id/etItemId"
+            android:hint="@string/ITEM_ID"
+            style="@style/WmsEditTextNormal"
+            android:layout_width="match_parent"
+            android:imeOptions="actionSearch"
+            android:layout_margin="@dimen/common_control_margin"
+            android:singleLine="true"/>
+    </LinearLayout>
+
+    <TextView
+        android:text="@string/SHEET_DETAIL_INFO"
+        style="@style/WmsTextViewBarTitle"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ListView
+            android:id="@+id/lvWvDetData"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/btnInStockFinish"></ListView>
+
+        <Button
+            android:id="@+id/btnInStockFinish"
+            android:text="@string/STOCK_IN_FINISH"
+            style="@style/CommonButton"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+</LinearLayout>

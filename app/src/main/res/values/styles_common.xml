@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/common_action_bar_background</item>
+        <item name="colorPrimaryDark">@color/common_status_bar_background</item>
+        <item name="colorAccent">@color/common_focus_foreground</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- 共用 Button Style -->
+    <style name="CommonButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/common_control_layout_height</item>
+        <item name="android:background">@drawable/bg_common_button</item>
+        <item name="android:textColor">@color/common_theme_light1</item>
+        <item name="android:layout_margin">@dimen/common_control_stroke_width</item>
+        <item name="android:textSize">@dimen/common_text_size_small</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <!-- 共用 Button Style -->
+    <style name="CommonButton_small">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:background">@drawable/bg_common_button</item>
+        <item name="android:textColor">@color/common_theme_light1</item>
+        <item name="android:layout_margin">@dimen/common_control_stroke_width</item>
+        <item name="android:textSize">@dimen/common_text_size_small</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="CommonRoundedButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/common_control_layout_height</item>
+        <item name="android:background">@drawable/bg_common_rounded_button</item>
+        <item name="android:textColor">@color/common_theme_light1</item>
+        <item name="android:layout_margin">@dimen/common_control_stroke_width</item>
+        <item name="android:textSize">@dimen/common_text_size_small</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <!-- 共用 EditText Style -->
+    <style name="CommonEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/common_control_layout_height</item>
+        <item name="android:background">@drawable/bg_common_edittext</item>
+        <!-- <item name="android:textColor">@color/common_theme_dark3</item> -->
+        <item name="android:textSize">@dimen/common_text_size_small</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <!-- 共用 EditText(必填) Style -->
+    <style name="CommonEditTextRequired">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/common_control_layout_height</item>
+        <item name="android:background">@drawable/bg_common_edittext_required</item>
+        <!-- <item name="android:textColor">@color/common_theme_dark3</item> -->
+        <item name="android:textSize">@dimen/common_text_size_small</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <!-- 共用 Spinner Style -->
+    <style name="CommonSpinner">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/common_control_layout_height</item>
+        <item name="android:background">@drawable/bg_common_spinner</item>
+        <item name="android:spinnerMode">dialog</item>
+    </style>
+
+    <!-- 共用 Spinner(必填) Style -->
+    <style name="CommonSpinnerRequired">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/common_control_layout_height</item>
+        <item name="android:background">@drawable/bg_common_spinner_required</item>
+        <item name="android:spinnerMode">dialog</item>
+    </style>
+
+    <!-- 共用 Spinner(必填) Style -->
+    <style name="CommonSpinnerRequired2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:background">@drawable/bg_common_spinner_required</item>
+        <item name="android:spinnerMode">dialog</item>
+    </style>
+
+    <!-- 共用 LinearLayout GroupBox Style -->
+    <style name="CommonLinearLayoutGroupBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/bg_common_linearlayout_groupbox</item>
+        <item name="android:layout_margin">@dimen/common_control_margin</item>
+    </style>
+
+    <!-- 共用 TextView Style -->
+    <style name="CommonTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/common_control_layout_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/common_theme_dark2</item>
+        <item name="android:textSize">@dimen/common_text_size_small</item>
+        <item name="android:paddingLeft">@dimen/common_control_padding</item>
+    </style>
+
+    <!-- 共用 ProgressDialog Style -->
+    <style name="CommonProgressDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/common_theme_blue1</item>
+    </style>
+
+    <!-- 共用 TextView Style -->
+    <style name="FunctionCategoryIcon">
+        <item name="android:layout_width">3dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/common_theme_blue1</item>
+    </style>
+
+</resources>

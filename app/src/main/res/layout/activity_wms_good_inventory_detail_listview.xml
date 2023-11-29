@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorThemeStyle2">
+
+
+    <TextView
+        android:id="@+id/labSEQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="2dp"
+        android:text="@string/SEQ" />
+
+    <TextView
+        android:id="@+id/txtSEQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="2dp"
+        android:layout_toEndOf="@+id/labSEQ"
+        android:text="txtSeq"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/labItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_toEndOf="@+id/txtSEQ"
+        android:text="@string/ITEM" />
+
+    <TextView
+        android:id="@+id/txtItemId"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="2dp"
+        android:layout_toEndOf="@+id/labItem"
+        android:layout_toRightOf="@+id/txtSEQ"
+        android:text="txtItemID"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtItemName"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="16dp"
+        android:layout_toEndOf="@+id/txtItemId"
+        android:layout_toRightOf="@+id/txtItemId"
+        android:text="txtItemName"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/labLotId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labSEQ"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/LOT" />
+
+
+    <TextView
+        android:id="@+id/txtLotId"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtSEQ"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/labLotId"
+        android:text="txtLotId"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/labQty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtSEQ"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/QTY"
+        android:layout_toEndOf="@+id/txtLotId"/>
+
+    <TextView
+        android:id="@+id/txtQty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labItem"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/labQty"
+        android:text="txtQty"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/labStorage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtItemName"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/STORAGE_ID"
+        android:layout_toEndOf="@+id/txtQty" />
+
+    <TextView
+        android:id="@+id/txtStorageId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtItemName"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/labStorage"
+        android:text="txtStorageId"
+        android:textStyle="bold" />
+
+</RelativeLayout>-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        style="@style/WmsTextStartMargin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            style="@style/WmsTextStartMargin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtItemId2"
+                    style="@style/WmsTextViewGridTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="@string/ITEM_ID" />
+
+                <TextView
+                    android:id="@+id/txtItemId"
+                    style="@style/WmsTextViewGridTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6"
+                    android:text="@string/ITEM_ID" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/labItem"
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="@string/ITEM_NAME" />
+
+                <TextView
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6"
+                    android:id="@+id/txtItemName"
+                    android:text="@string/ITEM" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/labLotId"
+                    android:layout_weight="4"
+                    android:text="@string/SKU_ID" />
+
+                <TextView
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6"
+                    android:id="@+id/txtLotId"
+                    android:text="@string/LOT" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/labSEQ"
+                    android:layout_weight="4"
+                    android:text="@string/SEQ" />
+
+                <TextView
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6"
+                    android:id="@+id/txtSEQ"
+                    android:text="@string/SEQ" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/labStorageId"
+                    android:layout_weight="4"
+                    android:text="@string/STORAGE_ID" />
+
+                <TextView
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtStorageId"
+                    android:layout_weight="6"
+                    android:text="@string/STORAGE_ID" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/labQty"
+                    android:layout_weight="4"
+                    android:text="@string/QTY" />
+
+                <TextView
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtQty"
+                    android:layout_weight="6"
+                    android:text="@string/QTY" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/labProcQty"
+                    android:layout_weight="4"
+                    android:text="@string/PROC_QTY" />
+
+                <TextView
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtProcQty"
+                    android:layout_weight="6"
+                    android:text="PRCO_QTY" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_common_chevron_right_black_32dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

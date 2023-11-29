@@ -1,0 +1,175 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.delta.android.WMS.Client.Fragment.WarehouseStorageDataFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--中間表查詢條件-->
+        <LinearLayout
+            style="@style/CommonLinearLayoutGroupBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!--倉庫-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/common_control_margin"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvStorage"
+                        style="@style/WmsTextViewGridContext"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2.5"
+                        android:text="@string/STORAGE" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="7.5">
+                        <Spinner
+                            android:id="@+id/cmbStorage"
+                            style="@style/CommonSpinnerRequired"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!--存貨層級-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/common_control_margin"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvSkuLevel"
+                        style="@style/WmsTextViewGridContext"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2.5"
+                        android:text="@string/SKU_LEVEL" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="7.5">
+                        <Spinner
+                            android:id="@+id/cmbSkuLevel"
+                            style="@style/CommonSpinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!--存貨編號-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/common_control_margin"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvSkuNum"
+                        style="@style/WmsTextViewGridContext"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2.5"
+                        android:text="@string/SKU_NUM" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="7.5"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/ibtnSkuNumQRScan"
+                            android:layout_width="30dp"
+                            android:layout_height="match_parent"
+                            android:background="#00000000"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/ic_scan_64x64" />
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="0dp">
+
+                            <EditText
+                                android:id="@+id/etSkuNum"
+                                style="@style/WmsEditTextNecessary"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:ems="10"
+                                android:inputType="text"
+                                android:textAlignment="textStart"
+                                android:hint="@string/PALLET_BOX_SKU_ID"/>
+
+                            <Button
+                                android:id="@+id/btnClearSkuNum"
+                                style="@style/WmsButtonClear"/>
+                        </FrameLayout>
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- 待入庫資料分隔線 -->
+        <TextView
+            android:id="@+id/tvWvrInfo"
+            style="@style/WmsTextViewBarTitle"
+            android:layout_width="match_parent"
+            android:layout_alignParentTop="true"
+            android:text="@string/WATING_WAREHOUSE_DET" />
+
+        <!-- 已批次入庫資料 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/lvWvDetLotData"
+                android:layout_above="@+id/btnWarehouseStorage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ListView>
+
+            <Button
+                android:id="@+id/btnWarehouseStorage"
+                style="@style/CommonRoundedButton"
+                android:layout_alignParentBottom="true"
+                android:text="@string/WAREHOUSE_STORAGE" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/WmsTextStartMargin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants">
+
+    <!-- Cart 代碼-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/lvTxtCartId"
+            style="@style/WmsTextViewGridTitle"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:text="@string/CART_ID" />
+
+        <TextView
+            android:id="@+id/lvTxtCartIdVal"
+            style="@style/WmsTextViewGridTitle"
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="match_parent"
+            android:text="@string/CART_ID" />
+    </LinearLayout>
+
+    <!-- AGV車 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+        <TextView
+            android:id="@+id/lvTxtVehicleId"
+            style="@style/WmsTextViewGridContext"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:gravity="start|center_vertical"
+            android:text="@string/VEHICLE_ID"
+            android:textAlignment="textStart" />
+
+        <TextView
+            android:id="@+id/lvTxtVehicleIdVal"
+            style="@style/WmsTextViewGridContext"
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="match_parent"
+            android:gravity="start|center_vertical"
+            android:text="@string/VEHICLE_ID"
+            android:textAlignment="textStart" />
+    </LinearLayout>
+
+    <!-- 固定位置代碼 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+        <TextView
+            android:id="@+id/lvTxtFixedLocation"
+            style="@style/WmsTextViewGridContext"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:gravity="start|center_vertical"
+            android:text="@string/FIXED_POSITION"
+            android:textAlignment="textStart" />
+
+        <TextView
+            android:id="@+id/lvTxtFixedLocationVal"
+            style="@style/WmsTextViewGridContext"
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="match_parent"
+            android:gravity="start|center_vertical"
+            android:text="@string/FIXED_POSITION"
+            android:textAlignment="textStart" />
+    </LinearLayout>
+
+    <!-- 位置 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+        <TextView
+            android:id="@+id/lvTxtLocation"
+            style="@style/WmsTextViewGridContext"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:gravity="start|center_vertical"
+            android:text="@string/LOCATION_ID"
+            android:textAlignment="textStart" />
+
+        <TextView
+            android:id="@+id/lvTxtLocationVal"
+            style="@style/WmsTextViewGridContext"
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="match_parent"
+            android:gravity="start|center_vertical"
+            android:text="@string/LOCATION_ID"
+            android:textAlignment="textStart" />
+    </LinearLayout>
+
+    <!-- 搬送狀態 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+        <TextView
+            android:id="@+id/lvTxtTransportStatus"
+            style="@style/WmsTextViewGridContext"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:gravity="start|center_vertical"
+            android:text="@string/TRANSPORT_STATUS"
+            android:textAlignment="textStart" />
+
+        <TextView
+            android:id="@+id/lvTxtTransportStatusVal"
+            style="@style/WmsTextViewGridContext"
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="match_parent"
+            android:gravity="start|center_vertical"
+            android:text="@string/TRANSPORT_STATUS"
+            android:textAlignment="textStart" />
+    </LinearLayout>
+
+</LinearLayout>

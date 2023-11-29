@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.delta.android.WMS.Client.GoodPickNonSheetCartCarrierActivity">
+
+    <LinearLayout
+        style="@style/CommonLinearLayoutGroupBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--單據代碼-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/CommonTextView"
+                android:layout_width="100dp"
+                android:text="@string/SHEET_ID" />
+
+<!--            <EditText-->
+<!--                android:id="@+id/etSheetId"-->
+<!--                style="@style/CommonEditTextRequired"-->
+<!--                android:layout_width="230dp"-->
+<!--                android:layout_weight="2" />-->
+
+            <Spinner
+                android:id="@+id/cmbSheetId"
+                style="@style/CommonSpinnerRequired"
+                android:layout_weight="2"/>
+
+            <ImageButton
+                android:id="@+id/ibtnSheetIdSearch"
+                style="@style/WmsImageButtonSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <!--項次-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/CommonTextView"
+                android:layout_width="100dp"
+                android:text="@string/SEQ" />
+
+            <Spinner
+                android:id="@+id/cmbSeq"
+                style="@style/CommonSpinnerRequired"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+        <!--批號-->
+        <!--
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/common_control_margin"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/CommonTextView"
+                android:layout_width="100dp"
+                android:text="@string/LOT" />
+
+            <EditText
+                android:id="@+id/etLotId"
+                style="@style/CommonEditTextRequired"
+                android:layout_width="match_parent"
+                android:layout_weight="2" />
+
+            <ImageButton
+                android:id="@+id/IbtnSearch"
+                style="@style/WmsImageButtonSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+        -->
+
+        <!--料號-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/CommonTextView"
+                android:layout_width="100dp"
+                android:text="@string/ITEM" />
+
+            <EditText
+                android:id="@+id/etItemID"
+                style="@style/CommonEditTextRequired"
+                android:layout_width="match_parent"
+                android:layout_weight="2" />
+
+        </LinearLayout>
+
+        <!--數量-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/CommonTextView"
+                android:layout_width="100dp"
+                android:text="@string/QTY" />
+
+            <EditText
+                android:id="@+id/etPickQty"
+                style="@style/CommonEditTextRequired"
+                android:layout_width="match_parent"
+                android:layout_weight="2"
+                android:inputType="number" />
+
+            <ImageButton
+                android:id="@+id/IbtnQtySearch"
+                style="@style/WmsImageButtonSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvPickInfo4"
+        style="@style/WmsTextViewBarTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/SKU_ID_DETAIL" />
+
+    <!--ListView-->
+    <LinearLayout
+        android:id="@+id/llRegisters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/lvRegisters"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+        </ListView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:id="@+id/S2_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/btnConfirm">
+
+            <LinearLayout
+                android:id="@+id/tab2_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="0dp">
+
+                        <EditText
+                            android:id="@+id/etSelectLotId"
+                            style="@style/WmsEditTextNecessary"
+                            android:layout_weight="10"
+                            android:hint="@string/SKU_ID"
+                            android:inputType="text"
+                            android:textAlignment="textStart" />
+
+                        <Button
+                            android:id="@+id/btLotClear"
+                            style="@style/WmsButtonClear"
+                            android:onClick="OnClickLotClear" />
+
+                    </FrameLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="3dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvNextStep"
+                        style="@style/CommonTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/NEXT_STEP"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/etNextStep"
+                        style="@style/CommonEditText"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:enabled="false"
+                        android:textSize="@dimen/common_text_size_small" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llCart"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvCart"
+                        style="@style/CommonTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/CART"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView51"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=":"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/tvCartID"
+                        style="@style/CommonTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text=""
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llCarrier"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvCarrier"
+                        style="@style/CommonTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/CARRIER"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView5001"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=":"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/tvCarrierID"
+                        style="@style/CommonTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text=""
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llLot"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvLot"
+                        style="@style/CommonTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/SKU_ID"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView62"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=":"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/tvLotID"
+                        style="@style/CommonTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text=""
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llBlock"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvBlock"
+                        style="@style/CommonTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/BLOCK_ID"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView701"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=":"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/tvBlockID"
+                        style="@style/CommonTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text=""
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llFromBin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvFromBin"
+                        style="@style/CommonTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/FROM_BIN"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView61"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=":"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/tvFromBinID"
+                        style="@style/CommonTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text=""
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llToBin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvToBin"
+                        style="@style/CommonTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/END_BIN"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView71"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=":"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/tvToBinID"
+                        style="@style/CommonTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text=""
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btnConfirm"
+            style="@style/CommonButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="1"
+            android:text="@string/CONFIRM" />
+    </RelativeLayout>
+</LinearLayout>

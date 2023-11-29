@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="blocksDescendants"
+        android:focusable="false"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/WmsTextStartMargin"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <!--料號-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvItemId"
+                        style="@style/WmsTextViewGridTitle"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ITEM_ID" />
+
+                    <TextView
+                        android:id="@+id/tvReceiveItemId"
+                        style="@style/WmsTextViewGridTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Item ID" />
+                </LinearLayout>
+
+                <!--物料名稱-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvItemName"
+                        style="@style/WmsTextViewGridContext"
+                        android:layout_width="130dp"
+                        android:layout_height="30dp"
+                        android:text="@string/ITEM_NAME" />
+
+                    <TextView
+                        android:id="@+id/tvReceiveItemName"
+                        style="@style/WmsTextViewGridContext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Item Name" />
+                </LinearLayout>
+
+                <!--倉庫代碼-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvStorageId"
+                        style="@style/CommonTextView"
+                        android:layout_width="130dp"
+                        android:layout_height="30dp"
+                        android:text="@string/STORAGE_ID" />
+
+                    <TextView
+                        android:id="@+id/tvReceiveStorageId"
+                        style="@style/CommonTextView"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:text="Storage ID " />
+                </LinearLayout>
+
+                <!--儲位-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvBinID"
+                        style="@style/WmsTextViewGridContext"
+                        android:layout_width="130dp"
+                        android:layout_height="30dp"
+                        android:text="@string/IS_BIN_ID" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <Spinner
+                            style="@style/CommonSpinnerRequired"
+                            android:layout_height="30dp"
+                            android:id="@+id/cmbBinID"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_activity_background"
+    android:orientation="vertical"
+    tools:context="com.delta.android.WMS.Client.GoodCheckActivity">
+
+    <LinearLayout
+        android:id="@+id/llCheckQuery"
+        style="@style/CommonLinearLayoutGroupBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/common_control_margin"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/common_control_margin"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ibtnSearch"
+                style="@style/WmsImageButtonSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+
+            <!--<TextView-->
+            <!--android:id="@+id/tvCheckCountStatus"-->
+            <!--style="@style/WmsTextViewGridTitle"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="@dimen/common_control_margin"-->
+
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center|center_vertical"-->
+            <!--android:textAlignment="center" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/etCheckId"-->
+<!--                style="@style/WmsEditTextNecessary"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:ems="10"-->
+<!--                android:hint="@string/CHECK_ID"-->
+<!--                android:singleLine="true" />-->
+
+            <Spinner
+                android:id="@+id/cmbSheetId"
+                style="@style/CommonSpinnerRequired" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/llCheckButton"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/llCheckQuery"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btStartCheck"-->
+    <!--style="@style/CommonButton"-->
+    <!--android:layout_weight="1"-->
+    <!--android:onClick="onClickStartCheck"-->
+    <!--android:text="@string/START_CHECK" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btEndCheck"-->
+    <!--style="@style/CommonButton"-->
+    <!--android:layout_weight="1"-->
+    <!--android:onClick="onClickEndCheck"-->
+    <!--android:text="@string/END_CHECK" />-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/llFilterQuery"-->
+    <!--style="@style/CommonLinearLayoutGroupBox"-->
+    <!--android:layout_below="@+id/llCheckButton"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="vertical">-->
+    <!--<EditText-->
+    <!--android:id="@+id/etCheckBinId"-->
+    <!--style="@style/WmsEditTextNormal"-->
+    <!--android:layout_margin="@dimen/common_control_margin"-->
+    <!--android:layout_weight="1"-->
+    <!--android:hint="@string/BIN_ID"-->
+    <!--android:singleLine="true" />-->
+
+    <!--<EditText-->
+    <!--android:id="@+id/etCheckItemId"-->
+    <!--style="@style/WmsEditTextNormal"-->
+    <!--android:layout_margin="@dimen/common_control_margin"-->
+    <!--android:layout_weight="1"-->
+    <!--android:hint="@string/ITEM_ID"-->
+    <!--android:singleLine="true" />-->
+    <!--</LinearLayout>-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvChooseCount"
+            style="@style/WmsTextViewBarTitle"
+            android:layout_alignParentTop="true"
+            android:text="@string/SHEET_DETAIL_INFO" />
+
+        <ListView
+            android:id="@+id/lvNoneCheckedData"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/tvChooseCount" />
+
+    </RelativeLayout>
+
+
+    <!--android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabCheckAddNewItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/common_theme_blue1"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="onClickAddNewItem"
+        android:scaleType="center"
+        android:src="@drawable/ic_wms_add_24x24"
+        app:borderWidth="0dp"
+        app:fabSize="normal"/> -->
+
+</LinearLayout>

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.delta.android.Sample.Client.Theme2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/common_theme_light3"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/common_theme_light1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@color/common_theme_light1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                style="@style/CommonTextView"
+                                android:layout_height="30dp"
+                                android:text="title"
+                                android:textColor="@color/common_theme_dark2"
+                                android:textSize="@dimen/common_text_size_large" />
+
+                            <TextView
+                                style="@style/CommonTextView"
+                                android:layout_height="30dp"
+                                android:text="xxx:2121" />
+
+                            <TextView
+                                style="@style/CommonTextView"
+                                android:layout_height="30dp"
+                                android:text="dsds:wewe" />
+
+                            <TextView
+                                style="@style/CommonTextView"
+                                android:layout_height="30dp"
+                                android:text="weew:23232" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/common_theme_light1"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_common_chevron_right_black_32dp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/common_theme_light1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@color/common_theme_light1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                style="@style/CommonTextView"
+                                android:layout_height="30dp"
+                                android:text="title"
+                                android:textColor="@color/common_theme_dark2"
+                                android:textSize="@dimen/common_text_size_large" />
+
+                            <TextView
+                                style="@style/CommonTextView"
+                                android:layout_height="30dp"
+                                android:text="xxx:2121" />
+
+                            <TextView
+                                style="@style/CommonTextView"
+                                android:layout_height="30dp"
+                                android:text="dsds:wewe" />
+
+                            <TextView
+                                style="@style/CommonTextView"
+                                android:layout_height="30dp"
+                                android:text="weew:23232" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/common_theme_light1"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_common_chevron_right_black_32dp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/common_theme_light1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@color/common_theme_light1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                style="@style/CommonTextView"
+                                android:layout_height="30dp"
+                                android:text="title"
+                                android:textColor="@color/common_theme_dark2"
+                                android:textSize="@dimen/common_text_size_large" />
+
+                            <TextView
+                                style="@style/CommonTextView"
+                                android:layout_height="30dp"
+                                android:text="xxx:2121" />
+
+                            <TextView
+                                style="@style/CommonTextView"
+                                android:layout_height="30dp"
+                                android:text="dsds:wewe" />
+
+                            <TextView
+                                style="@style/CommonTextView"
+                                android:layout_height="30dp"
+                                android:text="weew:23232" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/common_theme_light1"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_common_chevron_right_black_32dp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/common_theme_light1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@color/common_theme_light1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                style="@style/CommonTextView"
+                                android:layout_height="30dp"
+                                android:text="title"
+                                android:textColor="@color/common_theme_dark2"
+                                android:textSize="@dimen/common_text_size_large" />
+
+                            <TextView
+                                style="@style/CommonTextView"
+                                android:layout_height="30dp"
+                                android:text="xxx:2121" />
+
+                            <TextView
+                                style="@style/CommonTextView"
+                                android:layout_height="30dp"
+                                android:text="dsds:wewe" />
+
+                            <TextView
+                                style="@style/CommonTextView"
+                                android:layout_height="30dp"
+                                android:text="weew:23232" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/common_theme_light1"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_common_chevron_right_black_32dp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/common_theme_light1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@color/common_theme_light1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                style="@style/CommonTextView"
+                                android:layout_height="30dp"
+                                android:text="title"
+                                android:textColor="@color/common_theme_dark2"
+                                android:textSize="@dimen/common_text_size_large" />
+
+                            <TextView
+                                style="@style/CommonTextView"
+                                android:layout_height="30dp"
+                                android:text="xxx:2121" />
+
+                            <TextView
+                                style="@style/CommonTextView"
+                                android:layout_height="30dp"
+                                android:text="dsds:wewe" />
+
+                            <TextView
+                                style="@style/CommonTextView"
+                                android:layout_height="30dp"
+                                android:text="weew:23232" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/common_theme_light1"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_common_chevron_right_black_32dp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/common_theme_blue1"
+            android:gravity="center">
+
+            <Button
+                style="@style/CommonButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@mipmap/ic_data_managment"
+                android:text="@string/CONFIRM" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

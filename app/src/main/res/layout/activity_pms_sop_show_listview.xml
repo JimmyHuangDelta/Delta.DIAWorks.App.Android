@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvSopShowIdName"
+        style="@style/CommonTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/btnSopShowOpen"
+        style="@style/CommonButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/OPEN" />
+
+    <Button
+        android:id="@+id/btnSopShowDel"
+        style="@style/CommonButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15"
+        android:layout_marginRight="15dp"
+        android:text="@string/DELETE" />
+</LinearLayout>

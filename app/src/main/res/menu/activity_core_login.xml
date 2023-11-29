@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_more"
+        android:icon="@drawable/ic_common_more_vert_black_24dp"
+        android:title=""
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/action_config_setting"
+                android:icon="@drawable/ic_common_settings_black_24dp"
+                android:title="@string/CONFIG_SETTING"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/action_version_update"
+                android:icon="@drawable/ic_common_update_black_24dp"
+                android:title="@string/VERSION_UPDATE"
+                app:showAsAction="ifRoom" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.delta.android.WMS.Client.GoodCancelPickDetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/common_control_margin"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ibtnItemIdQRScan"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:background="#00000000"
+            android:onClick="OnClickQRScan"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_scan_64x64" />
+
+        <EditText
+            android:id="@+id/etSheetDetItemId"
+            style="@style/WmsEditTextNormal"
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/common_control_margin"
+            android:gravity="start|center_vertical"
+            android:hint="@string/ITEM_ID"
+            android:imeOptions="actionSearch"
+            android:inputType="textPersonName"
+            android:singleLine="true"
+            android:textAlignment="textStart" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvChooseCount2"
+        style="@style/WmsTextViewBarTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/SHEET_DETAIL_INFO" />
+
+    <LinearLayout
+        android:id="@+id/llPresentData1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/lvSheetDetData1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</LinearLayout>

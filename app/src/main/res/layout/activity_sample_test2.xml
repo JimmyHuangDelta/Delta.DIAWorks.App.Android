@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_activity_background"
+    tools:context="com.delta.android.Sample.Client.Test2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnShowMessage1"
+            style="@style/CommonButton"
+            android:layout_width="match_parent"
+            android:text="ShowMessage(多行文字)" />
+
+        <Button
+            android:id="@+id/btnShowMessage2"
+            style="@style/CommonButton"
+            android:layout_width="match_parent"
+            android:text="ShowMessage(使用res檔)" />
+
+        <Button
+            android:id="@+id/btnShowMessage3"
+            style="@style/CommonButton"
+            android:layout_width="match_parent"
+            android:text="ShowMessage(使用res檔加參數)" />
+
+        <Button
+            android:id="@+id/btnShowMessage4"
+            style="@style/CommonButton"
+            android:layout_width="match_parent"
+            android:text="ShowMessage(多語系轉換)" />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

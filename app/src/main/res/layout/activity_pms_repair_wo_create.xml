@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.delta.android.PMS.Client.RepairWoCreate">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvDownloadEqp"
+            style="@style/CommonTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp"
+            android:text="@string/CALL_FIX_TYPE"
+            android:textSize="15dp" />
+
+        <Spinner
+            android:id="@+id/spCallFixType"
+            style="@style/PmsSpinnerNecessary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="3dp">
+
+        <TextView
+            android:id="@+id/tvFailDate"
+            style="@style/CommonTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp"
+            android:text="@string/FAIL_DT"
+            android:textSize="15dp" />
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:padding="0dp">
+
+            <EditText
+                android:id="@+id/edFailDate"
+                style="@style/PmsEditTextNecessary"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:layout_marginLeft="5dp"
+                android:layout_toEndOf="@+id/btnRepairEndDate"
+                android:ems="10"
+                android:hint="@string/SELECT_FAIL_DATE"
+                android:inputType="date" />
+
+            <Button
+                android:id="@+id/btFromDateClear"
+                style="@style/WmsButtonClear"
+                android:onClick="onClickDateClear"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:padding="0dp">
+
+            <EditText
+                android:id="@+id/edFailTime"
+                style="@style/PmsEditTextNecessary"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:layout_marginLeft="5dp"
+                android:layout_toEndOf="@+id/btnRepairEndTime"
+                android:ems="10"
+                android:hint="@string/SELECT_FAIL_TIME"
+                android:inputType="date" />
+
+            <Button
+                android:id="@+id/btFromTimeClear"
+                style="@style/WmsButtonClear"
+                android:onClick="onClickTimeClear"/>
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvFail"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"/>
+
+    <Button
+        android:id="@+id/btnConfirm"
+        style="@style/CommonButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/CONFIRM" />
+
+</LinearLayout>

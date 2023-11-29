@@ -1,0 +1,4 @@
+<resources>
+    <!-- ListView 每筆資料邊框圓角的大小 -->
+    <dimen name="ListViewItemCornerSize">5dp</dimen>
+</resources>

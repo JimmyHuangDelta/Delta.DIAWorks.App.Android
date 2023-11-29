@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.delta.android.WMS.Client.WarehouseStorageActivity">
+
+    <!-- 查詢條件區 -->
+    <LinearLayout
+        style="@style/CommonLinearLayoutGroupBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/common_control_margin"
+            android:orientation="horizontal">
+
+            <!-- 起日 -->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:padding="0dp">
+
+                <EditText
+                    android:id="@+id/etFromDate"
+                    android:hint="@string/FROM_DATE"
+                    style="@style/WmsEditTextNormal"
+                    android:layout_width="match_parent"
+                    android:ems="10"
+                    android:textAlignment="textStart" />
+
+                <Button
+                    android:id="@+id/btToDateClear"
+                    style="@style/WmsButtonClear"
+                    android:onClick="onClickFromDateClear" />
+            </FrameLayout>
+
+            <!-- 訖日 -->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:padding="0dp">
+
+                <EditText
+                    android:id="@+id/etToDate"
+                    android:hint="@string/TO_DATE"
+                    style="@style/WmsEditTextNormal"
+                    android:layout_width="match_parent"
+                    android:ems="10"
+                    android:textAlignment="textStart" />
+
+                <Button
+                    android:id="@+id/btFromDateClear"
+                    style="@style/WmsButtonClear"
+                    android:onClick="onClickToDateClear" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/common_control_margin"
+            android:orientation="horizontal">
+
+            <!-- 單據類型下拉選單 -->
+            <Spinner
+                android:id="@+id/cmbSheetType"
+                style="@style/CommonSpinnerRequired"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/common_control_margin"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ibtnSheetIdQRScan"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:background="#00000000"
+                android:src="@drawable/ic_scan_64x64"/>
+
+            <!-- 單據代碼 -->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:padding="0dp">
+
+                <!-- 單據代碼 -->
+                <EditText
+                    android:id="@+id/etSheetId"
+                    android:hint="@string/SHEET_ID"
+                    style="@style/WmsEditTextNormal"
+                    android:layout_width="match_parent"
+                    android:layout_weight="2"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <Button
+                    android:id="@+id/btnClearSheetId"
+                    style="@style/WmsButtonClear"
+                    android:onClick="onClearSheetId" />
+            </FrameLayout>
+
+            <!-- 單據代碼下拉選單 -->
+<!--            <Spinner-->
+<!--                android:id="@+id/cmbSheetId"-->
+<!--                style="@style/CommonSpinner"-->
+<!--                android:layout_weight="2"/>-->
+
+            <!-- 查詢按鈕 -->
+            <ImageButton
+                android:id="@+id/ibtnSearch"
+                style="@style/WmsImageButtonSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvMstInfoTitle"
+            android:text="@string/SHEET_MASTER_INFO"
+            style="@style/WmsTextViewBarTitle"
+            android:layout_alignParentTop="true"/>
+
+        <ListView
+            android:id="@+id/lvMasterSheet"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/tvMstInfoTitle"></ListView>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

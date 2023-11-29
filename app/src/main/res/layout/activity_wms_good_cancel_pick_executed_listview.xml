@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.delta.android.WMS.Client.GridAdapter.SheetDetCancelPickGridAdapter">
+
+    <LinearLayout
+        style="@style/WmsTextStartMargin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvPickedGridLotId2"
+                style="@style/WmsTextViewGridTitle"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/SKU_ID" />
+
+            <TextView
+                android:id="@+id/tvPickedGridLotId"
+                style="@style/WmsTextViewGridTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lot ID" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvPickedGridBinId2"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/BIN_ID" />
+
+            <TextView
+                android:id="@+id/tvPickedGridBinId"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bin ID" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvPickedGridQty2"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text="@string/CAN_NEED_RSV_PICK_QTY" />
+
+            <TextView
+                android:id="@+id/tvPickedGridQty"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="CAN_NEED_RSV_PICK_QTY" />
+
+            <!--<CheckBox-->
+            <!--android:id="@+id/cbPickedGridSelectedRegister"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="end|center_vertical"-->
+            <!--android:textAlignment="textEnd"-->
+            <!--android:buttonTint="@color/common_theme_blue1"-->
+            <!--android:enabled="false"/>-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvPickedGridBatchId2"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text="@string/MTL_SHEET_TYPE" />
+
+            <TextView
+                android:id="@+id/tvPickedGridBatchId"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/BATCH_ID" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvPickedGridBatchPosition2"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text="@string/BATCH_POSITION" />
+
+            <TextView
+                android:id="@+id/tvPickedGridBatchPosition"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/BATCH_POSITION" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvPickedGridUom2"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text="@string/UOM_TITLE" />
+
+            <TextView
+                android:id="@+id/tvPickedGridUom"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Uom" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvPickedGridMfgDate2"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text="@string/MFG_DATE" />
+
+            <TextView
+                android:id="@+id/tvPickedGridMfgDate"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="MFG_DATE" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvPickedGridExpDate2"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text="@string/EXP_DATE" />
+
+            <TextView
+                android:id="@+id/tvPickedGridExpDate"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="EXP_DATE" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

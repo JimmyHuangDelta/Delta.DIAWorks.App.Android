@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <item>
+                <shape>
+                    <solid android:color="@color/common_control_solid" />
+                    <stroke android:width="@dimen/common_control_stroke_width" android:color="@color/common_control_stroke" />
+                    <padding android:right="@dimen/common_control_padding"></padding>
+                    <corners android:radius="@dimen/common_control_corner_radius" />
+                </shape>
+            </item>
+            <item>
+                <bitmap android:gravity="center|right" android:src="@drawable/ic_common_arrow_down_32x32"></bitmap>
+            </item>
+        </layer-list>
+    </item>
+</selector>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView85"
+        style="@style/WmsTextViewBarTitle"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:text="@string/SELECT_OS_BIN_ID" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvBinID"
+            style="@style/WmsTextViewGridContext"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:text="@string/OS_BIN_ID" />
+
+        <Spinner
+            android:id="@+id/cmbBinID"
+            style="@style/CommonSpinnerRequired" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnBinConfirm"
+            style="@style/CommonButton"
+            android:layout_alignParentBottom="true"
+            android:text="@string/CONFIRM" />
+    </LinearLayout>
+</LinearLayout>

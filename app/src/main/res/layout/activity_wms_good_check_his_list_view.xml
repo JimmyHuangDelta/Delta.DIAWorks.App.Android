@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/WmsTextStartMargin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvCheckHisItemId2"
+                style="@style/WmsTextViewGridTitle"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/ITEM_ID" />
+
+            <TextView
+                android:id="@+id/tvCheckHisItemId"
+                style="@style/WmsTextViewGridTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/ITEM_ID" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvCheckHisBinId2"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/BIN_ID" />
+
+            <TextView
+                android:id="@+id/tvCheckHisBinId"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvCheckHisLotId2"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/SKU_ID" />
+
+            <TextView
+                android:id="@+id/tvCheckHisLotId"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvFirstCountLabel"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/FIRST_COUNT_QTY" />
+
+            <TextView
+                android:id="@+id/tvCheckHisFirstCountQty"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvSecondCountLabel"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/SECOND_COUNT_QTY" />
+
+            <TextView
+                android:id="@+id/tvCheckHisSecondCountQty"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

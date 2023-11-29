@@ -1,0 +1,1027 @@
+<resources>
+    <!-- App名稱 -->
+    <string name="app_name" translatable="false">DIAWMS</string>
+
+    <!-- 模組 Icon -->
+    <string name="AWMS_ICON" translatable="false">ic_module_wms</string>
+    <string name="AMES_ICON" translatable="false">ic_module_mes</string>
+    <string name="ASPC_ICON" translatable="false">ic_module_spc</string>
+    <string name="APMS_ICON" translatable="false">ic_module_pms</string>
+    <string name="ARMS_ICON" translatable="false">ic_module_rms</string>
+    <string name="AAMS_ICON" translatable="false">ic_module_ams</string>
+
+    <!-- 模組名稱 -->
+    <string name="AWMS" translatable="false">WMS</string>
+    <string name="AMES" translatable="false">MES</string>
+    <string name="ASPC" translatable="false">SPC</string>
+    <string name="APMS" translatable="false">PMS</string>
+    <string name="ARMS" translatable="false">RMS</string>
+    <string name="AAMS" translatable="false">AMS</string>
+
+    <!-- 多語系 -->
+    <string name="CONNECTION_URL">CONNECTION_URL</string>
+    <string name="CONNECTION_PORTAL_URL">Connection Portal Url</string>
+    <string name="CONNECTION_SSO_URL">CONNECTION_SSO_URL</string>
+    <string name="CONFIG_SETTING">CONFIG_SETTING</string>
+    <string name="VERSION_UPDATE">VERSION_UPDATE</string>
+    <string name="USER_ID">USER_ID</string>
+    <string name="USER_NAME">USER_NAME</string>
+    <string name="USER_INFO">USER_INFO</string>
+    <string name="ACCOUNT">ACCOUNT</string>
+    <string name="PASSWORD">PASSWORD</string>
+    <string name="LOGIN">LOGIN</string>
+    <string name="FUNCTION_MENU">FUNCTION_MENU</string>
+    <string name="SEARCH">Search</string>
+    <string name="OK">OK</string>
+    <string name="CONFIRM">CONFIRM</string>
+    <string name="CANCEL">CANCEL</string>
+    <string name="BACK">BACK</string>
+    <string name="CLOSE">CLOSE</string>
+    <string name="PICK_DETAIL_INFO">PICK_DETAIL_INFO</string>
+    <string name="MFG_DATE">MFG_DATE</string>
+    <string name="EXP_DATE">EXP_DATE</string>
+    <string name="FROM_BIN_ID">FROM_BIN_ID</string>
+    <string name="TO_BIN">TO_BIN</string>
+    <string name="CHANGE_BIN_LIST">CHANGE_BIN_LIST</string>
+    <string name="INVENTORY_QTY">INVENTORY_QTY</string>
+    <string name="TIP">TIP</string>
+    <string name="TEMP_BIN">TEMP_BIN</string>
+    <string name="TO_OT_BIN">TO_OT_BIN</string>
+    <string name="ALLOWED_NOTIFICATION">ALLOWED_NOTIFICATION</string>
+    <string name="PENDING_SHEET_NUM">PENDING_SHEET_NUM</string>
+    <string name="QRCODE_SCAN_CANCEL">QRCODE_SCAN_CANCEL</string>
+    <string name="RETURN_BIN">RETURN_BIN</string>
+    <string name="MODIFY">MODIFY</string>
+
+    <!-- GoodStockOutActivity -->
+    <string name="MTL_SHEET_TYPE">Mtl Sheet Type</string>
+    <string name="MTL_SHEET_ID">Mtl Sheet ID</string>
+    <string name="SHEET_MASTER_INFO">Sheet Master Information</string>
+    <string name="PICKED_INFO">Picked Information</string>
+    <string name="SHEET_CREATE_DATE_TITLE">Sheet Create Date</string>
+    <string name="LOT_ID_TITLE">Lot Id</string>
+    <string name="STORAGE_ID_TITLE">Storage Id</string>
+    <string name="BIN_ID_TITLE">Bin Id</string>
+    <string name="QTY_TITLE">Qty</string>
+    <string name="UOM_TITLE">Uom</string>
+    <string name="TRX_CMT_TITLE">Transaction Comment</string>
+    <string name="OS_BIN">OS Bin</string>
+    <string name="TARGET_BIN">Target Bin</string>
+    <string name="SELECT_SHEET_ID">SELECT_SHEET_ID</string>
+
+    <!-- DeliveryNoteShipActivity -->
+    <string name="DN_ID">DN_ID</string>
+    <string name="SEQ">SEQ</string>
+    <string name="ITEM">ITEM</string>
+    <string name="LOT">LOT</string>
+    <string name="QTY">QTY</string>
+    <string name="INPUT_DN_ID">INPUT_DN_ID</string>
+
+    <!-- GoodPickActivity -->
+    <string name="FROM_DATE">FROM_DATE</string>
+    <string name="TO_DATE">TO_DATE</string>
+    <string name="SHEET_ID">SHEET_ID</string>
+    <string name="ITEM_ID">ITEM_ID</string>
+    <string name="REGISTER_ID">REGISTER_ID</string>
+    <string name="SKU_ID">SKU_ID</string>
+    <string name="LOT_CODE">LOT_CODE</string>
+    <string name="BIN_ID">BIN_ID</string>
+    <string name="BIN">BIN</string>
+    <string name="REGISTER_PICKED">REGISTER_PICKED</string>
+    <string name="REGISTER_UNPICKED">REGISTER_UNPICKED</string>
+    <string name="CAN_PICKED_DATE">Can Pick Date</string>
+    <string name="CAN_PICKED_INFO">Can Pick Info</string>
+    <string name="PICK_REQUIRE_QTY">Picked/Require</string>
+    <string name="RSV_PICK_REQUIRE_QTY">Reserved/Picked/Require</string>
+    <string name="CAN_NEED_RSV_PICK_QTY">Can Pick/Need To Pick/Reserved</string>
+    <string name="BATCH_ID">BATCH_ID</string>
+    <string name="BATCH_POSITION">BATCH_POSITION</string>
+    <string name="PICKING_SHT_ID">PICKING_SHT_ID</string>
+    <string name="SEARCH_ITEM">SEARCH_ITEM</string>
+    <string name="ITEM_SPEC_CTRL_HINT_MSG">ITEM_SPEC_CTRL_HINT_MSG</string>
+    <string name="ITEM_SPEC_CTRL_HOLD_MSG">ITEM_SPEC_CTRL_HOLD_MSG</string>
+
+    <!-- GoodCheckActivity -->
+    <string name="CHECK_ID"> CHECK_ID</string>
+    <string name="START_CHECK">START_CHECK</string>
+    <string name="END_CHECK"> END_CHECK </string>
+    <string name="RECORD_COUNT"> RECORD_COUNT</string>
+    <string name="FIRST_COUNT_QTY">FIRST_COUNT_QTY</string>
+    <string name="SECOND_COUNT_QTY">SECOND_COUNT_QTY</string>
+    <string name="COUNT_QTY">COUNT_QTY</string>
+    <string name="EXECUTE_COUNT">EXECUTE_COUNT</string>
+    <string name="COUNT_HISTORY">COUNT_HISTORY</string>
+    <string name="SELECT_COUNT_ID">SELECT_COUNT_ID</string>
+    <string name="CREATE_NEW_COUNT_DATA">CREATE_NEW_COUNT_DATA</string>
+    <string name="CREATE">CREATE</string>
+
+    <!-- GoodInventoryActivity -->
+    <string name="WAIT_ON_BIN_INFO">WAIT_ON_BIN_INFO</string>
+    <string name="INPUT_SHEET_ID">INPUT_SHEET_ID</string>
+    <string name="STORAGE_ID">STORAGE_ID</string>
+    <string name="PROC_QTY">PROC_QTY</string>
+    <string name="TO_BIN_ID">TO BIN ID</string>
+    <string name="TO_CARRIER_ID">TO CARRIER ID</string>
+    <string name="TO_BLOCK_ID">TO BLOCK ID</string>
+    <string name="UNREC">UNREC</string>
+    <string name="IS_BIN">IS_BIN</string>
+    <string name="SELECT_SHEET_TYPE">SELECT_SHEET_TYPE</string>
+    <string name="PUT_AWAY_BIN">PUT_AWAY_BIN</string>
+
+    <!-- DeliveryNotePickingActivity -->
+    <string name="DN_INFO">Delivery Note Information</string>
+    <string name="PICK_INFO">Pick Information</string>
+    <string name="ORDER_ID">Order Id</string>
+    <string name="RESERVE_QTY">Reserve Qty</string>
+    <string name="SELECT_DELIVERY_NOTE_ID">SELECT_DELIVERY_NOTE_ID</string>
+    <string name="DN_PICKING_ID"></string>
+
+    <!--DeliveryNoteShipWorkActivity-->
+    <string name="SHIP_DATE">SHIP_DATE</string>
+    <string name="DELIVERY_ADDRESS">DELIVERY_ADDRESS</string>
+    <string name="LICENSE_PLATE">LICENSE_PLATE</string>
+    <string name="PHONE">PHONE</string>
+    <string name="DRIVER">DRIVER</string>
+    <string name="PALLET_ID">PALLET_ID</string>
+    <string name="SHIP_COMPLETE">SHIP_COMPLETE</string>
+    <string name="SHIP">SHIP</string>
+    <string name="ADD_PLATE">ADD_PLATE</string>
+    <string name="SELECT_PLATE">SELECT_PLATE</string>
+    <string name="SELECT_OS_BIN_ID">SELECT_OS_BIN_ID</string>
+    <string name="OS_BIN_ID">OS_BIN_ID</string>
+    <string name="DN_PICK_INFO">DN_PICK_INFO</string>
+    <string name="DN_MASTER_INFO">DN_MASTER_INFO</string>
+    <string name="PRE_SHIP_INFO">PRE_SHIP_INFO</string>
+
+    <!-- GoodReceiptReceiveActivity-->
+    <string name="SHEET_DETAIL_INFO">Sheet Detail Information</string>
+    <string name="MTL_LOT_NO"> MTL_LOT_NO </string>
+    <string name="SHEET_DETAIL">Sheet Detail</string>
+    <string name="GR_SN">Material</string>
+    <string name="ADD_LOT">Add Lot</string>
+    <string name="SAVE_LOT">Save Lot</string>
+    <string name="ADD_SKU_ID">Add SKU Id</string>
+    <string name="SAVE_SKU_ID">Save SKU Id</string>
+    <string name="ADD_SN">Add Sn Id</string>
+    <string name="DEL_SN">Delete Sn Id</string>>
+    <string name="RECEIVE">Receive</string>
+    <string name="RECEIVE_ALL">Receive All</string>
+    <string name="SKIP_QC">Skip Qc</string>
+    <string name="MODIFY_RECEIVE_DETAIL">Modify Receive Detail</string>
+    <string name="SN_ID">Sn Id</string>
+    <string name="SHEET_STATUS">Sheet Status</string>
+    <string name="ITEM_NAME">Item Name</string>
+    <string name="REQUIRE_QTY">Received/Require</string>
+    <string name="CUSTOMER_NAME">CUSTOMER_NAME</string>
+    <string name="CUSTOMER_ID">CUSTOMER_ID</string>
+    <string name="SIZE">SIZE</string>
+    <string name="EXTEND_NAME">EXTEND_NAME</string>
+    <string name="EXTEND_VALUE">EXTEND_VALUE</string>
+    <string name="SELECT_SIZE">SELECT_SIZE</string>
+    <string name="EXTEND_DATA">EXTEND_DATA</string>
+    <string name="BARCODE">BARCODE</string>
+    <string name="QRCODE">QRCODE</string>
+    <string name="RECEIVE_BARCODE">RECEIVE_BARCODE</string>
+    <string name="RECEIVE_LIST">RECEIVE_LIST</string>
+    <string name="SKU_LEVEL">SKU_LEVEL</string>
+    <string name="SKU_NUM">SKU_NUM</string>
+    <string name="CHANGE_SKU_LEVEL">CHANGE_SKU_LEVEL</string>
+
+    <!--GoodNonreceiptReceiveActivity-->
+    <string name="RECEIVE_SHEET_TYPE">Receive Sheet Type</string>
+    <string name="VENDOR">Vendor</string>
+    <string name="VENDOR_SHIP_NO">Vendor Ship No</string>
+    <string name="VENDOR_SHIP_DATE">Vendor Ship Date</string>
+    <string name="PO_NO">PO No</string>
+    <string name="PO_SEQ">PO Seq</string>
+    <string name="REC_LOT">Rec Lot</string>
+    <string name="FIFO_LOT">FIFO Lot</string>
+    <string name="UOM">UOM</string>
+    <string name="MFD_DATE">MFD Date</string>
+    <string name="EXPIRY_DATE">Expiry Date</string>
+    <string name="SKIP_FLAG">Skip Flag</string>
+    <string name="RECEIVE_INFO">Receive Info</string>
+    <string name="RECEIVE_DET">Receive Det</string>
+    <string name="REFRESH">Refresh</string>
+    <string name="CLEAR">clear</string>
+    <string name="REGISTER_TYPE">Register Type</string>
+    <string name="SN_INFO">SN Info</string>
+    <string name="SELECT_IS_BIN_ID">SELECT_IS_BIN_ID</string>
+    <string name="IS_BIN_ID">IS_BIN_ID</string>
+    <string name="CUSTOMER">CUSTOMER</string>
+    <string name="SELECT_CUSTOMER_ID">SELECT_CUSTOMER_ID</string>
+    <string name="MODIFY_SKU_ID">Modify SKU Id</string>
+
+    <!--WarehouseStorageNonSheetActivity-->
+    <!--WarehouseStorageNonSheetNewActivity-->
+    <string name="SOURCE">Source</string>
+    <string name="ORGAN">Organ</string>>
+    <string name="SCRAP_QTY">Scrap Qty</string>
+    <string name="SHEET_TYPE">Sheet Type</string>
+    <string name="SELECT_BIN_ID">Select Bin ID</string>
+    <string name="WAREHOUSE_INFO">Warehouse Info</string>
+    <string name="WAREHOUSE_DET">Warehouse Det</string>
+    <string name="WAREHOUSE_STORAGE_DET">Warehouse Storage Det</string>
+    <string name="WAREHOUSE_STORAGE">Warehouse Storage</string>
+    <string name="WAREHOUSE_STORAGE_ALL">Warehouse Storage All</string>
+    <string name="ADD_WS_DET">Add Warehouse Storage Detail</string>
+    <string name="DEPARTMENT">Department</string>
+    <string name="ADD">Add</string>
+
+    <!--GoodInventoryNonSheetActivity-->
+    <string name="BEST_BIN">Best Bin</string>
+    <string name="REGISTER_DETAIL">Register Detail</string>
+    <string name="RECOMMEND_INFO">Recommend Info</string>
+    <string name="RECOMMEND_BIN">Recommend Bin</string>
+    <string name="RECOMMEND_CARRIER">Recommend Carrier</string>
+    <string name="RECOMMEND_BLOCK">Recommend Block</string>
+    <string name="RECOMMEND_OK">Recommend OK</string>
+    <string name="SELECT_LOT_ID">Please select Lot Id.</string>
+    <string name="SELECT_SKU_ID">Please select SKU Id.</string>
+
+    <!--GoodInventoryNonSheetCarrierActivity-->
+    <string name="CARRIER">Carrier</string>
+    <string name="CARRIER_STOCK_OUT">CarrierStockOut</string>
+    <string name="CARRIER_STOCK_IN">CarrierStockIn</string>
+    <string name="CARRIER_REGISTER_BIND">CarrierRegisterBind</string>
+    <string name="BLOCK_ID">BLOCK_ID</string>
+
+    <!--GoodPickNonSheetCarrierActivity-->
+    <string name="CARRIER_REGISTER_UNBIND">CarrierRegisterUnBind</string>
+
+    <!--GoodInventoryNoSheetCartActivity-->
+    <string name="CART">CART</string>
+    <string name="FROM_BIN">FROM_BIN</string>
+    <string name="END_BIN">END_BIN</string>
+    <string name="CART_MOVE_OUT">CART_MOVE_OUT</string>
+    <string name="ITEM_CART_BIND">ITEM_CART_BIND</string>
+    <string name="CART_MOVE_IN">CART_MOVE_IN</string>
+
+    <!--GoodPickNonSheetCartActivity-->
+    <string name="ITEM_CART_UN_BIND">ITEM_CART_UN_BIND</string>
+
+    <!--GoodInventoryNoSheetCartCarrierActivity-->
+    <string name="NEXT_STEP">NEXT_STEP</string>
+    <string name="CURRENT_STEP">Current Step</string>
+
+    <!-- CartQueryActivity-->
+    <string name="CART_ID">CART_ID</string>
+    <string name="VEHICLE_ID">VEHICLE_ID</string>
+    <string name="LOCATION_ID">LOCATION_ID</string>
+    <string name="CART_QUERY_RESULT">Query Result</string>
+    <string name="RESULT_COUNT">Total:</string>
+    <string name="FIXED_POSITION">FIXED_POSITION</string>
+    <string name="TRANSPORT_STATUS">TRANSPORT_STATUS</string>
+
+    <!-- WarehouseQueryRegisterActivity-->
+    <string name="STORAGE_NAME">STORAGE_NAME</string>
+    <string name="BIN_NAME">BIN_NAME</string>
+    <string name="ITEM_CODE">ITEM_CODE</string>
+    <string name="SELECT_STORAGE">SELECT_STORAGE</string>
+    <string name="WAREHOUSE_QUERY_RESULT">WAREHOUSE_QUERY_RESULT</string>
+
+    <!-- CarrierQueryActivity-->
+    <string name="CARRIER_ID">CARRIER_ID</string>
+    <string name="CARRIER_TYPE">CARRIER_TYPE</string>
+    <string name="CARRIER_KIND">CARRIER_KIND</string>wa
+    <string name="CARRIER_QUERY_RESULT">CARRIER_QUERY_RESULT</string>
+    <string name="SELECT_CARRIER_KIND">SELECT_CARRIER_KIND</string>
+    <string name="SELECT_CARRIER_TYPE">SELECT_CARRIER_TYPE</string>
+    <string name="CARRIER_LAYOUT">CARRIER_LAYOUT</string>
+    <string name="BLOCK_ITEM">BLOCK_ITEM</string>
+    <string name="BLOCK_ALIAS_ID">BLOCK_ALIAS_ID</string>
+    <string name="CARRIER_QTY">CARRIER_QTY</string>
+    <string name="FIXED_LOCATION">FIXED_LOCATION</string>
+
+    <!--  WarehouseStorageActivity  -->
+    <string name="STOCK_IN_FINISH">STOCK_IN_FINISH</string>
+    <string name="MODIFY_WAREHOUSE_DETAIL">MODIFY_WAREHOUSE_DETAIL</string>
+    <string name="SKU_ID_DETAIL">SKU_ID_DETAIL</string>
+    <string name="WAREHOUSE_REQUIRE_QTY">WAREHOUSE_REQUIRE_QTY</string>
+    <string name="WS_REQUIRE_QTY">WS_REQUIRE_QTY</string>
+    <string name="WATING_WAREHOUSE_DET">WATING_WAREHOUSE_DET</string>
+    <string name="PALLET_BOX_SKU_ID">PALLET_BOX_SKU_ID</string>
+
+    <!-- Function -->
+    <string name="C001">C001</string>
+    <string name="C002">C002</string>
+    <string name="C003">C003</string>
+    <string name="C004">C004</string>
+    <string name="C005">C005</string>
+    <string name="C006">C006</string>
+    <string name="C007">C007</string>
+    <string name="C008">C008</string>
+    <string name="WAPG001">WAPG001</string>
+    <string name="WAPG002">WAPG002</string>
+    <string name="WAPG003">WAPG003</string>
+    <string name="WAPG004">WAPG004</string>
+    <string name="WAPG005">WAPG005</string>
+    <string name="WAPG006">WAPG006</string>
+    <string name="WAPG007">WAPG007</string>
+    <string name="WAPG008">WAPG008</string>
+    <string name="WAPG009">WAPG009</string>
+    <string name="WAPG010">WAPG010</string>
+    <string name="WAPG011">WAPG011</string>
+    <string name="WAPG012">WAPG012</string>
+    <string name="WAPG013">WAPG013</string>
+    <string name="WAPG014">WAPG014</string>
+    <string name="WAPG015">WAPG015</string>
+    <string name="WAPG016">WAPG016</string>
+    <string name="WAPG017">WAPG017</string>
+    <string name="WAPG018">WAPG018</string>
+    <string name="WAPG019">WAPG019</string>
+    <string name="WAPG020">WAPG020</string>
+    <string name="WAPG021">WAPG021</string>
+    <string name="WAPG022">WAPG022</string>
+    <string name="WAPG023">WAPG023</string>
+    <string name="WAPG024">WAPG024</string>
+    <string name="WAPG025">WAPG025</string>
+    <string name="WAPG026">WAPG026</string>
+    <string name="WAPG027">WAPG027</string>
+    <string name="WAPG028">WAPG028</string>
+    <string name="WAPG029">WAPG029</string>
+
+    <!--Function - PMS -->
+    <string name="EAPE101">Download Wo</string>
+    <string name="EAPE102">Upload Wo</string>
+    <string name="EAPE103">BRM Data Download</string>
+    <string name="EAPE104">SOP File Maintain</string>
+    <string name="EAPE105">Maintain</string>
+    <string name="EAPE106">Repair</string>
+    <string name="EAPE107">Inspection</string>
+    <string name="EAPE108">Transfer repair wo</string>
+    <string name="EAPE109"></string>
+    <string name="EAPE110"></string>
+    <string name="EAPE111"></string>
+    <string name="EAPE112"></string>
+    <string name="EAPE113"></string>
+    <string name="EAPE114"></string>
+
+    <!--PMS Resource-->
+    <string name="PM_WO">PM Wo</string>
+    <string name="REPAIR_WO">Repair Wo</string>
+    <string name="EQP">Equipement</string>
+    <string name="PM">PM</string>
+    <string name="DATE">Date</string>
+    <string name="QUERY_WO">Query Wo</string>
+    <string name="DOWNLOAD_WO">Download Wo</string>
+    <string name="WO_ID">Wo Id</string>
+    <string name="NON_EXIST">Not Exist</string>
+    <string name="IS_DOWNLOAD">Is Download</string>
+    <string name="EXIST">Exist</string>
+    <string name="USER">User</string>
+    <string name="SOP_FILE">Sop File</string>
+    <string name="FAIL">Fail</string>
+    <string name="FAIL_REASON">Fail Reason</string>
+    <string name="FAIL_STRATEGY">Fail Strategy</string>
+    <string name="PM_FIXT_TOOL">Pm Fixt Tool</string>
+    <string name="PM_FIXT_TOOL_ID">Pm Fixt Tool ID</string>
+    <string name="PM_METHOD">Pm Method</string>
+    <string name="PM_METHOD_ID">Pm Method ID</string>
+    <string name="PM_CONSUMABLE">Pm Consumable</string>
+    <string name="PM_CONSUMABLE_ID">Pm Consumable ID</string>
+    <string name="PM_CONSUMABLE_LIST">Pm Consumable list</string>
+    <string name="PM_CONSUMABLE_LIST_ID">Pm Consumable list ID</string>
+    <string name="PM_CONSUMABLE_TYPE_NAME">Pm Consumable Type</string>
+    <string name="PM_CONSUMABLE_TYPE_ID">Pm Consumable Type ID</string>
+    <string name="COMPONENTS">Components</string>
+    <string name="COMPONENTS_GROUP">Components</string>
+    <string name="STORAGE">Storage</string>
+    <string name="START_DOWNLOAD">Start Download</string>
+    <string name="EQP_ID">Eqp Id</string>
+    <string name="PM_CONTENT">Pm Content</string>
+    <string name="QUERY">Query</string>
+    <string name="SOP_FILE_STATUS">Sop File Status</string>
+    <string name="DOWNLOAD">Download</string>
+    <string name="UN_DOWNLOAD">UnDownload</string>
+    <string name="DOWNLOAD_ALL">Download All</string>
+    <string name="UN_DOWNLOAD_ALL">UnDownload All</string>
+    <string name="EXECUTE">Execute</string>
+    <string name="DOWNLOAD_FILE_SHOW">Download File Show</string>
+    <string name="LOCAL_FILE">Local File</string>
+    <string name="OPEN">Open</string>
+    <string name="DELETE">Delete</string>
+    <string name="SUCCESS">Success</string>
+    <string name="FILE_DOWNLOAD">File Download</string>
+    <string name="DATA_DOWNLOAD_SUCCESS">Data Download Success</string>
+    <string name="DATA_DOWNLOAD_INPR">Data Download In Process</string>
+    <string name="EQP_NAME">Eqp Name</string>
+    <string name="CALL_REPAIR_ID">Call Repair ID</string>
+    <string name="CALL_REPAIR_NAME">Call Repair Name</string>
+    <string name="CALL_REPAIR_USER">Call Repair User</string>
+    <string name="FAIL_START_DATE">Fail Start Date</string>
+    <string name="SELECT_FAIL_END_DATE">Select Fail End Date</string>
+    <string name="SELECT_FAIL_END_TIME">Select Fail End Time</string>
+    <string name="START_REPAIR">Start Repair</string>
+    <string name="USER_WH">User Work Hour</string>
+    <string name="EQP_PART">Eqp Part</string>
+    <string name="PART_TRX">Part Transation</string>
+    <string name="FILE_UPLOAD">File Upload</string>
+    <string name="FAIL_END_DATE">Fail End Date</string>
+    <string name="FAIL_END_TIME">Fail End Time</string>
+    <string name="PART">Part</string>
+    <string name="PART_GROUP">Part Group</string>
+    <string name="PART_LOT_NO">Part Lot</string>
+    <string name="SOURCE_PART_STORAGE">Source Storage</string>
+    <string name="SOURCE_PART_BIN">Source Bin</string>
+    <string name="CMT">Comment</string>
+    <string name="FILE_NAME">File Name</string>
+    <string name="FILE_DESC">File Description</string>
+    <string name="SELECT_FIEL">Select File</string>
+    <string name="USER_START_DATETIME">User Start Date</string>
+    <string name="USER_END_DATETIME">User End Date</string>
+    <string name="SELECT_WORK_START_DATE">Please Select Start Date</string>
+    <string name="SELECT_WORK_START_TIME">Please Select Start Time</string>
+    <string name="SELECT_WORK_END_DATE">Please Select End Date</string>
+    <string name="SELECT_WORK_END_TIME">Please Select End Time</string>
+    <string name="SOP">SOP</string>
+    <string name="CHECK_ITEM_WORK">Check Item Work</string>
+    <string name="CHECK_ITEM">Check Item</string>
+    <string name="CHECK_RESULT">Check Item Result</string>
+    <string name="CHECK_ITEM_TYPE">Check Item Type</string>
+    <string name="CHECK_VALUE">Check Value</string>
+    <string name="UPPER_LIMIT">Upper Limit</string>
+    <string name="LOWER_LIMIT">Lower Limit</string>
+    <string name="TARGET_VALUE">Target Value</string>
+    <string name="UNIT">Unit</string>
+    <string name="PM_INFO">PM INFO</string>
+    <string name="PM_CONTENT_ID">PM Content ID</string>
+    <string name="PM_CONTENT_NAME">PM Content Name</string>
+    <string name="PM_STATUS">PM Status</string>
+    <string name="PM_PLAN_DATE">PM Plan Date</string>
+    <string name="START_PM">Start PM</string>
+    <string name="COMPLETE">Complete</string>
+    <string name="COMPLETED">Completed</string>
+    <string name="ADD_CMT">Add Comment</string>
+    <string name="FAIL_REASON_ID">Fail Reason Id</string>
+    <string name="FAIL_REASON_NAME">Fail Reason Name</string>
+    <string name="FAIL_STRATEGY_ID">Fail Strategy Id</string>
+    <string name="FAIL_STRATEGY_NAME">Fail Strategy Name</string>
+    <string name="FAIL_ID">Fail Id</string>
+    <string name="FAIL_NAME">Fail Name</string>
+    <string name="TTL_MAN_WORK_HOUR">Total Man Work Hour</string>
+    <string name="EXC_MAN_WORK_HOUR">Excluded Man working hour</string>
+    <string name="ADD_USER_WH">Add User Work Hour</string>
+    <string name="ADD_FAIL_REASON">Add fail reason</string>
+    <string name="ADD_FAIL_STRATEGY">Add fail strategy</string>
+    <string name="MOUNT_EQP_PART">Mount equipment part</string>
+    <string name="ADD_MONUT_PART">Add mount part</string>
+    <string name="UPLOAD_FILE">Upload File</string>
+    <string name="WORK_ORDER_COMPLETE">WO Copmlete</string>
+    <string name="TRX_DATE">Transaction Date</string>
+    <string name="TRX_MODE">Transaction Mode</string>
+    <string name="TRX_QTY">Transaction Qty</string>
+    <string name="PART_QTY">Part Qty</string>
+    <string name="STANDARD_WORK_HOUR">Standard working hour</string>
+    <string name="DELETE_USER">Delete User</string>
+    <string name="DELETE_FAIL_REASON">Delete Fail Reason</string>
+    <string name="DELETE_FAIL_STRATEGY">Delete Fail Strategy</string>
+    <string name="DELETE_THIS_FILE">Delete this file</string>
+    <string name="UNMOUNT_PART">Unmount Part</string>
+    <string name="DELETE_UPLOAD_FILE">Delete upload file</string>
+    <string name="SOP_ID">SOP ID</string>
+    <string name="SOP_NAME">SOP Name</string>
+    <string name="DOC_NO">Doc No</string>
+    <string name="UPLOAD_WO">Upload Wo</string>
+    <string name="NOT_UPLOAD_COUNT">Not Upload Wo Count</string>
+    <string name="NOT_UPLOAD_PM_COUNT">Not Upload Pm Count</string>
+    <string name="NOT_UPLOAD_REPAIR_COUNT">Not Upload Repair Count</string>
+    <string name="CALL_REPAIR_DATE">Call Repair Date</string>
+    <string name="COVER">Cover</string>
+    <string name="IGNORE">Ignore</string>
+    <string name="USER_EQP">User Eqp </string>
+    <string name="ALL_COVER">All Cover</string>
+    <string name="ALL_IGNORE">All Ignore</string>
+    <string name="IS_COVER">Is Cover</string>
+    <string name="WO_TYPE">Wo Type</string>
+    <string name="ERROR_MSG">Error Message</string>
+    <string name="DATA_DOWNLOAD">Data Download</string>
+    <string name="DATA_UPLOAD">Data Upload</string>
+    <string name="PLEASE_QUERY_BEFORE_EXECUTE">Please query brfore execute download</string>
+    <string name="QUERY_NO_DATA">No Data</string>
+    <string name="DOWNLOAD_SUCCESS">Download Success</string>
+    <string name="PLAN_END_DATE">Plan end date</string>
+    <string name="PLAN_END_TIME">Plan end time</string>
+    <string name="NOT_ALLOW_MUTI_CLICK">Not allow muti click</string>
+    <string name="RESTART_OPEN">Restart open</string>
+    <string name="WO_STATUS">Wo Status</string>
+    <string name="IS_UPDATE_DATA">Whether to update inventory data (More inventory data may take longer to download)</string>
+    <string name="YES">Yes</string>
+    <string name="NO">No</string>
+    <string name="SMTL_INVENTORY">Inventory Data</string>
+    <string name="UNDO_PRE_TRX">Undo previous transaction</string>
+    <string name="FULL_FILE_NAME">Full File Name</string>
+    <string name="IS_UPLOAD">Is Upload</string>
+    <string name="INSPECTION_WO">Inspection Wo</string>
+    <string name="WHETHER_TO_SAVE_CHANGE">Whether to save changes</string>
+    <string name="IS_WORK_START">IS Work Start?</string>
+    <string name="NOT_UPLOAD_INS_COUNT">Not upload inspection Count</string>
+    <string name="IS_DELETE_THIS_SOP">Whether to delete this file</string>
+    <string name="FAIL_DT">Fail Date</string>
+    <string name="WAIT_PART_STORAGE">Pending Storage</string>
+    <string name="WAIT_PART_BIN">Pending Bin</string>
+    <string name="FILE_COVER">File Cover</string>
+    <string name="CALL_FIX_TYPE">Call Repair Fix Type</string>
+    <string name="FILE_PATH_ERROR">File Path Error!!</string>
+    <string name="SELECT_FAIL_DATE">Select fail date.</string>
+    <string name="SELECT_FAIL_TIME">Select fail time</string>
+    <string name="FILE_ATTACHMENT">File Attachment</string>
+    <string name="MODIFY_PART_RECORD">Modify Part Record</string>
+    <string name="IS_TRANS_REPAIR">Is trans repair wo</string>
+    <!-- PMS Error Code -->
+    <string name="EAPE102001">Please setting portal connection URL</string>
+    <string name="EAPE102002">Upload Complete ! Is delete all wo ?</string>
+    <string name="EAPE102003">File upload error</string>
+
+    <string name="EAPE104001">Please check at least one file to download</string>
+
+    <string name="EAPE105001">Please enter [%s] check value</string>
+    <string name="EAPE105002">Please add maintenance staff</string>
+    <string name="EAPE105003">Cannot connect to the network</string>
+    <string name="EAPE105004">Please select work hour user</string>
+    <string name="EAPE105005">Please select user start date</string>
+    <string name="EAPE105006">Please select user start time</string>
+    <string name="EAPE105007">Please select user end date</string>
+    <string name="EAPE105008">Please select user end time</string>
+    <string name="EAPE105009">End time must be at start time </string>
+    <string name="EAPE105010">Please input unmount qty</string>
+    <string name="EAPE105011">Unmount qty more than eqp part qty</string>
+    <string name="EAPE105012">Please select destination storage</string>
+    <string name="EAPE105013">Please select destination bin</string>
+    <string name="EAPE105014">Please select mount part</string>
+    <string name="EAPE105015">Please input part lot id</string>
+    <string name="EAPE105016">Please input part qty</string>
+    <string name="EAPE105017">Please select source storage</string>
+    <string name="EAPE105018">Please select source bin</string>
+    <string name="EAPE105019">Please select upload file</string>
+    <string name="EAPE105020">Work order current status does not allow editing</string>
+    <string name="EAPE105021">Please enter a comment</string>
+    <string name="EAPE105022">Please enter the number</string>
+    <string name="EAPE105023">No recoverable record</string>
+    <string name="EAPE105024">Parts with this lot number do not exist in Inventory</string>
+    <string name="EAPE105025">Mount Part Inventory Insufficient quantity </string>
+    <string name="EAPE105026">NG Item exist . Do you want to transfer repair wo?</string>
+
+
+    <string name="EAPE106001">Please select work hour user</string>
+    <string name="EAPE106002">Please select user start date</string>
+    <string name="EAPE106003">Please select user start time</string>
+    <string name="EAPE106004">Please select user end date</string>
+    <string name="EAPE106005">Please select user end time</string>
+    <string name="EAPE106006">End time must be at start time </string>
+    <string name="EAPE106007">Please select fail reason</string>
+    <string name="EAPE106008">Please select fail strategy</string>
+    <string name="EAPE106009">Please input unmount qty</string>
+    <string name="EAPE106010">Unmount qty more than eqp part qty</string>
+    <string name="EAPE106011">Please select destination storage</string>
+    <string name="EAPE106012">Please select destination bin</string>
+    <string name="EAPE106013">Please select mount part</string>
+    <string name="EAPE106014">Please input part lot id</string>
+    <string name="EAPE106015">Please input part qty</string>
+    <string name="EAPE106016">Please select source storage</string>
+    <string name="EAPE106017">Please select source bin</string>
+    <string name="EAPE106018">Please select upload file</string>
+    <string name="EAPE106019">Please input fail end date</string>
+    <string name="EAPE106020">Please add user work hour data</string>
+    <string name="EAPE106021">Please add fail reason data</string>
+    <string name="EAPE106022">Please add fail strategy data</string>
+    <string name="EAPE106023">Work order current status does not allow editing</string>
+    <string name="EAPE106024">Work order has been completed, not editable</string>
+    <string name="EAPE106025">Please enter reason comment</string>
+    <string name="EAPE106026">Please enter strategy comment</string>
+    <string name="EAPE106027">Plan end time must be greater than the current time</string>
+    <string name="EAPE106028">No recoverable record</string>
+    <string name="EAPE106029">Parts with this lot number do not exist in Inventory</string>
+    <string name="EAPE106030">Mount Part Inventory Insufficient quantity </string>
+
+    <string name="EAPE107001">Note: The current network is abnormal, and the work order status on the server is not updated. Please go to "Upload Wo" to upload the work order</string>
+    <string name="EAPE107002">Please add maintenance staff</string>
+    <string name="EAPE107003">Please enter [%s] check value</string>
+    <string name="EAPE107004">Work order current status does not allow editing</string>
+    <string name="EAPE107005">Cannot connect to the network</string>
+    <string name="EAPE107006">Please select work hour user</string>
+    <string name="EAPE107007">Please select user start date</string>
+    <string name="EAPE107008">Please select user start time</string>
+    <string name="EAPE107009">Please select user end date</string>
+    <string name="EAPE107010">Please select user end time</string>
+    <string name="EAPE107011">End time must be at start time </string>
+    <string name="EAPE107012">Please input unmount qty</string>
+    <string name="EAPE107013">Unmount qty more than eqp part qty</string>
+    <string name="EAPE107014">Please select destination storage</string>
+    <string name="EAPE107015">Please select destination bin</string>
+    <string name="EAPE107016">Please select mount part</string>
+    <string name="EAPE107017">Please input part lot id</string>
+    <string name="EAPE107018">Please input part qty</string>
+    <string name="EAPE107019">Please select source storage</string>
+    <string name="EAPE107020">Please select source bin</string>
+    <string name="EAPE107021">Please select upload file</string>
+    <string name="EAPE107022">No recoverable record</string>
+    <string name="EAPE107023">Parts with this lot number do not exist in Inventory</string>
+    <string name="EAPE107024">Mount Part Inventory Insufficient quantity </string>
+    <string name="EAPE107025">NG Item exist . Do you want to transfer repair wo?</string>
+
+    <string name="EAPE108001">Please input fail start date and time.</string>
+    <string name="EAPE108002">Please select call fix type</string>
+    <string name="EAPE108003">Please input fail cmt</string>
+    <string name="EAPE108004">Please checked fail item</string>
+
+    <!-- Function Icon -->
+    <string name="WAPG001_ICON" translatable="false">ic_wms_good_pick</string>
+    <string name="WAPG002_ICON" translatable="false">ic_wms_delivery_note_ship</string>
+    <string name="WAPG003_ICON" translatable="false">ic_wms_good_check</string>
+    <string name="WAPG004_ICON" translatable="false">ic_wms_good_inventory</string>
+    <string name="WAPG005_ICON" translatable="false">ic_wms_good_stock_out</string>
+    <string name="WAPG006_ICON" translatable="false">ic_wms_delivery_note_pick</string>
+    <string name="WAPG007_ICON" translatable="false">ic_wms_good_receipt_receive</string>
+    <string name="WAPG008_ICON" translatable="false">ic_wms_good_change_bin</string>
+    <string name="WAPG009_ICON" translatable="false">ic_wms_good_receipt_receive</string>
+    <string name="WAPG010_ICON" translatable="false">ic_wms_good_inventory</string>
+    <string name="WAPG011_ICON" translatable="false">ic_wms_good_inventory</string>
+    <string name="WAPG012_ICON" translatable="false">ic_wms_good_stock_out</string>
+    <string name="WAPG013_ICON" translatable="false">ic_wms_good_inventory</string>
+    <string name="WAPG014_ICON" translatable="false">ic_wms_good_inventory</string>
+    <string name="WAPG015_ICON" translatable="false">ic_wms_good_stock_out</string>
+    <string name="WAPG016_ICON" translatable="false">ic_wms_good_stock_out</string>
+    <string name="WAPG017_ICON" translatable="false">ic_wms_delivery_note_pick</string>
+    <string name="WAPG018_ICON" translatable="false">ic_wms_delivery_note_pick</string>
+    <string name="WAPG019_ICON" translatable="false">ic_wms_delivery_note_pick</string>
+    <string name="WAPG020_ICON" translatable="false">ic_wms_good_inventory</string>
+    <string name="WAPG021_ICON" translatable="false">ic_wms_good_stock_out</string>
+    <string name="WAPG022_ICON" translatable="false">ic_wms_delivery_note_ship</string>
+    <string name="WAPG027_ICON" translatable="false">ic_wms_good_inventory</string>
+
+    <!-- PMS Function Icon -->
+    <string name="EAPE101_ICON" translatable="false">eape101_icon</string>
+    <string name="EAPE102_ICON" translatable="false">eape102_icon</string>
+    <string name="EAPE103_ICON" translatable="false">eape103_icon</string>
+    <string name="EAPE104_ICON" translatable="false">eape104_icon</string>
+    <string name="EAPE105_ICON" translatable="false">eape105_icon</string>
+    <string name="EAPE106_ICON" translatable="false">eape106_icon</string>
+    <string name="EAPE107_ICON" translatable="false">eape107_icon</string>
+
+    <!-- Error Code -->
+    <string name="A000001">A000001</string>
+    <string name="A000002">A000002</string>
+    <string name="C001001">C001001</string>
+    <string name="C001002">C001002</string>
+    <!-- WAPG001 -->
+    <string name="WAPG001001">WAPG001001</string>
+    <string name="WAPG001002">WAPG001002</string>
+    <string name="WAPG001003">WAPG001003</string>
+    <string name="WAPG001004">WAPG001004</string>
+    <string name="WAPG001005">WAPG001005</string>
+    <string name="WAPG001006">WAPG001006</string>
+    <string name="WAPG001007">WAPG001007</string>
+    <string name="WAPG001008">WAPG001008</string>
+    <string name="WAPG001009">WAPG001009</string>
+    <string name="WAPG001010">WAPG001010</string>
+    <string name="WAPG001011">WAPG001011</string>
+    <string name="WAPG001012">WAPG001012</string>
+    <string name="WAPG001013">WAPG001013</string>
+    <string name="WAPG001014">WAPG001014</string>
+    <string name="WAPG001015">WAPG001015</string>
+    <string name="WAPG001016">WAPG001016></string>
+    <string name="WAPG001017">WAPG001017</string>
+    <!-- WAPG002 -->
+    <string name="WAPG002001">WAPG002001</string>
+    <string name="WAPG002002">WAPG002002</string>
+    <string name="WAPG002003">WAPG002003</string>
+    <string name="WAPG002004">WAPG002004</string>
+    <string name="WAPG002005">WAPG002005</string>
+    <string name="WAPG002006">WAPG002006</string>
+    <string name="WAPG002007">WAPG002007</string>
+    <string name="WAPG002008">WAPG002008</string>
+    <string name="WAPG002009">WAPG002009</string>
+    <string name="WAPG002010">WAPG002010</string>
+    <string name="WAPG002011">WAPG002011</string>
+    <string name="WAPG002012">WAPG002012</string>
+    <string name="WAPG002013">WAPG002013</string>
+    <string name="WAPG002014">WAPG002014</string>
+    <string name="WAPG002015">WAPG002015</string>
+    <string name="WAPG002016">WAPG002016</string>
+    <string name="WAPG002017">WAPG002017</string>
+    <string name="WAPG002018">WAPG002018</string>
+    <string name="WAPG002019">WAPG002019</string>
+    <string name="WAPG002020">WAPG002020</string>
+    <string name="WAPG002021">WAPG002021</string>
+    <string name="WAPG002022">WAPG002022</string>
+    <string name="WAPG002023">WAPG002023</string>
+    <string name="WAPG002024">WAPG002024</string>
+    <string name="WAPG002025">WAPG002025</string>
+    <string name="WAPG002026">WAPG002026</string>
+    <string name="WAPG002027">WAPG002027</string>
+    <string name="WAPG002028">WAPG002028</string>
+    <string name="WAPG002029">WAPG002029</string>
+    <string name="WAPG002030">WAPG002030</string>
+    <string name="WAPG002031">WAPG002031</string>
+    <string name="WAPG002032">WAPG002032</string>
+    <string name="WAPG002033">WAPG002033</string>
+    <!-- WAPG003 -->
+    <string name="WAPG003001">WAPG003001</string>
+    <string name="WAPG003002">WAPG003002</string>
+    <string name="WAPG003003">WAPG003003</string>
+    <string name="WAPG003004">WAPG003004</string>
+    <string name="WAPG003005">WAPG003005</string>
+    <string name="WAPG003006">WAPG003006</string>
+    <string name="WAPG003007">WAPG003007</string>
+    <string name="WAPG003008">WAPG003008</string>
+    <string name="WAPG003009">WAPG003009</string>
+    <string name="WAPG003010">WAPG003010</string>
+    <!-- WAPG004 -->
+    <string name="WAPG004001">WAPG004001</string>
+    <string name="WAPG004002">WAPG004002</string>
+    <string name="WAPG004003">WAPG004003</string>
+    <string name="WAPG004004">WAPG004004</string>
+    <string name="WAPG004005">WAPG004005</string>
+    <string name="WAPG004006">WAPG004006</string>
+    <string name="WAPG004007">WAPG004007</string>
+    <string name="WAPG004008">WAPG004008</string>
+    <string name="WAPG004009">WAPG004009</string>
+    <string name="WAPG004010">WAPG004010</string>
+    <string name="WAPG004011">WAPG004011</string>
+    <string name="WAPG004012">WAPG004012</string>
+    <string name="WAPG004013">WAPG004013</string>
+    <string name="WAPG004014">WAPG004014</string>
+    <string name="WAPG004015">WAPG004015</string>
+    <string name="WAPG004016">WAPG004016</string>
+    <string name="WAPG004017">WAPG004017</string>
+    <string name="WAPG004018">WAPG004018</string>
+    <string name="WAPG004019">WAPG004019</string>
+    <string name="WAPG004020">WAPG004020</string>
+    <!-- WAPG005 -->
+    <string name="WAPG005001">WAPG005001</string>
+    <string name="WAPG005002">WAPG005002</string>
+    <string name="WAPG005003">WAPG005003</string>
+    <string name="WAPG005004">WAPG005004</string>
+    <string name="WAPG005005">WAPG005005</string>
+    <string name="WAPG005006">WAPG005006</string>
+    <string name="WAPG005007">WAPG005007</string>
+    <string name="WAPG005008">WAPG005008</string>
+    <string name="WAPG005009">WAPG005009</string>
+    <string name="WAPG005010">WAPG005010</string>
+    <string name="WAPG005011">WAPG005011</string>
+    <string name="WAPG005012">WAPG005012</string>
+    <string name="WAPG005013">WAPG005013</string>
+    <!-- WAPG006 -->
+    <string name="WAPG006001">WAPG006001</string>
+    <string name="WAPG006002">WAPG006002</string>
+    <string name="WAPG006003">WAPG006003</string>
+    <string name="WAPG006004">WAPG006004</string>
+    <string name="WAPG006005">WAPG006005</string>
+    <string name="WAPG006006">WAPG006006</string>
+    <string name="WAPG006007">WAPG006007</string>
+    <string name="WAPG006008">WAPG006008</string>
+    <string name="WAPG006009">WAPG006009</string>
+    <string name="WAPG006010">WAPG006010</string>
+    <string name="WAPG006011">WAPG006011</string>
+    <string name="WAPG006012">WAPG006012</string>
+    <string name="WAPG006013">WAPG006013</string>
+    <string name="WAPG006014">WAPG006014</string>
+    <string name="WAPG006015">WAPG006015</string>
+    <string name="WAPG006016">WAPG006016</string>
+    <string name="WAPG006017">WAPG006017</string>
+    <!-- WAPG007 -->
+    <string name="WAPG007001">WAPG007001</string>
+    <string name="WAPG007002">WAPG007002</string>
+    <string name="WAPG007003">WAPG007003</string>
+    <string name="WAPG007004">WAPG007004</string>
+    <string name="WAPG007005">WAPG007005</string>
+    <string name="WAPG007006">WAPG007006</string>
+    <string name="WAPG007007">WAPG007007</string>
+    <string name="WAPG007008">WAPG007008</string>
+    <string name="WAPG007009">WAPG007009</string>
+    <string name="WAPG007010">WAPG007010</string>
+    <string name="WAPG007011">WAPG007011</string>
+    <string name="WAPG007012">WAPG007012</string>
+    <string name="WAPG007013">WAPG007013</string>
+    <string name="WAPG007014">WAPG007014</string>
+    <string name="WAPG007015">WAPG007015</string>
+    <string name="WAPG007016">WAPG007016</string>
+    <string name="WAPG007017">WAPG007017</string>
+    <string name="WAPG007018">WAPG007018</string>
+    <string name="WAPG007019">WAPG007019</string>
+    <string name="WAPG007020">WAPG007020</string>
+    <string name="WAPG007021">WAPG007021</string>
+    <string name="WAPG007022">WAPG007022</string>
+    <string name="WAPG007023">WAPG007023</string>
+    <string name="WAPG007024">WAPG007024</string>
+    <string name="WAPG007025">WAPG007025</string>
+    <!-- WAPG008 -->
+    <string name="WAPG008001">WAPG008001</string>
+    <string name="WAPG008002">WAPG008002</string>
+    <string name="WAPG008003">WAPG008003</string>
+    <string name="WAPG008004">WAPG008004</string>
+    <string name="WAPG008005">WAPG008005</string>
+    <string name="WAPG008006">WAPG008006</string>
+    <!--WAPG009-->
+    <string name="WAPG009001">WAPG009001</string>
+    <string name="WAPG009002">WAPG009002</string>
+    <string name="WAPG009003">WAPG009003</string>
+    <string name="WAPG009004">WAPG009004</string>
+    <string name="WAPG009005">WAPG009005</string>
+    <string name="WAPG009006">WAPG009006</string>
+    <string name="WAPG009007">WAPG009007</string>
+    <string name="WAPG009008">WAPG009008</string>
+    <string name="WAPG009009">WAPG009009</string>
+    <string name="WAPG009010">WAPG009010</string>
+    <string name="WAPG009011">WAPG009011</string>
+    <string name="WAPG009012">WAPG009012</string>
+    <string name="WAPG009013">WAPG009013</string>
+    <string name="WAPG009014">WAPG009014</string>
+    <string name="WAPG009015">WAPG009015</string>
+    <string name="WAPG009016">WAPG009016</string>
+    <string name="WAPG009017">WAPG009017</string>
+    <string name="WAPG009018">WAPG009018</string>
+    <string name="WAPG009019">WAPG009019</string>
+    <string name="WAPG009020">WAPG009020</string>
+    <string name="WAPG009021">WAPG009021</string>
+    <string name="WAPG009022">WAPG009022</string>
+    <string name="WAPG009023">WAPG009023</string>
+    <string name="WAPG009024">WAPG009024</string>
+    <string name="WAPG009025">WAPG009025</string>
+    <string name="WAPG009026">WAPG009026</string>
+    <string name="WAPG009027">WAPG009027</string>
+    <string name="WAPG009028">WAPG009028</string>
+    <string name="WAPG009029">WAPG009029</string>
+    <string name="WAPG009030">WAPG009030</string>
+    <string name="WAPG009031">WAPG009031</string>
+    <string name="WAPG009032">WAPG009032</string>
+    <string name="WAPG009033">WAPG009033</string>
+    <string name="WAPG009034">WAPG009034</string>
+    <string name="WAPG009035">WAPG009035</string>
+    <string name="WAPG009036">WAPG009036</string>
+    <string name="WAPG009037">WAPG009037</string>
+    <string name="WAPG009038">WAPG009038</string>
+    <!--WAPG010-->
+    <string name="WAPG010001">WAPG010001</string>
+    <string name="WAPG010002">WAPG010002</string>
+    <string name="WAPG010003">WAPG010003</string>
+    <string name="WAPG010004">WAPG010004</string>
+    <string name="WAPG010005">WAPG010005</string>
+    <string name="WAPG010006">WAPG010006</string>
+    <string name="WAPG010007">WAPG010007</string>
+    <string name="WAPG010008">WAPG010008</string>
+    <string name="WAPG010009">WAPG010009</string>
+    <string name="WAPG010010">WAPG010010</string>
+    <string name="WAPG010011">WAPG010011</string>
+    <string name="WAPG010012">WAPG010012</string>
+    <string name="WAPG010013">WAPG010013</string>
+    <string name="WAPG010014">WAPG010014</string>
+    <string name="WAPG010015">WAPG010015</string>
+    <string name="WAPG010016">WAPG010016</string>
+    <string name="WAPG010017">WAPG010017</string>
+    <string name="WAPG010018">WAPG010018</string>
+    <string name="WAPG010019">WAPG010019</string>
+    <string name="WAPG010020">WAPG010020</string>
+    <string name="WAPG010021">WAPG010021</string>
+    <string name="WAPG010022">WAPG010022</string>
+    <string name="WAPG010023">WAPG010023</string>
+    <string name="WAPG010024">WAPG010024</string>
+    <string name="WAPG010025">WAPG010025</string>
+    <string name="WAPG010026">WAPG010026</string>
+    <!--WAPG011-->
+    <string name="WAPG011001">WAPG011001</string>
+    <string name="WAPG011002">WAPG011002</string>
+    <string name="WAPG011003">WAPG011003</string>
+    <string name="WAPG011004">WAPG011004</string>
+    <string name="WAPG011005">WAPG011005</string>
+    <string name="WAPG011006">WAPG011006</string>
+    <!--WAPG012-->
+    <string name="WAPG012001">WAPG012001</string>
+    <string name="WAPG012002">WAPG012002</string>
+    <string name="WAPG012003">WAPG012003</string>
+    <string name="WAPG012004">WAPG012004</string>
+    <string name="WAPG012005">WAPG012005</string>
+    <string name="WAPG012006">WAPG012006</string>
+    <string name="WAPG012007">WAPG012007</string>
+    <string name="WAPG012008">WAPG012008</string>
+    <string name="WAPG012009">WAPG012009</string>
+    <string name="WAPG012010">WAPG012010</string>
+    <string name="WAPG012011">WAPG012011</string>
+    <!--WAPG013-->
+    <string name="WAPG013001">WAPG013001</string>
+    <string name="WAPG013002">WAPG013002</string>
+    <string name="WAPG013003">WAPG013003</string>
+    <string name="WAPG013004">WAPG013004</string>
+    <string name="WAPG013005">WAPG013005</string>
+    <string name="WAPG013006">WAPG013006</string>
+    <!--WAPG014-->
+    <string name="WAPG014001">WAPG014001</string>
+    <string name="WAPG014002">WAPG014002</string>
+    <string name="WAPG014003">WAPG014003</string>
+    <string name="WAPG014004">WAPG014004</string>
+    <string name="WAPG014005">WAPG014005</string>
+    <!--WAPG015-->
+    <string name="WAPG015001">WAPG015001</string>
+    <string name="WAPG015002">WAPG015002</string>
+    <string name="WAPG015003">WAPG015003</string>
+    <string name="WAPG015004">WAPG015004</string>
+    <string name="WAPG015005">WAPG015005</string>
+    <string name="WAPG015006">WAPG015006</string>
+    <string name="WAPG015007">WAPG015007</string>
+    <string name="WAPG015008">WAPG015008</string>
+    <string name="WAPG015009">WAPG015009</string>
+    <!--WAPG016-->
+    <string name="WAPG016001">WAPG016001</string>
+    <string name="WAPG016002">WAPG016002</string>
+    <string name="WAPG016003">WAPG016003</string>
+    <string name="WAPG016004">WAPG016004</string>
+    <string name="WAPG016005">WAPG016005</string>
+    <string name="WAPG016006">WAPG016006</string>
+    <string name="WAPG016007">WAPG016007</string>
+    <string name="WAPG016008">WAPG016008</string>
+    <!--WAPG017-->
+    <string name="WAPG017001">WAPG017001</string>
+    <string name="WAPG017002">WAPG017002</string>
+    <string name="WAPG017003">WAPG017003</string>
+    <string name="WAPG017004">WAPG017004</string>
+    <string name="WAPG017005">WAPG017005</string>
+    <string name="WAPG017006">WAPG017006</string>
+    <!--WAPG018-->
+    <string name="WAPG018001">WAPG018001</string>
+    <string name="WAPG018002">WAPG018002</string>
+    <string name="WAPG018003">WAPG018003</string>
+    <string name="WAPG018004">WAPG018004</string>
+    <string name="WAPG018005">WAPG018005</string>
+    <string name="WAPG018006">WAPG018006</string>
+    <!--WAPG019-->
+    <string name="WAPG019001">WAPG019001</string>
+    <string name="WAPG019002">WAPG019002</string>
+    <string name="WAPG019003">WAPG019003</string>
+    <string name="WAPG019004">WAPG019004</string>
+    <string name="WAPG019005">WAPG019005</string>
+    <string name="WAPG019006">WAPG019006</string>
+    <!--WAPG024-->
+    <string name="WAPG024001">WAPG024001</string>
+    <string name="WAPG024002">WAPG024002</string>
+    <string name="WAPG024003">WAPG024003</string>
+    <string name="WAPG024004">WAPG024004</string>
+    <!--WAPG025-->
+    <string name="WAPG025001">WAPG025001</string>
+    <string name="WAPG025002">WAPG025002</string>
+    <string name="WAPG025003">WAPG025003</string>
+    <string name="WAPG025004">WAPG025004</string>
+    <string name="WAPG025005">WAPG025005</string>
+    <string name="WAPG025006">WAPG025006</string>
+    <!--WAPG026-->
+    <string name="WAPG026001">WAPG026001</string>
+    <string name="WAPG026002">WAPG026002</string>
+    <string name="WAPG026003">WAPG026003</string>
+    <string name="WAPG026004">WAPG026004</string>
+    <string name="WAPG026005">WAPG026005</string>
+    <!--WAPG027-->
+    <string name="WAPG027001">WAPG027001</string>
+    <string name="WAPG027002">WAPG027002</string>
+    <string name="WAPG027003">WAPG027003</string>
+    <string name="WAPG027004">WAPG027004</string>
+    <string name="WAPG027005">WAPG027005</string>
+    <string name="WAPG027006">WAPG027006</string>
+    <string name="WAPG027007">WAPG027007</string>
+    <string name="WAPG027008">WAPG027008</string>
+    <string name="WAPG027009">WAPG027009</string>
+    <string name="WAPG027010">WAPG027010</string>
+    <string name="WAPG027011">WAPG027011</string>
+    <string name="WAPG027012">WAPG027012</string>
+    <string name="WAPG027013">WAPG027013</string>
+    <string name="WAPG027014">WAPG027014</string>
+    <string name="WAPG027015">WAPG027015</string>
+    <string name="WAPG027016">WAPG027016</string>
+    <string name="WAPG027017">WAPG027017</string>
+    <string name="WAPG027018">WAPG027018</string>
+    <string name="WAPG027019">WAPG027019</string>
+    <string name="WAPG027020">WAPG027020</string>
+    <string name="WAPG027021">WAPG027021</string>
+    <string name="WAPG027022">WAPG027022</string>
+    <string name="WAPG027023">WAPG027023</string>
+    <string name="WAPG027024">WAPG027024</string>
+    <string name="WAPG027025">WAPG027025</string>
+    <string name="WAPG027026">WAPG027026</string>
+    <string name="WAPG027027">WAPG027027</string>
+    <string name="WAPG027028">WAPG027028</string>
+    <string name="WAPG027029">WAPG027029</string>
+    <string name="WAPG027030">WAPG027030</string>
+    <string name="WAPG027031">WAPG027031</string>
+    <string name="WAPG027032">WAPG027032</string>
+    <string name="WAPG027033">WAPG027033</string>
+    <string name="WAPG027034">WAPG027034</string>
+    <string name="WAPG027035">WAPG027035</string>
+    <string name="WAPG027036">WAPG027036</string>
+    <string name="WAPG027037">WAPG027037</string>
+    <string name="WAPG027038">WAPG027038</string>
+    <string name="WAPG027039">WAPG027039</string>
+    <string name="WAPG027040">WAPG027040</string>
+    <string name="WAPG027041">WAPG027041</string>
+    <string name="WAPG027042">WAPG027042</string>
+    <string name="WAPG027043">WAPG027043</string>
+    <string name="WAPG027044">WAPG027044</string>
+    <string name="WAPG027045">WAPG027045</string>
+    <string name="WAPG027046">WAPG027046</string>
+
+    <!--WAPG028-->
+    <string name="WAPG028001">WAPG028001</string>
+    <string name="WAPG028002">WAPG028002</string>
+    <string name="WAPG028003">WAPG028003</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

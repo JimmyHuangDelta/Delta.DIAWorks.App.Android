@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 共用 控制項 文字 大小(中) -->
+    <dimen name="common_text_size_medium">20sp</dimen>
+    <!-- 共用 控制項 文字 大小(大) -->
+    <dimen name="common_text_size_large">24sp</dimen>
+    <!-- 共用 控制項 文字 大小(小) -->
+    <dimen name="common_text_size_small">16sp</dimen>
+
+    <!-- 共用 控制項 角 半徑 -->
+    <dimen name="common_control_corner_radius">3dp</dimen>
+    <!-- 共用 控制項 邊 寬度 -->
+    <dimen name="common_control_stroke_width">1dp</dimen>
+    <!-- 共用 控制項 佈局 寬度 -->
+    <dimen name="common_control_layout_height">40dp</dimen>
+    <!-- 共用 控制項 內距 -->
+    <dimen name="common_control_padding">5dp</dimen>
+    <!-- 共用 控制項 外距 -->
+    <dimen name="common_control_margin">5dp</dimen>
+
+</resources>

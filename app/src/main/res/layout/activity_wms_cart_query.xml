@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.delta.android.WMS.Client.CartQueryActivity">
+
+    <!-- 查詢區 -->
+    <LinearLayout
+        style="@style/CommonLinearLayoutGroupBox"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.25"
+        android:orientation="horizontal">
+
+        <!-- 查詢條件 -->
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <!-- Cart代碼 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/chkCartId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+
+                    <TextView
+                        android:id="@+id/tvCartId"
+                        style="@style/CommonTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:text="@string/CART_ID" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="7">
+
+                        <ImageButton
+                            android:id="@+id/ibtnCartIdQRScan"
+                            android:layout_width="40dp"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitCenter"
+                            android:background="#00000000"
+                            android:src="@drawable/ic_scan_64x64"/>
+
+                        <EditText
+                            android:id="@+id/etCartId"
+                            style="@style/WmsEditTextNormal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:inputType="text" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!-- AGV車代碼 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/chkVehicleId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+
+                    <TextView
+                        android:id="@+id/tvVehicleId"
+                        style="@style/CommonTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:text="@string/VEHICLE_ID" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="7">
+
+                        <ImageButton
+                            android:id="@+id/ibtnVehicleIdQRScan"
+                            android:layout_width="40dp"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitCenter"
+                            android:background="#00000000"
+                            android:src="@drawable/ic_scan_64x64"/>
+
+                        <EditText
+                            android:id="@+id/etVehicleId"
+                            style="@style/WmsEditTextNormal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:inputType="text" />
+
+                    </LinearLayout>
+
+<!--                    <EditText-->
+<!--                        android:id="@+id/etVehicleId"-->
+<!--                        style="@style/WmsEditTextNormal"-->
+<!--                        android:layout_width="0dp"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:layout_weight="7"-->
+<!--                        android:inputType="text" />-->
+                </LinearLayout>
+
+                <!-- 位置代碼 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/chkLocationId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+
+                    <TextView
+                        android:id="@+id/tvLocationId"
+                        style="@style/CommonTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:text="@string/LOCATION_ID" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="7">
+
+                        <ImageButton
+                            android:id="@+id/ibtnLocationIdQRScan"
+                            android:layout_width="40dp"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitCenter"
+                            android:background="#00000000"
+                            android:src="@drawable/ic_scan_64x64"/>
+
+                        <EditText
+                            android:id="@+id/etLocationId"
+                            style="@style/WmsEditTextNormal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:inputType="text" />
+
+                    </LinearLayout>
+
+<!--                    <EditText-->
+<!--                        android:id="@+id/etLocationId"-->
+<!--                        style="@style/WmsEditTextNormal"-->
+<!--                        android:layout_width="0dp"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:layout_weight="7"-->
+<!--                        android:inputType="text" />-->
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+        <!-- 搜尋按鈕 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ibtnSearch"
+                style="@style/WmsImageButtonSearch"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <!-- 查詢結果-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5.7"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvQueryResult"
+            style="@style/WmsTextViewBarTitle"
+            android:layout_height="0dp"
+            android:layout_weight="1.05"
+            android:gravity="center"
+            android:text="@string/CART_QUERY_RESULT" />
+
+        <ListView
+            android:id="@+id/lvQueryResult"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8.95" />
+    </LinearLayout>
+
+    <!-- 查詢筆數 -->
+    <LinearLayout
+        style="@style/CommonLinearLayoutGroupBox"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvResultCount"
+            style="@style/CommonTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/RESULT_COUNT" />
+
+        <TextView
+            android:id="@+id/tvResultCountVal"
+            style="@style/CommonTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="0" />
+
+    </LinearLayout>
+
+    <!-- 更新按鈕 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnRefresh"
+            style="@style/CommonButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/REFRESH" />
+    </LinearLayout>
+
+</LinearLayout>

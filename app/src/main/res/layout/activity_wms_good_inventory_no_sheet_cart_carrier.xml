@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.delta.android.WMS.Client.GoodInventoryNoSheetCartCarrierActivity">
+
+    <LinearLayout
+        style="@style/CommonLinearLayoutGroupBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/common_control_margin"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/CommonTextView"
+                android:layout_width="100dp"
+                android:text="@string/IS_BIN" />
+
+            <EditText
+                android:id="@+id/etFetchBinId"
+                style="@style/CommonEditTextRequired"
+                android:layout_width="match_parent"
+                android:layout_weight="2" />
+
+        </LinearLayout>
+        -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/CommonTextView"
+                android:layout_width="100dp"
+                android:text="@string/SKU_ID" />
+
+            <EditText
+                android:id="@+id/etLotId"
+                style="@style/CommonEditTextRequired"
+                android:layout_width="match_parent"
+                android:layout_weight="2" />
+
+            <!--
+            <ImageButton
+                android:id="@+id/IbtnSearch"
+                style="@style/WmsImageButtonSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+                -->
+
+        </LinearLayout>
+
+        <!--儲位-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/CommonTextView"
+                android:layout_width="100dp"
+                android:text="@string/IS_BIN" />
+
+            <EditText
+                android:id="@+id/etIsBin"
+                style="@style/CommonEditTextRequired"
+                android:layout_width="match_parent"
+                android:layout_weight="2" />
+
+            <ImageButton
+                android:id="@+id/ibtnSearch"
+                style="@style/WmsImageButtonSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvPickInfo4"
+        style="@style/WmsTextViewBarTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/SKU_ID_DETAIL" />
+
+    <LinearLayout
+        style="@style/CommonLinearLayoutGroupBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/CommonTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="2"
+                android:gravity="end"
+                android:text="@string/BIN_ID" />
+
+            <EditText
+                android:id="@+id/etBin"
+                style="@style/WmsEditTextNecessary"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="5"
+                android:textSize="@dimen/common_text_size_small" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/CommonTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="2"
+                android:gravity="end"
+                android:text="@string/ITEM_NAME" />
+
+            <EditText
+                android:id="@+id/etItemName"
+                style="@style/CommonEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="5"
+                android:enabled="false"
+                android:textSize="@dimen/common_text_size_small" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/CommonTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="2"
+                android:gravity="end"
+                android:text="@string/ITEM_ID" />
+
+            <EditText
+                android:id="@+id/etItem"
+                style="@style/CommonEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+
+                android:layout_weight="5"
+                android:enabled="false"
+                android:textSize="@dimen/common_text_size_small" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/CommonTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="2"
+                android:gravity="end"
+                android:text="@string/QTY" />
+
+            <EditText
+                android:id="@+id/etQty"
+                style="@style/CommonEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+
+                android:layout_weight="5"
+                android:editable="false"
+                android:textSize="@dimen/common_text_size_small" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tvInventoryInfo"
+        style="@style/WmsTextViewBarTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/RECOMMEND_INFO" />
+
+    <LinearLayout
+        style="@style/CommonLinearLayoutGroupBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--推薦儲位-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/CommonTextView"
+                android:layout_width="100dp"
+                android:layout_height="32dp"
+                android:text="@string/RECOMMEND_BIN" />
+
+            <Spinner
+                android:id="@+id/cmbRecommendBin"
+                style="@style/CommonSpinnerRequired"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <!--推薦載具-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/CommonTextView"
+                android:layout_width="100dp"
+                android:layout_height="32dp"
+                android:text="@string/RECOMMEND_CARRIER" />
+
+            <Spinner
+                android:id="@+id/cmbRecommendCarrier"
+                style="@style/CommonSpinnerRequired"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <!--推薦區塊-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/CommonTextView"
+                android:layout_width="100dp"
+                android:layout_height="32dp"
+                android:text="@string/RECOMMEND_BLOCK" />
+
+            <Spinner
+                android:id="@+id/cmbRecommendBlock"
+                style="@style/CommonSpinnerRequired"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <!--確認按鈕-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnRecommend"
+                style="@style/CommonButton_small"
+
+                android:layout_weight="1"
+                android:text="@string/RECOMMEND_OK" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:id="@+id/S2_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/btnConfirm">
+
+            <LinearLayout
+                android:id="@+id/tab2_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="2dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvNextStep"
+                        style="@style/CommonTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/CURRENT_STEP"
+                        android:textSize="15dp" />
+
+                    <EditText
+                        android:id="@+id/etNextStep"
+                        style="@style/CommonEditText"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:enabled="false"
+                        android:textSize="@dimen/common_text_size_small" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llCart"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvCart"
+                        style="@style/CommonTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/CART"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/textView51"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=":"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/tvCartID"
+                        style="@style/CommonTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text=""
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llCarrier"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvCarrier"
+                        style="@style/CommonTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/CARRIER"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/textView5001"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=":"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/tvCarrierID"
+                        style="@style/CommonTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text=""
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llLot"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvLot"
+                        style="@style/CommonTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/SKU_ID"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/textView62"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=":"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/tvLotID"
+                        style="@style/CommonTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text=""
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llBlock"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvBlock"
+                        style="@style/CommonTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/BLOCK_ID"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/textView701"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=":"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/tvBlockID"
+                        style="@style/CommonTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text=""
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llFromBin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvFromBin"
+                        style="@style/CommonTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/FROM_BIN"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/textView61"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=":"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/tvFromBinID"
+                        style="@style/CommonTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text=""
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llToBin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvToBin"
+                        style="@style/CommonTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/END_BIN"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/textView71"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=":"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/tvToBinID"
+                        style="@style/CommonTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text=""
+                        android:textSize="15dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btnConfirm"
+            style="@style/CommonButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="1"
+            android:text="@string/CONFIRM" />
+    </RelativeLayout>
+</LinearLayout>

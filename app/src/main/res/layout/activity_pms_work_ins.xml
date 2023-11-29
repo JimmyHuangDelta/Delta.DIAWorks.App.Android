@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.delta.android.PMS.Client.WorkInsActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        android:background="@color/common_theme_light4"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvEqpId"
+            style="@style/CommonTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/EQP_ID" />
+
+        <EditText
+            android:id="@+id/edEqpId"
+            style="@style/CommonEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvEqpId"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:hint="@string/EQP_ID"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/tvEqpName"
+            style="@style/CommonTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edEqpId"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/EQP_NAME" />
+
+        <EditText
+            android:id="@+id/edEqpName"
+            style="@style/CommonEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvEqpName"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:hint="@string/EQP_NAME"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/tvPmContentId"
+            style="@style/CommonTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edEqpName"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/PM_CONTENT_ID" />
+
+        <EditText
+            android:id="@+id/edPmContentId"
+            style="@style/CommonEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvPmContentId"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:hint="@string/PM_CONTENT_ID"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/tvPmContentName"
+            style="@style/CommonTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edPmContentId"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/PM_CONTENT_NAME" />
+
+        <EditText
+            android:id="@+id/edPmContentName"
+            style="@style/CommonEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvPmContentName"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:hint="@string/PM_CONTENT_NAME"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/tvPmStatus"
+            style="@style/CommonTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edPmContentName"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/PM_STATUS" />
+
+        <EditText
+            android:id="@+id/edPmStatus"
+            style="@style/CommonEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvPmStatus"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:hint="@string/PM_STATUS"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/tvPmPlanDate"
+            style="@style/CommonTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edPmStatus"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/PM_PLAN_DATE" />
+
+        <EditText
+            android:id="@+id/edPmPlanDate"
+            style="@style/CommonEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvPmPlanDate"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:hint="@string/PM_PLAN_DATE"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/tvPmCmt"
+            style="@style/CommonTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edPmPlanDate"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/CMT" />
+
+        <EditText
+            android:id="@+id/edPmCmt"
+            style="@style/CommonEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvPmCmt"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:hint="@string/CMT"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnAddCmt"
+            style="@style/CommonButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/ADD_CMT" />
+
+        <Button
+            android:id="@+id/btnStartPm"
+            style="@style/CommonButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/START_PM" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_below="@+id/btnStartEndRepait"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/framLayout"
+            android:layout_weight="0.1"
+            android:orientation="horizontal">
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabs"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.95"
+                app:tabGravity="fill"
+                app:tabMode="fixed"
+                app:tabTextAppearance="@android:style/TextAppearance.DeviceDefault.Medium">
+
+                <android.support.design.widget.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/SOP" />
+
+                <android.support.design.widget.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/PART_TRX" />
+
+                <android.support.design.widget.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/USER_WH" />
+
+                <android.support.design.widget.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/CHECK_ITEM" />
+
+                <android.support.design.widget.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/EQP_PART" />
+
+                <android.support.design.widget.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/FILE_UPLOAD" />
+            </android.support.design.widget.TabLayout>
+
+            <ImageButton
+                android:id="@+id/ibtnSelectPage"
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/ic_common_arrow_down_32x32" />
+        </LinearLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_below="@id/tabs"
+            android:layout_marginStart="0dp"
+            android:layout_toEndOf="@+id/framLayout"
+            android:layout_weight="1"></android.support.v4.view.ViewPager>
+    </LinearLayout>
+</LinearLayout>

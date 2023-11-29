@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.delta.android.WMS.Client.GoodReceiptReceiveLotSnNewActivity">
+
+    <LinearLayout
+        android:id="@+id/llPickedTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:layout_margin="@dimen/common_control_margin"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvGrId2"
+                style="@style/WmsTextViewMessage"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:text="@string/SHEET_ID"
+                android:textAlignment="textStart" />
+
+            <TextView
+                android:id="@+id/tvGrId"
+                style="@style/WmsTextViewMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="GR_ID"
+                android:textAlignment="textStart" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvGrDetItemId2"
+                style="@style/WmsTextViewMessage"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:text="@string/ITEM_ID"
+                android:textAlignment="textStart" />
+
+            <TextView
+                android:id="@+id/tvGrDetItemId"
+                style="@style/WmsTextViewMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="ITEM_ID"
+                android:textAlignment="textStart" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvGrDetItemTotalQty2"
+                style="@style/WmsTextViewMessage"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:text="@string/REQUIRE_QTY"
+                android:textAlignment="textStart" />
+
+            <TextView
+                android:id="@+id/tvGrDetItemTotalQty"
+                style="@style/WmsTextViewMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="QTY"
+                android:textAlignment="textStart" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvMstInfoTitle"
+        style="@style/WmsTextViewBarTitle"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:text="@string/RECEIVE_LIST" />
+
+    <ListView
+        android:id="@+id/lvGrDetLotData"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+</LinearLayout>

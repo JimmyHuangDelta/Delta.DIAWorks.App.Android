@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants">
+
+    <LinearLayout
+        style="@style/WmsTextStartMargin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:baselineAligned="false"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtSheetID2"
+                    style="@style/WmsTextViewGridTitle"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/SHEET_ID" />
+
+                <TextView
+                    android:id="@+id/txtSheetID"
+                    style="@style/WmsTextViewGridTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/SHEET_ID" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtPickSheet2"
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/PICKING_SHT_ID" />
+
+                <TextView
+                    android:id="@+id/txtPickSheet"
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pick Sheet ID" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtSheetStastus2"
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/SHEET_STATUS" />
+
+                <TextView
+                    android:id="@+id/txtSheetStastus"
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="單據狀態" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtCreateDate2"
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/SHEET_CREATE_DATE_TITLE" />
+
+                <TextView
+                    android:id="@+id/txtCreateDate"
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/SHEET_CREATE_DATE_TITLE" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_common_chevron_right_black_32dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

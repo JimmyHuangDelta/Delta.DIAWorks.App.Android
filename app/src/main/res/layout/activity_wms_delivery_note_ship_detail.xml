@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_activity_background"
+    android:orientation="vertical"
+    tools:context="com.delta.android.WMS.Client.DeliveryNoteShipActivity">
+    
+    <LinearLayout
+        android:id="@+id/DeliveryNoteShip_Condition"
+        style="@style/CommonLinearLayoutGroupBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/common_control_margin"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnSearch"
+                style="@style/WmsImageButtonSearch"
+                android:layout_width="wrap_content" />
+
+            <EditText
+                android:id="@+id/txtDnID"
+                style="@style/CommonEditTextRequired"
+                android:hint="@string/INPUT_DN_ID"
+                android:inputType="text" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutShowDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/DeliveryNoteShip_Condition"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvPickInfo"
+            style="@style/WmsTextViewBarTitle"
+            android:layout_alignParentTop="true"
+            android:text="@string/PICK_DETAIL_INFO" />
+
+        <ListView
+            android:id="@+id/listViewDet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnOk"
+            android:layout_below="@+id/tvPickInfo" />
+
+        <Button
+            android:id="@+id/btnOk"
+            style="@style/CommonButton"
+            android:layout_alignParentBottom="true"
+            android:text="@string/OK" />
+
+    </RelativeLayout>
+</LinearLayout>

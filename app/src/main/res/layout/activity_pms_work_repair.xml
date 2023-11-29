@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.delta.android.PMS.Client.WorkRepairActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        android:background="@color/common_theme_light4"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvEqpId"
+            style="@style/CommonTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/EQP_ID" />
+
+        <EditText
+            android:id="@+id/edRepairEqpId"
+            style="@style/CommonEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvEqpId"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:hint="@string/EQP_ID"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/tvEqpName"
+            style="@style/CommonTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edRepairEqpId"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="7dp"
+            android:text="@string/EQP_NAME" />
+
+        <EditText
+            android:id="@+id/edRepairEqpName"
+            style="@style/CommonEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvEqpName"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:hint="@string/EQP_NAME"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/tvCallRepairId"
+            style="@style/CommonTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edRepairEqpName"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="7dp"
+            android:text="@string/CALL_REPAIR_ID" />
+
+        <EditText
+            android:id="@+id/edCallRepairId"
+            style="@style/CommonEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvCallRepairId"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:hint="@string/CALL_REPAIR_ID"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/tvCallRepairName"
+            style="@style/CommonTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edCallRepairId"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="7dp"
+            android:text="@string/CALL_REPAIR_NAME" />
+
+        <EditText
+            android:id="@+id/edCallRepairName"
+            style="@style/CommonEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvCallRepairName"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:hint="@string/CALL_REPAIR_NAME"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/tvDefectStart"
+            style="@style/CommonTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edCallRepairName"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="7dp"
+            android:text="@string/FAIL_START_DATE" />
+
+        <EditText
+            android:id="@+id/edDefectStart"
+            style="@style/CommonEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvDefectStart"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:hint="@string/FAIL_START_DATE"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/tvFailStatus"
+            style="@style/CommonTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edDefectStart"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="7dp"
+            android:text="@string/WO_STATUS" />
+
+        <EditText
+            android:id="@+id/edRepairStatus"
+            style="@style/CommonEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvFailStatus"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:hint="@string/CMT"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/tvFailCmt"
+            style="@style/CommonTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edRepairStatus"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="7dp"
+            android:text="@string/CMT" />
+
+        <EditText
+            android:id="@+id/edFailCmt"
+            style="@style/CommonEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvFailCmt"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:hint="@string/CMT"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnAddFailCmt"
+            style="@style/CommonButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edFailCmt"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/framLayout"
+            android:text="@string/CMT" />
+
+        <Button
+            android:id="@+id/btnStartEndRepait"
+            style="@style/CommonButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/START_REPAIR" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.15">
+
+            <EditText
+                android:id="@+id/edRepairEndDate"
+                style="@style/CommonEditText"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_toEndOf="@+id/btnRepairEndDate"
+                android:layout_weight="0.5"
+                android:ems="10"
+                android:hint="@string/SELECT_FAIL_END_DATE"
+                android:inputType="date" />
+
+            <EditText
+                android:id="@+id/edRepairEndTime"
+                style="@style/CommonEditText"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_toEndOf="@+id/btnRepairEndTime"
+                android:layout_weight="0.5"
+                android:ems="10"
+                android:hint="@string/SELECT_FAIL_END_TIME"
+                android:inputType="date" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/btnStartEndRepait"
+            android:layout_toEndOf="@+id/framLayout"
+            android:orientation="horizontal">
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabs"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.95"
+                app:tabGravity="fill"
+                app:tabMode="fixed"
+                app:tabTextAppearance="@android:style/TextAppearance.DeviceDefault.Medium">
+
+                <android.support.design.widget.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/FAIL" />
+
+                <android.support.design.widget.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/PART_TRX" />
+
+                <android.support.design.widget.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/USER_WH" />
+
+                <android.support.design.widget.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/FAIL_REASON" />
+
+                <android.support.design.widget.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/FAIL_STRATEGY" />
+
+                <android.support.design.widget.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/EQP_PART" />
+
+                <android.support.design.widget.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/FILE_UPLOAD" />
+            </android.support.design.widget.TabLayout>
+
+            <ImageButton
+                android:id="@+id/ibtnSelectPage"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/ic_common_arrow_down_32x32"/>
+        </LinearLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_below="@id/tabs"
+            android:layout_marginStart="0dp"
+            android:layout_toEndOf="@+id/framLayout"
+            android:layout_weight="1"></android.support.v4.view.ViewPager>
+    </LinearLayout>
+</LinearLayout>

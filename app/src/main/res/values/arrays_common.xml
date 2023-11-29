@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="arrayLanguage">
+        <item>zh-TW</item>
+        <item>zh-CN</item>
+        <item>en-US</item>
+    </string-array>
+
+    <string-array name="arrayFunctionType">
+        <item>AWMS</item>
+        <!-- <item>AMES</item> -->
+        <!-- <item>ASPC</item> -->
+        <!-- <item>APMS</item> -->
+        <!-- <item>ARMS</item> -->
+        <!-- <item>AAMS</item> -->
+    </string-array>
+
+    <string-array name="arrayFunctionSubType">
+        <item>Form</item>
+    </string-array>
+
+</resources>

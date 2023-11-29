@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.delta.android.Core.Activity.AccountActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/common_theme_light1"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingRight="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/common_theme_light3"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:background="@color/common_theme_light1"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/CommonTextView"
+                    android:layout_width="100dp"
+                    android:text="@string/USER_ID"
+                    android:textColor="@color/common_theme_dark2" />
+
+                <TextView
+                    android:id="@+id/tvUserId"
+                    style="@style/CommonTextView"
+                    android:text="Admin"
+                    android:textColor="@color/common_theme_dark3" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:background="@color/common_theme_light1"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/CommonTextView"
+                    android:layout_width="100dp"
+                    android:text="@string/USER_NAME"
+                    android:textColor="@color/common_theme_dark2" />
+
+                <TextView
+                    android:id="@+id/tvUserName"
+                    style="@style/CommonTextView"
+                    android:text="Admin"
+                    android:textColor="@color/common_theme_dark3" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:background="@color/common_theme_light1"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/CommonTextView"
+                    android:layout_width="100dp"
+                    android:text="@string/ALLOWED_NOTIFICATION"
+                    android:textColor="@color/common_theme_dark2" />
+
+                <Switch
+                    android:id="@+id/swAllowNotification"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:thumb="@drawable/wms_switch_thumb"
+                    android:track="@drawable/wms_switch_track"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

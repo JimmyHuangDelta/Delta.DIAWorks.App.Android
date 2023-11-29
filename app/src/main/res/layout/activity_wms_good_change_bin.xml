@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.delta.android.WMS.Client.GoodChangeBinActivity">
+
+    <LinearLayout
+        style="@style/CommonLinearLayoutGroupBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/common_control_margin"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvSkuNum"
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/SKU_NUM" />
+
+                <ImageButton
+                    android:id="@+id/ibtnSkuNumQRScan"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitCenter"
+                    android:background="#00000000"
+                    android:src="@drawable/ic_scan_64x64"/>
+
+                <EditText
+                    android:id="@+id/etSkuNum"
+                    android:hint="@string/PALLET_BOX_SKU_ID"
+                    style="@style/WmsEditTextNormal"
+                    android:layout_width="match_parent"
+                    android:layout_weight="2"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/common_control_margin"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tvItemId"
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/ITEM_ID" />
+                <EditText
+                    android:id="@+id/etItemId"
+                    style="@style/WmsEditTextNormal"
+                    android:layout_margin="@dimen/common_control_margin"
+                    android:inputType="text"
+                    android:selectAllOnFocus="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/common_control_margin"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tvFromBinId"
+                    style="@style/WmsTextViewGridContext"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/FROM_BIN_ID" />
+                <EditText
+                    android:id="@+id/etFromBinId"
+                    style="@style/WmsEditTextNecessary"
+                    android:layout_margin="@dimen/common_control_margin"
+                    android:inputType="text"
+                    android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvPickInfo"
+            style="@style/WmsTextViewBarTitle"
+            android:layout_alignParentTop="true"
+            android:text="@string/CHANGE_BIN_LIST" />
+
+        <ListView
+            android:id="@+id/lvRegisters"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/tvPickInfo">
+
+        </ListView>
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            style="@style/CommonLinearLayoutGroupBox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/common_control_margin"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/CommonTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:text="@string/PART_GROUP" />
+
+                <Spinner
+                    android:id="@+id/spPartGroup"
+                    style="@style/PmsSpinnerNecessary"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/common_control_margin"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/CommonTextView"
+                    android:layout_width="wrap_content"
+                    android:text="@string/PART" />
+
+                <Spinner
+                    android:id="@+id/spPart"
+                    style="@style/PmsSpinnerNecessary"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/common_control_margin"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/CommonTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:text="@string/PART_LOT_NO" />
+
+                    <EditText
+                        android:id="@+id/edPartLotNo"
+                        style="@style/PmsEditTextNecessary"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/common_control_margin"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/CommonTextView"
+                        android:layout_width="100dp"
+                        android:text="@string/QTY" />
+
+                    <EditText
+                        android:id="@+id/edPartQty"
+                        style="@style/PmsEditTextNecessary"
+                        android:layout_weight="1"
+                        android:inputType="number" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/common_control_margin"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/CommonTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:text="@string/SOURCE_PART_STORAGE" />
+
+                <Spinner
+                    android:id="@+id/spSourceStorage"
+                    style="@style/PmsSpinnerNecessary"
+                    android:layout_weight="1"
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/common_control_margin"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/CommonTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:text="@string/SOURCE_PART_BIN" />
+
+                <Spinner
+                    android:id="@+id/spSourceBin"
+                    style="@style/PmsSpinnerNecessary"
+                    android:layout_weight="1"
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/common_control_margin"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/CommonTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:text="@string/CMT" />
+
+                <EditText
+                    android:id="@+id/edEqpPartCmt"
+                    style="@style/PmsEditTextNormal"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCancel"
+            style="@style/CommonButton"
+            android:layout_weight="1"
+            android:text="@string/CANCEL" />
+
+        <Button
+            android:id="@+id/btnConfirm"
+            style="@style/CommonButton"
+            android:layout_weight="1"
+            android:text="@string/CONFIRM" />
+    </LinearLayout>
+
+</LinearLayout>

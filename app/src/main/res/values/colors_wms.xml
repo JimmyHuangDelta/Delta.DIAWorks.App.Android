@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tab未被選擇的背景顏色 -->
+    <color name="wms_tab_unselected">#B5C6D5</color>
+    <!-- Tab被選擇時的背景顏色 -->
+    <color name="wms_tab_selected">@color/common_theme_light2</color> <!--20200729 archie 修改目前選擇頁籤的顏色,讓人員比較好區分目前選擇的頁籤 -->
+    <!-- Tab被選擇時的文字顏色 -->
+    <color name="wms_tab_selected_text">@color/common_theme_blue1</color>
+    <!-- Tab未選擇時的文字顏色 -->
+    <color name="wms_tab_unselected_text">@color/common_theme_dark3</color>
+</resources>

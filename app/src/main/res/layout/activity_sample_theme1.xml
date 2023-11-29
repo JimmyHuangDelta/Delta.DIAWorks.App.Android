@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.delta.android.Sample.Client.Theme1Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/common_activity_background"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                style="@style/CommonLinearLayoutGroupBox"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/common_control_layout_height"
+                    android:layout_margin="@dimen/common_control_margin"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/CommonTextView"
+                        android:layout_width="100dp"
+                        android:text="@string/USER_ID" />
+
+                    <EditText
+                        style="@style/CommonEditTextRequired"
+                        android:hint="Input"
+                        android:inputType="text" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/common_control_layout_height"
+                    android:layout_margin="@dimen/common_control_margin"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/CommonTextView"
+                        android:layout_width="100dp"
+                        android:text="@string/PASSWORD" />
+
+                    <EditText
+                        style="@style/CommonEditText"
+                        android:hint="Input"
+                        android:inputType="textPassword" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/common_control_layout_height"
+                    android:layout_margin="@dimen/common_control_margin"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/CommonTextView"
+                        android:layout_width="100dp"
+                        android:drawableLeft="@drawable/ic_wms_search_36x36"
+                        android:text="XXX" />
+
+                    <Spinner
+                        style="@style/CommonSpinner"
+                        android:entries="@array/arrayFunctionType"
+                        android:prompt="@string/FUNCTION_MENU"></Spinner>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/common_control_layout_height"
+                    android:layout_margin="@dimen/common_control_margin"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/CommonTextView"
+                        android:layout_width="100dp"
+                        android:drawableLeft="@drawable/ic_wms_search_36x36"
+                        android:text="CCC" />
+
+                    <Spinner
+                        style="@style/CommonSpinnerRequired"
+                        android:entries="@array/arrayFunctionType"></Spinner>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_control_layout_height"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/CommonButton"
+                android:layout_weight="1"
+                android:text="@string/CANCEL" />
+
+            <Button
+                style="@style/CommonButton"
+                android:layout_weight="1"
+                android:text="@string/CONFIRM" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

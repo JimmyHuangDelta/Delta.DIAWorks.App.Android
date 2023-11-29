@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView11"
+            style="@style/CommonTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/FILE_NAME" />
+
+        <TextView
+            android:id="@+id/textView26"
+            style="@style/CommonTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="：" />
+
+        <TextView
+            android:id="@+id/tvFileName"
+            style="@style/CommonTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView30"
+            style="@style/CommonTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/FILE_DESC" />
+
+        <TextView
+            android:id="@+id/textView32"
+            style="@style/CommonTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="：" />
+
+        <TextView
+            android:id="@+id/tvFileDesc"
+            style="@style/CommonTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView38"
+                style="@style/CommonTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/USER_ID" />
+
+            <TextView
+                android:id="@+id/textView39"
+                style="@style/CommonTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="：" />
+
+            <TextView
+                android:id="@+id/tvUploadUser"
+                style="@style/CommonTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TextView" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/textView44"
+                style="@style/CommonTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/DATE" />
+
+            <TextView
+                android:id="@+id/textView45"
+                style="@style/CommonTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="：" />
+
+            <TextView
+                android:id="@+id/tvUploadDate"
+                style="@style/CommonTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TextView" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView41"
+            style="@style/CommonTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ERROR_MSG" />
+
+        <TextView
+            android:id="@+id/textView42"
+            style="@style/CommonTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="：" />
+
+        <TextView
+            android:id="@+id/tvUploadError"
+            style="@style/CommonTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView" />
+    </LinearLayout>
+</LinearLayout>

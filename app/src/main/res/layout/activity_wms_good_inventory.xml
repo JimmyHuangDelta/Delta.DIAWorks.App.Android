@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_activity_background"
+    android:orientation="vertical"
+    tools:context="com.delta.android.WMS.Client.GoodInventoryActivity">
+
+    <LinearLayout
+        style="@style/CommonLinearLayoutGroupBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/common_control_margin"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/cmbSheetType"
+                style="@style/CommonSpinnerRequired" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/common_control_margin"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnSearch"
+                style="@style/WmsImageButtonSearch"
+                android:layout_width="wrap_content" />
+
+            <EditText
+                android:id="@+id/txtSheetID"
+                style="@style/WmsEditTextNecessary"
+                android:hint="@string/INPUT_SHEET_ID"
+                android:inputType="text" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--<RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/linearlayout_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvWaitOnBinInfo"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/colorThemeStyle1"
+            android:gravity="end|center"
+            android:text="@string/WAIT_ON_BIN_INFO"
+            android:textAlignment="center" />
+
+        <ListView
+            android:id="@+id/listViewDet"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tvWaitOnBinInfo"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp" />
+
+    </RelativeLayout>-->
+
+
+</LinearLayout>

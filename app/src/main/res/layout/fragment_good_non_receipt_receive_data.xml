@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.delta.android.WMS.Client.Fragment.GoodNonReceiptReceiveDataFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--單據表身-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9.3"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!--倉庫-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/common_control_margin"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvStorate"
+                        style="@style/WmsTextViewGridContext"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2.5"
+                        android:text="@string/STORAGE" />
+
+                    <Spinner
+                        android:id="@+id/cmbStorage"
+                        style="@style/CommonSpinnerRequired"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="7.5" />
+                </LinearLayout>
+
+                <!--存貨層級-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/common_control_margin"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvSkuLevel"
+                        style="@style/WmsTextViewGridContext"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2.5"
+                        android:text="@string/SKU_LEVEL" />
+
+                    <Spinner
+                        android:id="@+id/cmbSkuLevel"
+                        style="@style/CommonSpinnerRequired"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="7.5" />
+                </LinearLayout>
+
+                <!--收料條碼-->
+                <LinearLayout
+                    android:id="@+id/llRecCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/common_control_margin"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/tvRecBarCode"
+                        style="@style/WmsTextViewGridContext"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2.5"
+                        android:text="@string/RECEIVE_BARCODE" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="7.5"
+                        android:orientation="vertical">
+
+                        <RadioGroup
+                            android:id="@+id/rgRecQRCode"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/radioQRcode"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/QRCODE" />
+
+                            <RadioButton
+                                android:id="@+id/radioBarcode"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/BARCODE" />
+
+                        </RadioGroup>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/ibtnRecQRScan"
+                                android:layout_width="30dp"
+                                android:layout_height="match_parent"
+                                android:background="#00000000"
+                                android:scaleType="fitCenter"
+                                android:src="@drawable/ic_scan_64x64" />
+
+                            <EditText
+                                android:id="@+id/etRecScanCode"
+                                style="@style/WmsEditTextNormal"
+                                android:layout_height="30dp"
+                                android:ems="10"
+                                android:textAlignment="textStart" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!--存貨編號-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/common_control_margin"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvLot"
+                        style="@style/WmsTextViewGridContext"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2.5"
+                        android:text="@string/SKU_NUM" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="7.5"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/ibtnLotIdQRScan"
+                            android:layout_width="30dp"
+                            android:layout_height="match_parent"
+                            android:background="#00000000"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/ic_scan_64x64" />
+
+                        <EditText
+                            android:id="@+id/etLot"
+                            style="@style/WmsEditTextNecessary"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:ems="10"
+                            android:textAlignment="textStart" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!--採購單號與項次-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/common_control_margin"
+                    android:orientation="horizontal">
+
+                    <!--採購單號-->
+                    <TextView
+                        android:id="@+id/tvPONo"
+                        style="@style/WmsTextViewGridContext"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="2.5"
+                        android:text="@string/PO_NO" />
+
+                    <EditText
+                        android:id="@+id/etPONo"
+                        style="@style/WmsEditTextNormal"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="4"
+                        android:textAlignment="textStart" />
+
+                    <Spinner
+                        android:id="@+id/cmbPoNo"
+                        style="@style/CommonSpinner"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="4"
+                        android:visibility="gone"/>
+
+                    <!--採購單號項次-->
+                    <TextView
+                        android:id="@+id/tvPOSeq"
+                        style="@style/WmsTextViewGridContext"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.5"
+                        android:text="@string/PO_SEQ"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/etPOSeq"
+                        style="@style/WmsEditTextNormal"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="2"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:textAlignment="textStart" />
+
+                    <Spinner
+                        android:id="@+id/cmbPoSeq"
+                        style="@style/CommonSpinner"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="2"
+                        android:visibility="gone"/>
+                </LinearLayout>
+
+                <!--物料代碼-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/common_control_margin"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvItem"
+                        style="@style/WmsTextViewGridContext"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2.5"
+                        android:text="@string/ITEM_ID" />
+
+                    <Spinner
+                        android:id="@+id/cmbItem"
+                        style="@style/CommonSpinnerRequired"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="7.5" />
+                </LinearLayout>
+
+                <!--數量與單位-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/common_control_margin"
+                    android:orientation="horizontal">
+
+                    <!-- 數量 -->
+                    <TextView
+                        android:id="@+id/tvQty"
+                        style="@style/WmsTextViewGridContext"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2.5"
+                        android:text="@string/QTY" />
+
+                    <EditText
+                        android:id="@+id/etQty"
+                        style="@style/WmsEditTextNecessary"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="4"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:textAlignment="textStart" />
+
+                    <!--單位-->
+                    <TextView
+                        android:id="@+id/tvUOM"
+                        style="@style/WmsTextViewGridContext"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.5"
+                        android:text="@string/UOM"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/etUOM"
+                        style="@style/WmsEditTextNormal"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="2"
+                        android:ems="10"
+                        android:textAlignment="textStart" />
+
+                </LinearLayout>
+
+                <!--製造日期 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/common_control_margin"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvMFDDate"
+                        style="@style/WmsTextViewGridContext"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2.5"
+                        android:text="@string/MFD_DATE" />
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="7.5"
+                        android:padding="0dp">
+
+                        <EditText
+                            android:id="@+id/etMFDDate"
+                            style="@style/WmsEditTextNecessary"
+                            android:layout_height="30dp"
+                            android:ems="10"
+                            android:textAlignment="textStart" />
+
+                        <Button
+                            android:id="@+id/btMFDDateClear"
+                            style="@style/WmsButtonClear" />
+
+                    </FrameLayout>
+                </LinearLayout>
+
+                <!--有效日期-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/common_control_margin"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvExpiryDate"
+                        style="@style/WmsTextViewGridContext"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2.5"
+                        android:text="@string/EXPIRY_DATE" />
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="7.5"
+                        android:padding="0dp">
+
+                        <EditText
+                            android:id="@+id/etExpiryDate"
+                            style="@style/WmsEditTextNecessary"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:ems="10"
+                            android:textAlignment="textStart" />
+
+                        <Button
+                            android:id="@+id/btExpiryDateClear"
+                            style="@style/WmsButtonClear" />
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <!--Lot Code 與尺寸-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/common_control_margin"
+                    android:orientation="horizontal">
+
+                    <!-- Lot Code -->
+                    <TextView
+                        android:id="@+id/tvLotCode"
+                        style="@style/WmsTextViewGridContext"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2.5"
+                        android:text="@string/LOT_CODE" />
+
+                    <EditText
+                        android:id="@+id/etLotCode"
+                        style="@style/WmsEditTextNormal"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="4"
+                        android:ems="10"
+                        android:textAlignment="textStart" />
+
+                    <!-- 尺寸 -->
+                    <TextView
+                        android:id="@+id/tvSize"
+                        style="@style/WmsTextViewGridContext"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.5"
+                        android:text="@string/SIZE"
+                        android:textAlignment="center"/>
+
+                    <Spinner
+                        android:id="@+id/cmbSize"
+                        style="@style/CommonSpinner"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="2" />
+
+                </LinearLayout>
+
+                <!-- 交易說明 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/common_control_margin"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvReceiveBarCode7"
+                        style="@style/WmsTextViewGridContext"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2.5"
+                        android:text="@string/TRX_CMT_TITLE" />
+
+                    <EditText
+                        android:id="@+id/etCmt"
+                        style="@style/WmsEditTextNormal"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="7.5"
+                        android:text="" />
+                </LinearLayout>
+
+                <!--收料條碼Extend欄位-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/common_control_margin"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvRecExtendTitle"
+                        style="@style/WmsTextViewBarTitle"
+                        android:layout_alignParentTop="true"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:text="@string/EXTEND_DATA"
+                        android:visibility="gone"/>
+
+                    <ListView
+                        android:id="@+id/lvRecExtend"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        style="@style/CommonLinearLayoutGroupBox"
+                        android:visibility="gone"/>
+
+                    <Button
+                        android:id="@+id/btnAddSn"
+                        style="@style/CommonRoundedButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/GR_SN"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--按鈕-->
+        <LinearLayout
+            android:id="@+id/lvButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnAddLot"
+                style="@style/CommonRoundedButton"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/ADD_SKU_ID" />
+
+            <Button
+                android:id="@+id/btnRefresh"
+                style="@style/CommonRoundedButton"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/CLEAR" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

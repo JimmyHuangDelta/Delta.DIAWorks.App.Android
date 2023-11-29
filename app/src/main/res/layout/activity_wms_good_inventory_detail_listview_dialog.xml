@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                style="@style/CommonLinearLayoutGroupBox"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <!-- 存貨層級 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/common_control_margin"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/CommonTextView"
+                        android:layout_width="100dp"
+                        android:text="@string/SKU_LEVEL" />
+
+                    <EditText
+                        android:id="@+id/etSkuLevel"
+                        style="@style/CommonEditText"
+                        android:layout_height="match_parent"
+                        android:enabled="false"/>
+
+                </LinearLayout>
+
+                <!-- 存貨編號 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/common_control_margin"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/CommonTextView"
+                        android:layout_width="100dp"
+                        android:text="@string/SKU_NUM" />
+
+                    <EditText
+                        android:id="@+id/etSkuNum"
+                        style="@style/CommonEditText"
+                        android:layout_height="match_parent"
+                        android:enabled="false"/>
+
+                </LinearLayout>
+
+                <!-- 數量 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/common_control_margin"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/CommonTextView"
+                        android:layout_width="100dp"
+                        android:text="@string/QTY" />
+
+                    <EditText
+                        android:id="@+id/txtQty"
+                        style="@style/CommonEditTextRequired"
+                        android:inputType="number" />
+
+                </LinearLayout>
+
+                <!-- 入料口 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/common_control_margin"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/CommonTextView"
+                        android:layout_width="100dp"
+                        android:text="@string/IS_BIN" />
+
+                    <Spinner
+                        android:id="@+id/cmbIsBin"
+                        style="@style/CommonSpinnerRequired"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+                <!-- 是否使用推薦(隱藏) -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <CheckBox
+                        android:id="@+id/chkUnRec"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/UNREC" />
+
+                </LinearLayout>
+
+                <!--推薦儲位-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/common_control_margin"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/CommonTextView"
+                        android:layout_width="100dp"
+                        android:text="@string/TO_BIN_ID" />
+
+                    <EditText
+                        android:id="@+id/etToBinId"
+                        style="@style/CommonEditText"
+                        android:layout_height="match_parent"
+                        android:enabled="false"/>
+
+<!--                    <Spinner-->
+<!--                        android:id="@+id/cmbToBinId"-->
+<!--                        style="@style/CommonSpinner"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent" />-->
+
+                </LinearLayout>
+
+                <!--上架儲位-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/common_control_margin"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/CommonTextView"
+                        android:layout_width="100dp"
+                        android:text="@string/PUT_AWAY_BIN" />
+
+                    <EditText
+                        android:id="@+id/etPutAwayBin"
+                        style="@style/CommonEditTextRequired" />
+
+                </LinearLayout>
+
+                <!--推薦載具代碼-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/common_control_margin"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/CommonTextView"
+                        android:layout_width="100dp"
+                        android:text="@string/TO_CARRIER_ID" />
+
+                    <Spinner
+                        android:id="@+id/cmbToCarrierId"
+                        style="@style/CommonSpinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+                </LinearLayout>
+
+                <!--推薦載具區塊-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/common_control_margin"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/CommonTextView"
+                        android:layout_width="100dp"
+                        android:text="@string/TO_BLOCK_ID" />
+
+                    <Spinner
+                        android:id="@+id/cmbToBlockId"
+                        style="@style/CommonSpinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/common_control_margin"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="parent">
+
+                    <TextView
+                        style="@style/CommonTextView"
+                        android:layout_width="100dp"
+                        android:text="@string/BIN_ID" />
+
+                    <EditText
+                        android:id="@+id/txtBinID"
+                        style="@style/CommonEditText" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnCancel"
+                style="@style/CommonButton"
+                android:layout_weight="1"
+                android:text="@string/CANCEL" />
+
+            <Button
+                android:id="@+id/btnOk"
+                style="@style/CommonButton"
+                android:layout_weight="1"
+                android:text="@string/CONFIRM" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

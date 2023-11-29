@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 共用 Activity背景顏色 -->
+    <color name="common_activity_background">@color/common_theme_light2</color>
+    <!-- 共用 StatusBar背景顏色 -->
+    <color name="common_status_bar_background">@color/common_theme_dark1</color>
+    <!-- 共用 ActionBar背景顏色 -->
+    <color name="common_action_bar_background">@color/common_theme_blue1</color>
+    <!-- 共用 ToolBar背景顏色 -->
+    <color name="common_tool_bar_background">@color/common_theme_blue1</color>
+    <!-- 共用 focus前景顏色 -->
+    <color name="common_focus_foreground">@color/common_control_stroke_focus</color>
+    <!--  Menu bar spinner item 點擊顏色  -->
+    <color name="common_press_menu_spinner_item">@color/menu_spinner_item_click</color>
+
+    <!-- 共用 主題 藍色系 -->
+    <color name="common_theme_blue1">#00ADEF</color>
+
+    <!-- 共用 主題 淺色系 -->
+    <color name="common_theme_light1">#FFFFFF</color>
+    <color name="common_theme_light2">#F0F0F0</color>
+    <color name="common_theme_light3">#E4E4E4</color>
+    <color name="common_theme_light4">#C8C8C8</color>
+
+    <!-- 共用 主題 深色系 -->
+    <color name="common_theme_dark1">#000000</color>
+    <color name="common_theme_dark2">#3E3E3E</color>
+    <color name="common_theme_dark3">#5A5A5A</color>
+
+
+    <!-- 共用 控制項 邊 顏色 -->
+    <color name="common_control_stroke">#CACACA</color>
+
+    <!-- 共用 控制項 邊 顏色 -->
+    <color name="common_control_stroke_focus">#D81B60</color>
+
+    <!-- 共用 控制項 實心 底色 -->
+    <color name="common_control_solid">#FFFFFF</color>
+
+    <!-- 共用 控制項 實心 底色(必填) -->
+    <color name="common_control_solid_required">#FFF2CC</color>
+
+    <!--  Menu bar spinner item 點擊顏色  -->
+    <color name="menu_spinner_item_click">#3ABEF2</color>
+
+</resources>

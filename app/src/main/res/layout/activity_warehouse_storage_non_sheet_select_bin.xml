@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_activity_background"
+    tools:context="com.delta.android.WMS.Client.GoodReceiptReceiveDetailActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvStorageId"
+        android:hint="@string/STORAGE_ID"
+        style="@style/CommonTextView"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/common_control_margin"
+        android:singleLine="true"/>
+
+    <TextView
+        android:text="@string/SELECT_BIN_ID"
+        style="@style/WmsTextViewBarTitle"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvBinID"
+            style="@style/WmsTextViewGridContext"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="@string/BIN_ID" />
+
+        <Spinner
+            android:id="@+id/cmbBinID"
+            style="@style/CommonSpinnerRequired" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnBinConfirm"
+            android:text="@string/CONFIRM"
+            style="@style/CommonButton"
+            android:layout_alignParentBottom="true"/>
+    </LinearLayout>
+
+</LinearLayout>

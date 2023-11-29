@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_activity_background"
+    tools:context="com.delta.android.WMS.Client.GoodStockOutActivity">
+
+    <LinearLayout
+        android:id="@+id/GoodStockOut_Conditions"
+        style="@style/CommonLinearLayoutGroupBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/common_control_margin"
+            android:orientation="vertical">
+
+            <Spinner
+                android:id="@+id/cmbSheetType"
+                style="@style/CommonSpinnerRequired"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_control_layout_height"
+            android:layout_margin="@dimen/common_control_margin"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnSearch"
+                style="@style/WmsImageButtonSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <Spinner
+                android:id="@+id/cmbSheetId"
+                style="@style/CommonSpinnerRequired" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lbDetail"
+        style="@style/WmsTextViewBarTitle"
+        android:layout_below="@+id/GoodStockOut_Conditions"
+        android:text="@string/SHEET_MASTER_INFO" />
+
+    <ListView
+        android:id="@+id/listViewMst"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/lbDetail" />
+
+</RelativeLayout>

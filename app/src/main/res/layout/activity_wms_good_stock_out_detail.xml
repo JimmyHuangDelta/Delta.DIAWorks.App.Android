@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_activity_background"
+    android:orientation="vertical"
+    tools:context="com.delta.android.WMS.Client.GoodStockOutDetailActivity">
+
+    <TextView
+        android:id="@+id/Title"
+        style="@style/WmsTextViewBarTitle"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:text="@string/PICKED_INFO" />
+
+    <ListView
+        android:id="@+id/listViewDet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/GoodStockOut_btnOk"
+        android:layout_below="@+id/Title" />
+
+    <Button
+        android:id="@+id/GoodStockOut_btnOk"
+        style="@style/CommonButton"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:text="@string/CONFIRM" />
+
+</RelativeLayout>

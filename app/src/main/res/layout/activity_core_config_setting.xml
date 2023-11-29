@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Core.Activity.ConfigSettingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/common_activity_background"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvUrl"
+                    style="@style/CommonTextView"
+                    android:text="@string/CONNECTION_URL" />
+
+                <EditText
+                    android:id="@+id/etUrl"
+                    style="@style/CommonEditText"
+                    android:inputType="textPersonName"
+                    android:text="http://192.168.0.1/WebApi.ashx" />
+
+                <TextView
+                    android:id="@+id/tvPortalUrll"
+                    style="@style/CommonTextView"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/CONNECTION_PORTAL_URL" />
+
+                <EditText
+                    android:id="@+id/etPortalUrl"
+                    style="@style/CommonEditText"
+                    android:inputType="textPersonName"
+                    android:text="http://192.168.0.1/WebApi.ashx" />
+
+                <TextView
+                    android:id="@+id/tvSSOUrl"
+                    style="@style/CommonTextView"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/CONNECTION_SSO_URL" />
+
+                <EditText
+                    android:id="@+id/etSSOUrl"
+                    style="@style/CommonEditText"
+                    android:inputType="textPersonName"
+                    android:text="http://192.168.0.1/WebApi.ashx" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btnConfirm"
+            style="@style/CommonButton"
+            android:text="@string/CONFIRM" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

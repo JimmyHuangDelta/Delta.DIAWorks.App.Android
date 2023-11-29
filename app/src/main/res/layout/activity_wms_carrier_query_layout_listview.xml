@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/WmsTextStartMargin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/sub_item"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="9"
+        android:orientation="vertical"
+        android:layout_margin="5dp">
+
+        <!-- Carrier代碼 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+            <TextView
+                android:id="@+id/lvTxtCarrierId"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="match_parent"
+                android:gravity="start|center_vertical"
+                android:text="@string/CARRIER_ID"
+                android:textAlignment="textStart"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/lvTxtCarrierIdVal"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="match_parent"
+                android:gravity="start|center_vertical"
+                android:text="@string/CARRIER_ID"
+                android:textAlignment="textStart"/>
+        </LinearLayout>
+
+        <!-- Block代碼 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+            <TextView
+                android:id="@+id/lvTxtBlockAliasId"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="match_parent"
+                android:gravity="start|center_vertical"
+                android:text="@string/BLOCK_ALIAS_ID"
+                android:textAlignment="textStart"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/lvTxtBlockAliasIdVal"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="match_parent"
+                android:gravity="start|center_vertical"
+                android:text="@string/BLOCK_ALIAS_ID"
+                android:textAlignment="textStart"/>
+        </LinearLayout>
+
+        <!-- 載具數量 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/lvTxtCarrierQty"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="match_parent"
+                android:gravity="start|center_vertical"
+                android:text="@string/CARRIER_QTY"
+                android:textAlignment="textStart"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/lvTxtCarrierQtyVal"
+                style="@style/WmsTextViewGridContext"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="match_parent"
+                android:gravity="start|center_vertical"
+                android:text="@string/CARRIER_QTY"
+                android:textAlignment="textStart"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_common_chevron_right_black_32dp" />
+
+    </LinearLayout>
+</LinearLayout>

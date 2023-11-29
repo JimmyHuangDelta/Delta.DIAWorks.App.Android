@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 預設 WebApi Url -->
+    <string name="DEFAULT_URL" translatable="false">http://127.0.0.1:80</string>
+    <!-- 預設 SSOServer Url -->
+    <string name="DEFAULT_SSO_URL" translatable="false">http://10.136.155.233:8061/</string>
+    <!-- 預設 語系 -->
+    <string name="DEFAULT_LANGUAGE" translatable="false">zh-TW</string>
+    <!-- Http連線TimeOut時間(單位：毫秒) -->
+    <integer name="DEFAULT_CONNECTION_TIMEOUT">100000</integer>
+    <!-- 預設 連線API Name -->
+    <string name="DEFAULT_API_CONNECTION_NAME" translatable="false">AndroidApi.ashx</string>
+    <!-- 預設 更新API Name  -->
+    <string name="DEFAULT_API_UPDATE_NAME" translatable="false">GetAppVersion.ashx</string>
+    <!-- 檢查更新APP間隔間(單位：毫秒) -->
+    <integer name="DEFAULT_UPDATE_APP_INTERVAL">100000</integer>
+
+    <!--PMS SOP網路位置 (如果沒設置，就已SOP檔案上設定的URL抓取檔案；有設定就用 設定的URL + SOP上的URL)-->
+    <string name="DEFAULT_PMS_SOP_URL" translatable="false"></string>
+
+    <string name="DEFAULT_LOCAL_SOP_DIR" translatable="false">/Download/SOP_FILE/</string>
+
+    <string name="DEFAULT_PORTAL_URL" translatable="false">http://10.136.155.233:8061/</string>
+
+    <!-- WMS允許通知預設：不通知 -->
+    <bool name="DEFAULT_ALLOWED_NOTIFICATION">false</bool>
+
+    <!-- 記錄廠別資訊 -->
+    <string name="DEFAULT_FACTORY_KEY" translatable="false"></string>
+    <string name="DEFAULT_FACTORY_ID" translatable="false"></string>
+    <string name="DEFAULT_FACTORY_NAME" translatable="false"></string>
+
+    <!-- Debug================================================================== -->
+    <bool name="DEBUG_MODE">false</bool><!-- 是否為debug模式 -->
+    <string name="DEBUG_CLASS" translatable="false">com.delta.android.Core.Activity.LoginActivity</string><!-- debug程式 -->
+    <string name="DEBUG_USER_ID" translatable="false">ADMINISTRATOR</string><!-- debug的UserID -->
+    <string name="DEBUG_USER_KEY" translatable="false">0000001</string><!-- debug的UserKey -->
+    <integer name="DEBUG_USER_SERIAL_KEY">1</integer><!-- debug的UserSerialKey -->
+    <!-- Debug================================================================== -->
+</resources>

@@ -1,0 +1,915 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:2:1-359:12
+INJECTED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:2:1-359:12
+INJECTED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:2:1-359:12
+INJECTED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:2:1-359:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\2de906dfd8cdb4a81794c2639b218b8c\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\8f9b2dedbe82382d5a57bd75e8859cc6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\f42f5ae54379b4f7625aa3a2543aaa04\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\23aa907d606df84008958fc1077c395b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\888dd3376995401d8751dd07cc01f491\AndroidManifest.xml:17:1-56:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\7d9437b2e796c49ec1f4d1f4f048dcd5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\f1610b8bb59c25a90334284e78bd778d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\b7906f874aa419a8ad456574794a599b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\906336a5829d92f6c4e0b36a096ce3b2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\63582b836196fa31804da6ee8dc3ce19\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\d7300fa38a5af0ff6f5e60b57d1b440c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\ca164cd54b7f612a55dd68402c00c115\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\3805a378877dbda56bb964982d73304f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\9df8a5b8beb2f0badda906a3b63fc4b2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\13751a45f3c5007a5d60f37056bfcaa7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\27ba8d41c7cf0d5aa11127fa91ef7400\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\4abf605350c6db691bd0f8832bafe56f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\1ba1b6b83184ccb22b4621381fa5eb3e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\649b27da74d0b7af652e65792c7c5748\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\d20748908ba054706aac594ebd10f9bf\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\39fe55c7f3a4388af48497486fe719c1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\6365b57411ce11fb39e6260312cb8dbd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\949cb5932bf2520a1365c966b546c0b1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\f58278cc68525c263712e22152f2fc75\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\fe14af0afcc6188f443a8f2fede8c260\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\d97ec377d9d38f96bfbb2a63d2641335\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\277b91ebfb684bf2b2de019fad245c4f\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\0e7f6a17d4790e7b52db0d56cc04eda5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\e100f07ac1b3e8d4085e9f6503ec1a93\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\f08fc379c8742a3b747c007a2ac1bfad\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\a8ad13cadd67ef6d5c67a09d8efc9ea2\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\3b1e749eba692adc0434de2c1f4996cc\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:2:1-359:12
+INJECTED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:2:1-359:12
+INJECTED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:2:1-359:12
+	package
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:4:5-32
+		INJECTED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:2:1-359:12
+		INJECTED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:2:1-359:12
+		INJECTED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.VIBRATE
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:8:22-63
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:10:22-77
+uses-permission#android.permission.ACCESS_DOWNLOAD_MANAGER
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:11:22-79
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:12:22-65
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:13:5-78
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:13:22-75
+uses-permission#android.permission.SYSTEM_OVERLAY_WINDOW
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:14:22-77
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:15:5-83
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:15:22-80
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:16:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:17:5-76
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:17:22-73
+uses-permission#android.permission.CAMERA
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:18:5-65
+MERGED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\888dd3376995401d8751dd07cc01f491\AndroidManifest.xml:22:5-65
+MERGED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\888dd3376995401d8751dd07cc01f491\AndroidManifest.xml:22:5-65
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:18:22-62
+application
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:20:5-357:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\2de906dfd8cdb4a81794c2639b218b8c\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\2de906dfd8cdb4a81794c2639b218b8c\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\f42f5ae54379b4f7625aa3a2543aaa04\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\f42f5ae54379b4f7625aa3a2543aaa04\AndroidManifest.xml:9:5-20
+MERGED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\888dd3376995401d8751dd07cc01f491\AndroidManifest.xml:46:5-54:19
+MERGED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\888dd3376995401d8751dd07cc01f491\AndroidManifest.xml:46:5-54:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\d20748908ba054706aac594ebd10f9bf\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\d20748908ba054706aac594ebd10f9bf\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\d97ec377d9d38f96bfbb2a63d2641335\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\d97ec377d9d38f96bfbb2a63d2641335\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\d20748908ba054706aac594ebd10f9bf\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:27:9-35
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:24:9-41
+	android:roundIcon
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:26:9-53
+	android:icon
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:23:9-48
+	android:allowBackup
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:22:9-35
+	android:theme
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:28:9-40
+	android:networkSecurityConfig
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:25:9-69
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:21:9-43
+activity#com.delta.android.Core.Activity.ScanActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:29:9-34:63
+	android:screenOrientation
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:31:13-49
+	android:stateNotNeeded
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:32:13-42
+	android:windowSoftInputMode
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:34:13-60
+	android:theme
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:33:13-54
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:30:13-55
+activity#com.delta.android.PMS.Client.RepairWoCreate
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:35:9-39:57
+	android:screenOrientation
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:38:13-50
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:37:13-44
+	android:windowSoftInputMode
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:39:13-54
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:36:13-54
+activity#com.delta.android.PMS.Client.WorkInsActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:40:9-44:57
+	android:screenOrientation
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:43:13-50
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:42:13-44
+	android:windowSoftInputMode
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:44:13-54
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:41:13-55
+activity#com.delta.android.PMS.Client.InsWoSelectActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:45:9-49:57
+	android:screenOrientation
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:48:13-50
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:47:13-44
+	android:windowSoftInputMode
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:49:13-54
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:46:13-59
+activity#com.delta.android.PMS.Client.WoUploadActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:50:9-54:57
+	android:screenOrientation
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:53:13-50
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:52:13-44
+	android:windowSoftInputMode
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:54:13-54
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:51:13-56
+activity#com.delta.android.PMS.Client.PmWoSelectActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:55:9-59:57
+	android:screenOrientation
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:58:13-50
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:57:13-44
+	android:windowSoftInputMode
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:59:13-54
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:56:13-58
+activity#com.delta.android.PMS.Client.WorkPmActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:60:9-64:57
+	android:screenOrientation
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:63:13-50
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:62:13-44
+	android:windowSoftInputMode
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:64:13-54
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:61:13-54
+activity#com.delta.android.PMS.Client.SopLocalFileShowActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:65:9-69:57
+	android:screenOrientation
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:68:13-50
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:67:13-44
+	android:windowSoftInputMode
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:69:13-54
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:66:13-64
+activity#com.delta.android.PMS.Client.SopFileMaintainActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:70:9-74:57
+	android:screenOrientation
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:73:13-50
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:72:13-44
+	android:windowSoftInputMode
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:74:13-54
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:71:13-63
+activity#com.delta.android.PMS.Client.UploadFailWoActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:75:9-78:57
+	android:screenOrientation
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:77:13-50
+	android:windowSoftInputMode
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:78:13-54
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:76:13-60
+activity#com.delta.android.PMS.Client.DownloadBRMProccessActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:79:9-82:57
+	android:screenOrientation
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:81:13-50
+	android:windowSoftInputMode
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:82:13-54
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:80:13-67
+activity#com.delta.android.PMS.Client.DownloadWoTypeActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:83:9-87:57
+	android:screenOrientation
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:86:13-50
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:85:13-44
+	android:windowSoftInputMode
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:87:13-54
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:84:13-62
+activity#com.delta.android.PMS.Client.DownloadWoActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:88:9-92:57
+	android:screenOrientation
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:91:13-50
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:90:13-44
+	android:windowSoftInputMode
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:92:13-54
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:89:13-58
+activity#com.delta.android.PMS.Client.RepairWoSelectActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:93:9-97:57
+	android:screenOrientation
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:96:13-50
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:95:13-44
+	android:windowSoftInputMode
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:97:13-54
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:94:13-62
+activity#com.delta.android.PMS.Client.WorkRepairActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:98:9-102:57
+	android:screenOrientation
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:101:13-50
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:100:13-44
+	android:windowSoftInputMode
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:102:13-54
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:99:13-58
+activity#com.delta.android.PMS.Client.DownloadBasicDataActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:103:9-107:57
+	android:screenOrientation
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:106:13-50
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:105:13-44
+	android:windowSoftInputMode
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:107:13-54
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:104:13-65
+activity#com.delta.android.WMS.Client.WarehouseStorageActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:108:9-111:55
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:110:13-44
+	android:windowSoftInputMode
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:111:13-52
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:109:13-64
+activity#com.delta.android.WMS.Client.WarehouseStorageDetailNewActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:112:9-116:20
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:114:13-44
+	android:windowSoftInputMode
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:115:13-52
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:113:13-73
+activity#com.delta.android.WMS.Client.WarehouseStorageReceivedActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:117:9-121:20
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:119:13-44
+	android:windowSoftInputMode
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:120:13-52
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:118:13-72
+activity#com.delta.android.WMS.Client.WarehouseStorageDetailActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:122:9-125:55
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:124:13-44
+	android:windowSoftInputMode
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:125:13-52
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:123:13-70
+activity#com.delta.android.WMS.Client.WarehouseStorageStockInActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:126:9-129:55
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:128:13-44
+	android:windowSoftInputMode
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:129:13-52
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:127:13-71
+activity#com.delta.android.WMS.Client.WarehouseStorageStockInModifyActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:130:9-133:55
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:132:13-44
+	android:windowSoftInputMode
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:133:13-52
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:131:13-77
+activity#com.delta.android.WMS.Client.CarrierQueryActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:134:9-138:55
+	android:screenOrientation
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:137:13-50
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:136:13-44
+	android:windowSoftInputMode
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:138:13-52
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:135:13-60
+activity#com.delta.android.WMS.Client.WarehouseQueryRegisterActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:139:9-143:55
+	android:screenOrientation
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:142:13-47
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:141:13-44
+	android:windowSoftInputMode
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:143:13-52
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:140:13-70
+activity#com.delta.android.WMS.Client.CartQueryActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:144:9-148:55
+	android:screenOrientation
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:147:13-47
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:146:13-44
+	android:windowSoftInputMode
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:148:13-52
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:145:13-57
+activity#com.delta.android.WMS.Client.GoodNonreceiptReceiveActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:149:9-151:47
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:151:13-44
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:150:13-69
+activity#com.delta.android.WMS.Client.DeliveryNotePickingNonSheetCartCarrierActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:152:9-155:55
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:154:13-44
+	android:windowSoftInputMode
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:155:13-52
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:153:13-86
+activity#com.delta.android.WMS.Client.GoodPickNonSheetCartCarrierActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:156:9-159:55
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:158:13-44
+	android:windowSoftInputMode
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:159:13-52
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:157:13-75
+activity#com.delta.android.WMS.Client.GoodInventoryNoSheetCartCarrierActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:160:9-163:55
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:162:13-44
+	android:windowSoftInputMode
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:163:13-52
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:161:13-79
+activity#com.delta.android.WMS.Client.DeliveryNotePickingNonSheetLotActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:164:9-167:55
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:166:13-44
+	android:windowSoftInputMode
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:167:13-52
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:165:13-78
+activity#com.delta.android.WMS.Client.DeliveryNotePickingNonSheetCartActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:168:9-171:55
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:170:13-44
+	android:windowSoftInputMode
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:171:13-52
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:169:13-79
+activity#com.delta.android.WMS.Client.DeliveryNotePickingNonSheetCarrierActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:172:9-175:55
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:174:13-44
+	android:windowSoftInputMode
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:175:13-52
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:173:13-82
+activity#com.delta.android.WMS.Client.GoodPickNonSheetCartActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:176:9-179:55
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:178:13-44
+	android:windowSoftInputMode
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:179:13-52
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:177:13-68
+activity#com.delta.android.WMS.Client.GoodPickNonSheetCarrierActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:180:9-183:55
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:182:13-44
+	android:windowSoftInputMode
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:183:13-52
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:181:13-71
+activity#com.delta.android.WMS.Client.GoodInventoryNoSheetCartActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:184:9-187:55
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:186:13-44
+	android:windowSoftInputMode
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:187:13-52
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:185:13-72
+activity#com.delta.android.WMS.Client.GoodInventoryNonSheetCarrierActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:188:9-191:55
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:190:13-44
+	android:windowSoftInputMode
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:191:13-52
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:189:13-76
+activity#com.delta.android.WMS.Client.GoodPickNonSheetActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:192:9-195:55
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:194:13-44
+	android:windowSoftInputMode
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:195:13-52
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:193:13-64
+activity#com.delta.android.WMS.Client.GoodInventoryNonSheetActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:196:9-199:55
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:198:13-44
+	android:windowSoftInputMode
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:199:13-52
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:197:13-69
+activity#com.delta.android.WMS.Client.WarehouseStorageNonSheetActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:200:9-203:55
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:202:13-44
+	android:windowSoftInputMode
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:203:13-52
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:201:13-72
+activity#com.delta.android.WMS.Client.WarehouseStorageNonSheetNewActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:204:9-207:55
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:206:13-44
+	android:windowSoftInputMode
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:207:13-52
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:205:13-75
+activity#com.delta.android.WMS.Client.WarehouseStorageNonSheetDetailNewActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:208:9-212:20
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:210:13-44
+	android:windowSoftInputMode
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:211:13-52
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:209:13-81
+activity#com.delta.android.WMS.Client.GoodNonReceiptReceiveNewActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:213:9-215:47
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:215:13-44
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:214:13-72
+activity#com.delta.android.WMS.Client.GoodNonReceiptReceiveDetailNewActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:216:9-218:47
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:218:13-44
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:217:13-78
+activity#com.delta.android.WMS.Client.GoodChangeBinActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:219:9-221:47
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:221:13-44
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:220:13-61
+activity#com.delta.android.Core.Activity.CrashExceptionActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:222:9-74
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:222:19-71
+activity#com.delta.android.WMS.Client.GoodReceiptReceiveLotSnModifyNewActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:223:9-225:47
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:225:13-44
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:224:13-80
+activity#com.delta.android.WMS.Client.GoodReceiptReceiveLotSnNewActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:226:9-228:47
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:228:13-44
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:227:13-74
+activity#com.delta.android.WMS.Client.GoodReceiptReceiveLotSnModifyActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:229:9-231:47
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:231:13-44
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:230:13-77
+activity#com.delta.android.WMS.Client.GoodReceiptReceiveLotSnActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:232:9-234:47
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:234:13-44
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:233:13-71
+activity#com.delta.android.WMS.Client.GoodReceiptReceiveDetailNewActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:235:9-237:47
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:237:13-44
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:236:13-75
+activity#com.delta.android.WMS.Client.GoodReceiptReceiveDetailActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:238:9-240:47
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:240:13-44
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:239:13-72
+activity#com.delta.android.WMS.Client.GoodReceiptReceiveActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:241:9-243:47
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:243:13-44
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:242:13-66
+activity#com.delta.android.WMS.Client.DeliveryNotePickingExecutedNewActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:244:9-246:47
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:246:13-44
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:245:13-78
+activity#com.delta.android.WMS.Client.DeliveryNotePickingDetailNewActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:247:9-249:47
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:249:13-44
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:248:13-76
+activity#com.delta.android.WMS.Client.DeliveryNotePickingActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:250:9-252:47
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:252:13-44
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:251:13-67
+activity#com.delta.android.WMS.Client.GoodCheckExecuteActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:253:9-255:47
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:255:13-44
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:254:13-64
+activity#com.delta.android.WMS.Client.GoodCheckActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:256:9-259:55
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:258:13-44
+	android:windowSoftInputMode
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:259:13-52
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:257:13-57
+activity#com.delta.android.WMS.Client.GoodPickExecutedActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:260:9-262:47
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:262:13-44
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:261:13-64
+activity#com.delta.android.WMS.Client.GoodPickDetailActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:263:9-265:47
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:265:13-44
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:264:13-62
+activity#com.delta.android.WMS.Client.GoodPickActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:266:9-268:47
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:268:13-44
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:267:13-56
+activity#com.delta.android.WMS.Client.GoodCancelPickExecutedActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:269:9-271:47
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:271:13-44
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:270:13-70
+activity#com.delta.android.WMS.Client.GoodCancelPickDetailActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:272:9-274:47
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:274:13-44
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:273:13-68
+activity#com.delta.android.WMS.Client.GoodCancelPickActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:275:9-277:47
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:277:13-44
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:276:13-62
+activity#com.delta.android.WMS.Client.GoodStockOutDetailActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:278:9-280:47
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:280:13-44
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:279:13-66
+activity#com.delta.android.WMS.Client.GoodStockOutActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:281:9-283:47
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:283:13-44
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:282:13-60
+activity#com.delta.android.WMS.Client.DeliveryNoteShipActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:284:9-286:47
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:286:13-44
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:285:13-64
+activity#com.delta.android.WMS.Client.DeliveryNoteShipDetailActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:287:9-289:47
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:289:13-44
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:288:13-70
+activity#com.delta.android.WMS.Client.DeliveryNoteShipWorkNewActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:290:9-292:47
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:292:13-44
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:291:13-71
+activity#com.delta.android.WMS.Client.GoodInventoryActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:293:9-295:47
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:295:13-44
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:294:13-61
+activity#com.delta.android.WMS.Client.GoodInventoryNewActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:296:9-298:47
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:298:13-44
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:297:13-64
+activity#com.delta.android.WMS.Client.GoodInventoryDetailActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:299:9-301:47
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:301:13-44
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:300:13-67
+activity#com.delta.android.Sample.Client.Test4Activity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:302:9-304:44
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:304:13-41
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:303:13-56
+activity#com.delta.android.Sample.Client.Test3Activity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:305:9-307:44
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:307:13-41
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:306:13-56
+activity#com.delta.android.Sample.Client.Test2Activity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:308:9-310:44
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:310:13-41
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:309:13-56
+activity#com.delta.android.Sample.Client.Test1Activity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:311:9-313:44
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:313:13-41
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:312:13-56
+activity#com.delta.android.Sample.Client.Theme1Activity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:314:9-66
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:314:19-63
+activity#com.delta.android.Sample.Client.Theme2Activity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:315:9-66
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:315:19-63
+activity#com.delta.android.Sample.Client.Theme3Activity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:316:9-66
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:316:19-63
+activity#com.delta.android.Core.Activity.MenuNewActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:317:9-319:53
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:319:13-50
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:318:13-58
+activity#com.delta.android.Core.Activity.ConfigSettingActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:320:9-322:54
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:322:13-51
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:321:13-64
+activity#com.delta.android.Core.Activity.LaunchActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:323:9-66
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:323:19-63
+activity#com.delta.android.Core.Activity.LoginActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:324:9-326:45
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:326:13-42
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:325:13-56
+activity#com.delta.android.Core.Activity.VersionUpdateActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:327:9-329:54
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:329:13-51
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:328:13-64
+activity#com.delta.android.Core.Activity.AccountActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:330:9-332:49
+	android:label
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:332:13-46
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:331:13-58
+activity#com.delta.android.Core.Activity.MainActivity
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:333:9-339:20
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:333:19-61
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:334:13-338:29
+action#android.intent.action.MAIN
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:335:17-69
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:335:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:337:17-77
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:337:27-74
+service#com.delta.android.Core.AppUpdate.CheckUpdateService
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:340:9-70
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:340:18-67
+provider#android.support.v4.content.FileProvider
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:348:9-356:20
+	android:grantUriPermissions
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:352:13-47
+	android:authorities
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:350:13-63
+	android:exported
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:351:13-37
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:349:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:353:13-355:58
+	android:resource
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:355:17-55
+	android:name
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml:354:17-67
+uses-sdk
+INJECTED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml
+INJECTED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\2de906dfd8cdb4a81794c2639b218b8c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\2de906dfd8cdb4a81794c2639b218b8c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\8f9b2dedbe82382d5a57bd75e8859cc6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\8f9b2dedbe82382d5a57bd75e8859cc6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\f42f5ae54379b4f7625aa3a2543aaa04\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\f42f5ae54379b4f7625aa3a2543aaa04\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\23aa907d606df84008958fc1077c395b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\23aa907d606df84008958fc1077c395b\AndroidManifest.xml:20:5-44
+MERGED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\888dd3376995401d8751dd07cc01f491\AndroidManifest.xml:20:5-44
+MERGED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\888dd3376995401d8751dd07cc01f491\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\7d9437b2e796c49ec1f4d1f4f048dcd5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\7d9437b2e796c49ec1f4d1f4f048dcd5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\f1610b8bb59c25a90334284e78bd778d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\f1610b8bb59c25a90334284e78bd778d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\b7906f874aa419a8ad456574794a599b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\b7906f874aa419a8ad456574794a599b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\906336a5829d92f6c4e0b36a096ce3b2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\906336a5829d92f6c4e0b36a096ce3b2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\63582b836196fa31804da6ee8dc3ce19\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\63582b836196fa31804da6ee8dc3ce19\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\d7300fa38a5af0ff6f5e60b57d1b440c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\d7300fa38a5af0ff6f5e60b57d1b440c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\ca164cd54b7f612a55dd68402c00c115\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\ca164cd54b7f612a55dd68402c00c115\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\3805a378877dbda56bb964982d73304f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\3805a378877dbda56bb964982d73304f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\9df8a5b8beb2f0badda906a3b63fc4b2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\9df8a5b8beb2f0badda906a3b63fc4b2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\13751a45f3c5007a5d60f37056bfcaa7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\13751a45f3c5007a5d60f37056bfcaa7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\27ba8d41c7cf0d5aa11127fa91ef7400\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\27ba8d41c7cf0d5aa11127fa91ef7400\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\4abf605350c6db691bd0f8832bafe56f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\4abf605350c6db691bd0f8832bafe56f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\1ba1b6b83184ccb22b4621381fa5eb3e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\1ba1b6b83184ccb22b4621381fa5eb3e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\649b27da74d0b7af652e65792c7c5748\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\649b27da74d0b7af652e65792c7c5748\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\d20748908ba054706aac594ebd10f9bf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\d20748908ba054706aac594ebd10f9bf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\39fe55c7f3a4388af48497486fe719c1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\39fe55c7f3a4388af48497486fe719c1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\6365b57411ce11fb39e6260312cb8dbd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\6365b57411ce11fb39e6260312cb8dbd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\949cb5932bf2520a1365c966b546c0b1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\949cb5932bf2520a1365c966b546c0b1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\f58278cc68525c263712e22152f2fc75\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\f58278cc68525c263712e22152f2fc75\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\fe14af0afcc6188f443a8f2fede8c260\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\fe14af0afcc6188f443a8f2fede8c260\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\d97ec377d9d38f96bfbb2a63d2641335\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\d97ec377d9d38f96bfbb2a63d2641335\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\277b91ebfb684bf2b2de019fad245c4f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\277b91ebfb684bf2b2de019fad245c4f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\0e7f6a17d4790e7b52db0d56cc04eda5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\0e7f6a17d4790e7b52db0d56cc04eda5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\e100f07ac1b3e8d4085e9f6503ec1a93\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\e100f07ac1b3e8d4085e9f6503ec1a93\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\f08fc379c8742a3b747c007a2ac1bfad\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\f08fc379c8742a3b747c007a2ac1bfad\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\a8ad13cadd67ef6d5c67a09d8efc9ea2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\a8ad13cadd67ef6d5c67a09d8efc9ea2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\3b1e749eba692adc0434de2c1f4996cc\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\3b1e749eba692adc0434de2c1f4996cc\AndroidManifest.xml:20:5-44
+INJECTED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml
+INJECTED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml
+		ADDED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\WMS Project\New Project\Delta.DIAWorks.App.Android\app\src\main\AndroidManifest.xml
+uses-feature#android.hardware.camera
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\888dd3376995401d8751dd07cc01f491\AndroidManifest.xml:25:5-27:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\888dd3376995401d8751dd07cc01f491\AndroidManifest.xml:27:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\888dd3376995401d8751dd07cc01f491\AndroidManifest.xml:26:9-47
+uses-feature#android.hardware.camera.front
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\888dd3376995401d8751dd07cc01f491\AndroidManifest.xml:28:5-30:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\888dd3376995401d8751dd07cc01f491\AndroidManifest.xml:30:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\888dd3376995401d8751dd07cc01f491\AndroidManifest.xml:29:9-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\888dd3376995401d8751dd07cc01f491\AndroidManifest.xml:33:5-35:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\888dd3376995401d8751dd07cc01f491\AndroidManifest.xml:35:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\888dd3376995401d8751dd07cc01f491\AndroidManifest.xml:34:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\888dd3376995401d8751dd07cc01f491\AndroidManifest.xml:36:5-38:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\888dd3376995401d8751dd07cc01f491\AndroidManifest.xml:38:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\888dd3376995401d8751dd07cc01f491\AndroidManifest.xml:37:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\888dd3376995401d8751dd07cc01f491\AndroidManifest.xml:39:5-41:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\888dd3376995401d8751dd07cc01f491\AndroidManifest.xml:41:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\888dd3376995401d8751dd07cc01f491\AndroidManifest.xml:40:9-57
+uses-feature#android.hardware.wifi
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\888dd3376995401d8751dd07cc01f491\AndroidManifest.xml:42:5-44:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\888dd3376995401d8751dd07cc01f491\AndroidManifest.xml:44:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\888dd3376995401d8751dd07cc01f491\AndroidManifest.xml:43:9-45
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\888dd3376995401d8751dd07cc01f491\AndroidManifest.xml:47:9-53:63
+	android:screenOrientation
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\888dd3376995401d8751dd07cc01f491\AndroidManifest.xml:50:13-56
+	android:clearTaskOnLaunch
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\888dd3376995401d8751dd07cc01f491\AndroidManifest.xml:49:13-45
+	android:stateNotNeeded
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\888dd3376995401d8751dd07cc01f491\AndroidManifest.xml:51:13-42
+	android:windowSoftInputMode
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\888dd3376995401d8751dd07cc01f491\AndroidManifest.xml:53:13-60
+	android:theme
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\888dd3376995401d8751dd07cc01f491\AndroidManifest.xml:52:13-54
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\JIMMY.SC.HUANG\.gradle\caches\transforms-2\files-2.1\888dd3376995401d8751dd07cc01f491\AndroidManifest.xml:48:13-74

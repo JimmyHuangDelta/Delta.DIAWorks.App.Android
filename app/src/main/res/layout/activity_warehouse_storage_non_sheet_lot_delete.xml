@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/CommonLinearLayoutGroupBox"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="vertical">
+
+            <!--顯示提示-->
+            <TextView
+                android:id="@+id/tvCurrentLot"
+                style="@style/CommonTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:inputType="textMultiLine"
+                android:singleLine="false" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!--確定-->
+            <Button
+                android:id="@+id/btnYes"
+                style="@style/CommonButton"
+                android:layout_weight="1"
+                android:text="@string/YES" />
+
+            <!--取消-->
+            <Button
+                android:id="@+id/btnNo"
+                style="@style/CommonButton"
+                android:layout_weight="1"
+                android:text="@string/NO" />
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

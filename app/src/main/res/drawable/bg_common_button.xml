@@ -1,0 +1,8 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <stroke android:color="@android:color/transparent" /><!-- 移除邊框 -->
+            <solid android:color="@color/common_theme_blue1"></solid>
+        </shape>
+    </item>
+</selector>

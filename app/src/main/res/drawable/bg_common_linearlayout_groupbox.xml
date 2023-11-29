@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/common_control_solid" />
+            <corners android:radius="@dimen/common_control_corner_radius" />
+            <padding android:bottom="@dimen/common_control_padding" android:left="@dimen/common_control_padding" android:right="@dimen/common_control_padding" android:top="@dimen/common_control_padding"></padding>
+            <stroke android:width="@dimen/common_control_stroke_width" android:color="@color/common_control_stroke" />
+        </shape>
+    </item>
+</selector>

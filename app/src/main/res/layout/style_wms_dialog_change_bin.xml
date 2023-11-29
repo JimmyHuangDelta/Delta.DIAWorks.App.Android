@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                style="@style/CommonLinearLayoutGroupBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/common_control_margin"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/CommonTextView"
+                        android:layout_width="100dp"
+                        android:text="@string/SKU_LEVEL" />
+
+                    <TextView
+                        android:id="@+id/tvBinSkuLevel"
+                        style="@style/CommonTextView"
+                        android:layout_weight="1"
+                        android:inputType="text" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/common_control_margin"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/CommonTextView"
+                        android:layout_width="100dp"
+                        android:text="@string/SKU_NUM" />
+
+                    <TextView
+                        android:id="@+id/tvBinSkuNum"
+                        style="@style/CommonTextView"
+                        android:layout_weight="1"
+                        android:inputType="text" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/common_control_margin"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/CommonTextView"
+                        android:layout_width="100dp"
+                        android:text="@string/ITEM_ID" />
+
+                    <TextView
+                        android:id="@+id/tvBinItemId"
+                        style="@style/CommonTextView"
+                        android:layout_weight="1"
+                        android:inputType="text" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/common_control_margin"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/CommonTextView"
+                        android:layout_width="100dp"
+                        android:text="@string/ITEM_NAME" />
+
+                    <TextView
+                        android:id="@+id/tvBinItemName"
+                        style="@style/CommonTextView"
+                        android:layout_weight="1"
+                        android:inputType="text" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/common_control_margin"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/CommonTextView"
+                        android:layout_width="100dp"
+                        android:text="@string/QTY" />
+
+                    <TextView
+                        android:id="@+id/tvBinQty"
+                        style="@style/CommonTextView"
+                        android:layout_weight="1"
+                        android:inputType="text" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/common_control_margin"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/CommonTextView"
+                        android:layout_width="100dp"
+                        android:text="@string/TO_BIN" />
+
+                    <EditText
+                        android:id="@+id/etChangeBinId"
+                        style="@style/WmsEditTextNecessary"
+                        android:hint="@string/BIN_ID"
+                        android:layout_weight="1"
+                        android:inputType="text" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnCancel"
+                style="@style/CommonButton"
+                android:layout_weight="1"
+                android:text="@string/CANCEL" />
+
+            <Button
+                android:id="@+id/btnConfirm"
+                style="@style/CommonButton"
+                android:layout_weight="1"
+                android:text="@string/CONFIRM" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

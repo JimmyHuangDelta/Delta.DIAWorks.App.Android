@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            style="@style/CommonLinearLayoutGroupBox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/common_control_margin"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/CommonTextView"
+                    android:layout_width="100dp"
+                    android:text="@string/FAIL_REASON" />
+
+                <Spinner
+                    android:id="@+id/spFailRsn"
+                    style="@style/PmsSpinnerNecessary"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/common_control_margin"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/CommonTextView"
+                    android:layout_width="100dp"
+                    android:text="@string/CMT" />
+
+                <EditText
+                    android:id="@+id/edFailRsnCmt"
+                    style="@style/PmsEditTextNormal"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCancel"
+            style="@style/CommonButton"
+            android:layout_weight="1"
+            android:text="@string/CANCEL" />
+
+        <Button
+            android:id="@+id/btnConfirm"
+            style="@style/CommonButton"
+            android:layout_weight="1"
+            android:text="@string/CONFIRM" />
+    </LinearLayout>
+
+</LinearLayout>

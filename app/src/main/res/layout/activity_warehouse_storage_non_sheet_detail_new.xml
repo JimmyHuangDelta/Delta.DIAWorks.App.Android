@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.delta.android.WMS.Client.WarehouseStorageNonSheetDetailNewActivity">
+
+    <!-- 頁籤 -->
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        app:tabIndicatorColor="@color/common_action_bar_background">
+
+        <!-- 入庫 -->
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/WAREHOUSE_STORAGE" />
+
+        <!-- 入庫清單 -->
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/WAREHOUSE_STORAGE_DET" />
+
+    </android.support.design.widget.TabLayout>
+
+    <!-- 點選頁籤後所顯示的內容 -->
+    <FrameLayout
+        android:id="@+id/fragmentWarehouseStorageNonSheet"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9.3" />
+
+</LinearLayout>

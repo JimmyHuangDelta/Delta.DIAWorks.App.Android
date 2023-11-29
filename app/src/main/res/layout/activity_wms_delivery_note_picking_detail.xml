@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_activity_background"
+    android:orientation="vertical"
+    tools:context="com.delta.android.WMS.Client.DeliveryNotePickingDetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/common_control_margin"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ibtnItemIdQRScan"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:background="#00000000"
+            android:src="@drawable/ic_scan_64x64"/>
+
+        <EditText
+            android:id="@+id/etDnDetItemId"
+            android:hint="@string/SEARCH_ITEM"
+            style="@style/WmsEditTextNormal"
+            android:layout_margin="@dimen/common_control_margin"
+            android:imeOptions="actionSearch"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvMstInfoTitle"
+            android:text="@string/DN_INFO"
+            style="@style/WmsTextViewBarTitle"
+            android:layout_width="match_parent"
+            android:layout_alignParentTop="true"/>
+
+        <TabHost
+            android:id="@+id/tabHost"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tvMstInfoTitle">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/llPresentData1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="70dp">
+                    <ListView
+                        android:id="@+id/lvDnDetData1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"></ListView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llPresentData2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="70dp">
+
+                    <ListView
+                        android:id="@+id/lvDnDetData2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"></ListView>
+                </LinearLayout>
+            </FrameLayout>
+        </TabHost>
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
